@@ -23,7 +23,7 @@ public class FishMovment : MonoBehaviour
 
     private float runAngle;
     
-    private bool _istargetNull;
+    private bool istargetNull;
 
     private float timer;
     
