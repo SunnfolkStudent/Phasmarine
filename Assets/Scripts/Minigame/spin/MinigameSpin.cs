@@ -72,10 +72,10 @@ namespace Minigame.spin
             }
         
             // bevege pilpos med speed, så sette spritens rotasjon til pilpos
-            pilpos += speed;
-            if (pilpos >= 360)
+            pilpos -= speed;
+            if (pilpos < 0)
             {
-                pilpos -= 360;
+                pilpos += 360;
             }
             // rotere spriten
             pilTransform.eulerAngles = new Vector3(0, 0, pilpos);
