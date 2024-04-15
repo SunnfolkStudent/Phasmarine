@@ -14,18 +14,18 @@ public class Spot : MonoBehaviour
              if (Globus.innenfor == false)
              {
                  Globus.score -= 1;
-                 if (Globus.innenfor == true)
+             }
+             else if (Globus.innenfor)
+             {
+                 print("inenfor");
+                 Globus.score += 1;
+                 Globus.spotpos += Random.Range(60, 300);
+                 if (Globus.spotpos >= 720)
                  {
-                     Globus.score += 1;
-                     Globus.spotpos += UnityEngine.Random.Range(60, 300);
-                     if (Globus.spotpos >= 720)
-                     {
-                         Globus.spotpos -= 360;
-                         transform.Rotate(new Vector3(0,0,Globus.spotpos));
-                     }
-                     
+                     Globus.spotpos -= 360;
+                     transform.Rotate(new Vector3(0,0,Globus.spotpos));
                  }
-                                               
+                     
              }
          }
         

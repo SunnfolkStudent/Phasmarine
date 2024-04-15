@@ -13,7 +13,7 @@ public class Pil : MonoBehaviour
         }
         
         Globus.pilpos += Globus.speed;
-        transform.Rotate(new Vector3(0,0,Globus.pilpos - 360));  
+        transform.Rotate(new Vector3(0,0,1));  
     }
 
     
