@@ -6,23 +6,24 @@ using UnityEngine;
 using UnityEngine.UIElements;
 
 //Bruke en timer som basescript for oksygensystemet
-public class GraveScript : MonoBehaviour
+public class GraveScript : MonoBehaviour, IInteracteble
 {
     public Collider Grave;
     public int GravesChecked = 0;
     public int parts = 0;
     public float MonsterFaster= 1;
-   
-    private void OnTriggerEnter(Collider other)
-    {
-        //if Keyboard.Ekey.pressed
+    private MiniGameManager _miniGameManager;
+    
+    public bool Interact(Interactor interactor)
         {
+            _miniGameManager.SpinMiniGameUp();
+            //Hente ut poengene fra spinminigame til å påvirke sjansene dine i treasurefunksjonen
             GravesChecked += 1;
             Treasure();
-            Destroy(other);
+            Destroy(gameObject);
+            return true;
         }
-        
-    }
+
 
     private void Treasure()
         {
@@ -52,6 +53,8 @@ public class GraveScript : MonoBehaviour
                 Debug.Log("Ingenting skjedde");
             }
 }
-        
-    }
+
+    public string InteractionPrompt { get; }
+
+}
 

@@ -5,6 +5,8 @@ namespace Minigame.spin
 {
     public class MinigameSpin : MonoBehaviour
     {
+        private MiniGameManager _miniGameManager;
+        
         // speed er mengden grader pilen roteres per frame
         [SerializeField]private  float speed = 3;
         [SerializeField]private float klrange = 20;
@@ -47,6 +49,8 @@ namespace Minigame.spin
             if ((pilpos >= rangev1.x && pilpos <= rangev1.y) || (pilpos >= rangev2.x && pilpos <= rangev2.y))
             { 
                 irange = true;
+                _miniGameManager.SpinMiniGameDown();
+                
             }
             else
             {
