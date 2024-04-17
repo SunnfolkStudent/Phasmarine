@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-public class FishMovment : MonoBehaviour
+public class FishMovement : MonoBehaviour
 {
     //[SerializeField]private Animator animator;
     //[SerializeField] private Transform spriteTransform;
@@ -11,9 +11,13 @@ public class FishMovment : MonoBehaviour
     [SerializeField] private NavMeshAgent _agent = null;
     [SerializeField] private Transform target = null;
     
+    [SerializeField] private float circleRadius = 5f;
+    [SerializeField] private float circleSpeed = 2f;
+    [SerializeField] private Vector3 center;
+    private float circleAngle = 0f;
 
-    public bool folow = false;
-    private bool wantToRunAway = false;
+    private bool scared = false;
+    private bool wantToAttack = false;
     
     private Vector3 moveDelta;
     
@@ -26,9 +30,8 @@ public class FishMovment : MonoBehaviour
     private bool istargetNull;
 
     private float timer;
-    
-    
-    
+    private bool increseCircleRadius;
+
 
     private void Start()
     {
@@ -46,12 +49,12 @@ public class FishMovment : MonoBehaviour
     private void Update()
     {
         //updateAnimation();
-        if (folow)
+        if (wantToAttack)
         {
             if (target)
                 MoveToTarget();
         }
-        else if (!folow && wantToRunAway)
+        else if (scared)
         {
             Vector3 normDir = (target.position - transform.position).normalized;
             {
@@ -63,12 +66,13 @@ public class FishMovment : MonoBehaviour
         }
         else
         {
-            timer += Time.deltaTime;
+            IdleMovementSirciel();
+            /*timer += Time.deltaTime;
             if (timer >= 5)
             {
                 print("somting");
-                IdleMovement(transform.position + new Vector3(Random.Range(-10,10),0,Random.Range(-10,10)));
-            }
+                IdleMovementRandomPos(transform.position + new Vector3(Random.Range(-10,10),0,Random.Range(-10,10)));
+            }*/
             
         }
         
@@ -82,40 +86,68 @@ public class FishMovment : MonoBehaviour
 
     private void MoveToPos(Vector3 pos)
     {
-        _agent.speed = 10;
         _agent.SetDestination(pos);
         _agent.isStopped = false;
     }
 
-    private void IdleMovement(Vector3 pos)
+    private void IdleMovementRandomPos(Vector3 pos)
     {
-        print("findingIdleMovment");
+        print("findingIdleMovmentRandomPos");
         _agent.speed = 5;
         _agent.SetDestination(pos);
         _agent.isStopped = false;
         timer = 0f;
     }
 
+    private void IdleMovementSirciel()
+    { 
+        timer += Time.deltaTime;
+        
+        _agent.speed = 3.5f;
+        
+        circleAngle += circleSpeed * Time.deltaTime;
+        var x = center.x + Mathf.Cos(circleAngle) * circleRadius;
+        var z = center.z + Mathf.Sin(circleAngle) * circleRadius;
+
+        var circlePosition = new Vector3(x, transform.position.y, z);
+        MoveToPos(circlePosition);
+        if (!(timer > 10)) return;
+        
+        if (increseCircleRadius)
+        {
+            circleRadius += 5;
+            increseCircleRadius = false;
+        }
+        else
+        {
+            circleRadius -= 5;
+            increseCircleRadius = true;
+        }
+            
+        timer = 0;
+    }
+    
+
     private void OnTriggerEnter(Collider other)
     {
         print("enterd Triger");
         if (other.CompareTag("Player"))
         {
-            wantToRunAway = true;
-            if (Random.Range(1, 3) == 1)
+            wantToAttack = true;
+            /*if (Random.Range(1, 3) == 1)
             {
                 runAngle = 45;
             }
             else
             {
                 runAngle = -45;
-            }
+            }*/
         }
     }
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player")) 
-            wantToRunAway = false;
+            wantToAttack = false;
     }
     
 
