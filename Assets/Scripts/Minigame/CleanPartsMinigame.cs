@@ -30,7 +30,7 @@ public class CleanPartsMinigame : MonoBehaviour, IPointerDownHandler, IBeginDrag
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        if (selectedObject.transform.localPosition.magnitude >=3)
+        if (selectedObject.transform.localPosition.magnitude >=20)
         {
             selectedObject.SetActive(false);
             seaweed -= 1;
