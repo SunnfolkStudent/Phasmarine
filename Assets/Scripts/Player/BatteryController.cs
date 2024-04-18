@@ -1,25 +1,60 @@
 using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 
 namespace Player
 {
     public class BatteryController : MonoBehaviour
     {
-        public static float BatteryLevel;
-
+        [SerializeField] private Volume _volume;
+        
         [SerializeField] private float batteryDrain = 1;
-        [SerializeField] private float maxBattery = 100;
+        [SerializeField] private float maxBattery;
+        [SerializeField] private float batteryLevel = 100;
+        
+        public static float BatteryLevel
+        {
+            get => instance.batteryLevel;
+            set => instance.batteryLevel = value;
+        }
+        private static BatteryController instance;
 
+        private void Awake()
+        {
+            instance = this;
+        }
         private void Update()
         {
             BatteryLevel = Mathf.Clamp(BatteryLevel, 0f ,maxBattery);
             BatteryLevel -= batteryDrain * Time.deltaTime;
 
-            if (BatteryLevel == 0)
+            
+            if (BatteryLevel < 20)
             {
-                print("PlayerDied");
+                if (_volume.profile.TryGet(out Vignette vignette))
+                {
+                    vignette.intensity.value = 1f;
+                }
             }
-        
+            else
+            {
+                if (_volume.profile.TryGet(out Vignette vignette))
+                {
+                    vignette.intensity.value = 0.3f;
+                }
+            }
+
+            if (!(BatteryLevel <= 0)) return;
+            if (_volume.profile.TryGet(out ColorAdjustments colorAdjustments))
+            {
+                print("trying to adjust color");
+                colorAdjustments.postExposure.value = -10f;
+                print("adjusted color");
+            }
+
+            print("PlayerDied");
         }
-    
+        
     }
+    
 }

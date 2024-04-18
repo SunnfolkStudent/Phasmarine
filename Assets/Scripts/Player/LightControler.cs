@@ -24,6 +24,7 @@ public class LightControler : MonoBehaviour
     private void Stun()
     {
         if (!Input.GetKeyDown(KeyCode.F) && canStun) return;
+        canStun = false;
         scared = true;
         BatteryController.BatteryLevel -= stunCost;
         StartCoroutine(IStopStun());
