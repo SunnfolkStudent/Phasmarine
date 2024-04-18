@@ -9,16 +9,19 @@ namespace Player
         [SerializeField] private Volume _volume;
         
         [SerializeField] private float batteryDrain = 1;
-        [SerializeField] private float maxBattery;
-        [SerializeField] private float batteryLevel = 100;
         
+        [SerializeField] private float batteryLevel = 100;
+
+        [SerializeField]private float transitionSpeed = 1;
+        private float targetIntensity;
         public static float BatteryLevel
         {
             get => instance.batteryLevel;
             set => instance.batteryLevel = value;
         }
         private static BatteryController instance;
-
+        [SerializeField]private float maxBattery = 100;
+        
         private void Awake()
         {
             instance = this;
@@ -31,17 +34,16 @@ namespace Player
             
             if (BatteryLevel < 20)
             {
-                if (_volume.profile.TryGet(out Vignette vignette))
-                {
-                    vignette.intensity.value = 1f;
-                }
+                targetIntensity = 1f;
             }
             else
             {
-                if (_volume.profile.TryGet(out Vignette vignette))
-                {
-                    vignette.intensity.value = 0.3f;
-                }
+                targetIntensity = 0.3f;
+            }
+            
+            if (_volume.profile.TryGet(out Vignette vignette))
+            {
+                vignette.intensity.value = Mathf.Lerp(vignette.intensity.value, targetIntensity, Time.deltaTime * transitionSpeed);
             }
 
             if (!(BatteryLevel <= 0))

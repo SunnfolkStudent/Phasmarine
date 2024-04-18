@@ -166,6 +166,11 @@ public class FishMovement : MonoBehaviour
                 runAngle = -45;
             }*/
         }
+
+        if (other.CompareTag("PlayerHitBox"))
+        {
+            print("player died");
+        }
     }
     private void OnTriggerExit(Collider other)
     {
