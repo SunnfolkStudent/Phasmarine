@@ -44,15 +44,23 @@ namespace Player
                 }
             }
 
-            if (!(BatteryLevel <= 0)) return;
-            if (_volume.profile.TryGet(out ColorAdjustments colorAdjustments))
+            if (!(BatteryLevel <= 0))
             {
-                print("trying to adjust color");
-                colorAdjustments.postExposure.value = -10f;
-                print("adjusted color");
+                _volume.profile.TryGet(out ColorAdjustments colorAdjustmentss);
+                colorAdjustmentss.postExposure.value = 0f;
             }
+            else
+            {
+                _volume.profile.TryGet(out ColorAdjustments colorAdjustments);
+                colorAdjustments.postExposure.value -= 0.1f;
 
-            print("PlayerDied");
+                if (colorAdjustments.postExposure.value <= -10)
+                {
+                   print("PlayerDied"); 
+                }
+                
+            }
+            
         }
         
     }
