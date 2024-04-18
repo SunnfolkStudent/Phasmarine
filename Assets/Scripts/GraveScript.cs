@@ -1,22 +1,29 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using Unity.VisualScripting.Dependencies.Sqlite;
 using UnityEngine;
 using UnityEngine.UIElements;
+using Random = UnityEngine.Random;
 
 //Bruke en timer som basescript for oksygensystemet
 public class GraveScript : MonoBehaviour, IInteracteble
 {
-    public Collider Grave;
+   
     public int GravesChecked = 0;
     public int parts = 0;
     public float MonsterFaster= 1;
     private MiniGameManager _miniGameManager;
-    
+
+    private void Start()
+    {
+        _miniGameManager = GetComponent<MiniGameManager>();
+    }
+
     public bool Interact(Interactor interactor)
         {
-            _miniGameManager.SpinMiniGameUp();
+                _miniGameManager.SpinMiniGameUp();
             //Hente ut poengene fra spinminigame til å påvirke sjansene dine i treasurefunksjonen
             GravesChecked += 1;
             Treasure();

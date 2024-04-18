@@ -49,8 +49,6 @@ namespace Minigame.spin
             if ((pilpos >= rangev1.x && pilpos <= rangev1.y) || (pilpos >= rangev2.x && pilpos <= rangev2.y))
             { 
                 irange = true;
-                _miniGameManager.SpinMiniGameDown();
-                
             }
             else
             {
