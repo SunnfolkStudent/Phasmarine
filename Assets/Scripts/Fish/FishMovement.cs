@@ -16,7 +16,7 @@ public class FishMovement : MonoBehaviour
     [SerializeField] private Vector3 center;
     private float circleAngle = 0f;
 
-    private bool scared = false;
+    
     private bool wantToAttack = false;
     
     private Vector3 moveDelta;
@@ -31,6 +31,13 @@ public class FishMovement : MonoBehaviour
 
     private float timer;
     private bool increseCircleRadius;
+    private bool canBeScared;
+    private bool curentlyScared = false;
+
+    [SerializeField] private float scaredDuration = 5;
+    private float scaredTimer;
+    private bool startScaredTimer = false;
+    
 
 
     private void Start()
@@ -48,21 +55,35 @@ public class FishMovement : MonoBehaviour
 
     private void Update()
     {
-        //updateAnimation();
-        if (wantToAttack)
+        if (startScaredTimer)
         {
-            if (target)
-                MoveToTarget();
+            scaredTimer += Time.deltaTime;
+            if (scaredTimer > scaredDuration)
+            {
+                startScaredTimer = false;
+                curentlyScared = false;
+                scaredTimer = 0f;
+            }
         }
-        else if (scared)
+        
+        if (LightControler.scared && canBeScared || curentlyScared)
         {
-            Vector3 normDir = (target.position - transform.position).normalized;
+            curentlyScared = true;
+            LightControler.scared = false;
+            startScaredTimer = true;
+            var normDir = (target.position - transform.position).normalized;
             {
                 
             }
             normDir = Quaternion.AngleAxis(runAngle, Vector3.up)* normDir;
                 
             MoveToPos(transform.position - new Vector3(normDir.x,0,normDir.z) * displasmendDist);
+            
+        }
+        else if (wantToAttack)
+        {
+            if (target)
+                MoveToTarget();
         }
         else
         {
@@ -130,10 +151,12 @@ public class FishMovement : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        
         print("enterd Triger");
         if (other.CompareTag("Player"))
         {
             wantToAttack = true;
+            canBeScared = true;
             /*if (Random.Range(1, 3) == 1)
             {
                 runAngle = 45;
@@ -146,6 +169,7 @@ public class FishMovement : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
+        canBeScared = false;
         if (other.CompareTag("Player")) 
             wantToAttack = false;
     }

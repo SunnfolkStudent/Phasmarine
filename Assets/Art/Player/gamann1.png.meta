@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6771809adce424547aa40e44017d5fd3
+guid: e0b84dbc9b1aba1499d23f67319ac515
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 512
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: asfjkndsfsf_0
+      name: gamann1_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 0
-        width: 54
-        height: 128
+        x: 26
+        y: 40
+        width: 422
+        height: 1150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f93e9358a4d62a4b8c2fb4c99d82858
-      internalID: 1180973125
+      spriteID: ee0c3ede23c810b4794ec0c35d778b1e
+      internalID: 2034236466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asfjkndsfsf_1
+      name: gamann1_1
       rect:
         serializedVersion: 2
-        x: 67
-        y: 0
-        width: 58
-        height: 128
+        x: 503
+        y: 42
+        width: 417
+        height: 1147
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d1be08b85f48244d9711f987c43f5fa
-      internalID: 1546457310
+      spriteID: 5d2eecfcc6572554d9e3506997080001
+      internalID: -257185971
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asfjkndsfsf_2
+      name: gamann1_2
       rect:
         serializedVersion: 2
-        x: 133
-        y: 0
-        width: 54
-        height: 128
+        x: 972
+        y: 40
+        width: 422
+        height: 1150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3c3f2b01c7ada04db294070cea3708d
-      internalID: 1255080557
+      spriteID: be77023faeb4e484fb036975ef22b36c
+      internalID: 1049741592
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asfjkndsfsf_3
+      name: gamann1_3
       rect:
         serializedVersion: 2
-        x: 195
-        y: 0
-        width: 58
-        height: 128
+        x: 1474
+        y: 36
+        width: 418
+        height: 1150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,8 +174,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91bd94698e52fbf4f92846baa584c1a6
-      internalID: 755714052
+      spriteID: 51458d5f6501c5c4d9d7a726bf76db52
+      internalID: 664587701
       vertices: []
       indices: 
       edges: []
@@ -183,7 +183,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 7199eb78b47bb25448e6c9f5e970b01a
+    spriteID: e36354f94c1981749ba9ef456292910c
     internalID: 0
     vertices: []
     indices: 
@@ -191,10 +191,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      asfjkndsfsf_0: 1180973125
-      asfjkndsfsf_1: 1546457310
-      asfjkndsfsf_2: 1255080557
-      asfjkndsfsf_3: 755714052
+      gamann1_0: 2034236466
+      gamann1_1: -257185971
+      gamann1_2: 1049741592
+      gamann1_3: 664587701
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
