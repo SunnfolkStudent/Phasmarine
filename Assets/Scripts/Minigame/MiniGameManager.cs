@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class MiniGameManager : MonoBehaviour
 {
-    //Kan være det ikke er mulig å gjøre minispillet igjen med dette systemet
     public void CleaningMiniGameUp()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("CleaningMiniGame", LoadSceneMode.Additive);
