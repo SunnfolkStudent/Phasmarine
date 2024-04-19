@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e0b84dbc9b1aba1499d23f67319ac515
+guid: 925390e4f09550b4fa55deccf2d75628
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,12 +97,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gamann1_0
+      name: gamann1lys_0
       rect:
         serializedVersion: 2
         x: 26
         y: 40
-        width: 422
+        width: 428
         height: 1150
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -111,19 +111,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee0c3ede23c810b4794ec0c35d778b1e
-      internalID: 2034236466
+      spriteID: 3a1f3ef6c4546f04bacf223c9fc93a26
+      internalID: 1704203821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamann1_1
+      name: gamann1lys_1
       rect:
         serializedVersion: 2
         x: 503
-        y: 42
-        width: 417
+        y: 40
+        width: 431
         height: 1147
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -132,19 +132,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d2eecfcc6572554d9e3506997080001
-      internalID: -257185971
+      spriteID: 4192158a73d6853489b9ac559989ea93
+      internalID: 224393306
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamann1_2
+      name: gamann1lys_2
       rect:
         serializedVersion: 2
         x: 972
         y: 40
-        width: 422
+        width: 435
         height: 1150
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -153,18 +153,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be77023faeb4e484fb036975ef22b36c
-      internalID: 1049741592
+      spriteID: 1f2e5c6392737bb4aa38497455d27540
+      internalID: -901832701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gamann1_3
+      name: gamann1lys_3
       rect:
         serializedVersion: 2
         x: 1474
-        y: 36
+        y: 40
         width: 418
         height: 1150
       alignment: 0
@@ -174,8 +174,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51458d5f6501c5c4d9d7a726bf76db52
-      internalID: 664587701
+      spriteID: cd8ec1495ca7dd84b9b44fa840ea1716
+      internalID: 225954930
       vertices: []
       indices: 
       edges: []
@@ -183,7 +183,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: e36354f94c1981749ba9ef456292910c
+    spriteID: 31a84e275de1a0649bb09cb02e5b9113
     internalID: 0
     vertices: []
     indices: 
@@ -191,10 +191,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      gamann1_0: 2034236466
-      gamann1_1: -257185971
-      gamann1_2: 1049741592
-      gamann1_3: 664587701
+      gamann1lys_0: 1704203821
+      gamann1lys_1: 224393306
+      gamann1lys_2: -901832701
+      gamann1lys_3: 225954930
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
