@@ -12,6 +12,8 @@ namespace Player
         [SerializeField] private LayerMask terrainLayer;
         [SerializeField] private Rigidbody rb;
         [SerializeField] private SpriteRenderer sr;
+        [Header("Animator")]
+        [SerializeField]private Animator anim;
 
         private void Start()
         {
@@ -56,6 +58,9 @@ namespace Player
             }
         
 
+            anim.SetFloat("MoveX", x);
+            anim.SetFloat("MoveY", y);
+            anim.SetBool("moving", new Vector2(x,y) != Vector2.zero );
 
             if (x != 0 && x < 0)
             {

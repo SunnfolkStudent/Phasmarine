@@ -37,7 +37,13 @@ public class FishMovement : MonoBehaviour
     [SerializeField] private float scaredDuration = 5;
     private float scaredTimer;
     private bool startScaredTimer = false;
-    
+   
+    [Header("Weaving")]
+    [SerializeField] private double weaveTimer;
+    [SerializeField] private float weaveDistance;
+    [SerializeField] private float weaveSpeed;
+    private bool weavingRight;
+   
 
 
     private void Start()
@@ -131,21 +137,35 @@ public class FishMovement : MonoBehaviour
         var z = center.z + Mathf.Sin(circleAngle) * circleRadius;
 
         var circlePosition = new Vector3(x, transform.position.y, z);
-        MoveToPos(circlePosition);
-        if (!(timer > 10)) return;
-        
-        if (increseCircleRadius)
+        //MoveToPos(circlePosition);
+        if (timer > 10)
         {
-            circleRadius += 5;
-            increseCircleRadius = false;
-        }
-        else
-        {
-            circleRadius -= 5;
-            increseCircleRadius = true;
-        }
+            if (increseCircleRadius)
+            {
+                circleRadius += 5;
+                increseCircleRadius = false;
+            }
+            else
+            {
+                circleRadius -= 5;
+                increseCircleRadius = true;
+            }
             
-        timer = 0;
+            timer = 0;
+        }
+
+
+        var tangent = new Vector3(-Mathf.Sin(circleAngle), 0f, Mathf.Cos(circleAngle));
+
+        // Calculate normal vector of the circle (perpendicular to the tangent)
+        var circleNormal = new Vector3(-tangent.z, 0f, tangent.x);
+        
+        // Calculate weave position along the normal direction
+        var weavePosition = circlePosition + (circleNormal * (weaveDistance * Mathf.Sin(circleAngle * weaveSpeed)));
+
+        // Set destination for the NavMeshAgent
+        _agent.SetDestination(weavePosition);
+        
     }
     
 

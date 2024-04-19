@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -13,9 +14,9 @@ namespace Minigame.spin
 
         [SerializeField]private bool irange = false;
 
-        [SerializeField]private float pilpos = 0;
+        [SerializeField]private float pilpos;
 
-        [SerializeField]private float spotpos = 0;
+        [SerializeField]private float spotpos;
 
 // rangev1 er fra pilposisjon - klrange til pilposisjon
 // rangev2 er fra pilposisjon til pilposisjon + klrange
@@ -24,6 +25,13 @@ namespace Minigame.spin
 
         [SerializeField]private RectTransform pilTransform;
         [SerializeField]private RectTransform spotTransform;
+        
+        private int score;
+
+        private void Start()
+        {
+            _miniGameManager = GetComponent<MiniGameManager>();
+        }
 
         private void Update()
         {
@@ -59,6 +67,12 @@ namespace Minigame.spin
             if (Input.GetKeyDown("space") && irange == true)
             {
                 spotpos += Random.Range(60, 300);
+                score++;
+            }
+
+            if (score >= 3)
+            {
+                _miniGameManager.SpinMiniGameDown();
             }
 
             if (spotpos > 360)
