@@ -72,6 +72,7 @@ namespace Minigame.spin
 
             if (score >= 3)
             {
+                print("triger grave stuf");
                 _miniGameManager.SpinMiniGameDown();
             }
 
