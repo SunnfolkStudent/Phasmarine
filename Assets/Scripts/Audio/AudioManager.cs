@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +7,8 @@ using FMODUnity;
 public class AudioManager : MonoBehaviour
 {
    private List<EventInstance> eventInstances;
+
+   private EventInstance ambienceEventInstance;
    public static AudioManager instance { get; private set; }
 
    private void Awake()
@@ -20,6 +21,17 @@ public class AudioManager : MonoBehaviour
 
       eventInstances = new List<EventInstance>();
 
+   }
+
+   private void Start()
+   {
+      
+   }
+
+   private void InitializeAmbience(EventReference ambienceEventReference)
+   {
+      ambienceEventInstance = CreateInstance(ambienceEventReference);
+      ambienceEventInstance.start();
    }
 
    public EventInstance CreateInstance(EventReference eventReference)

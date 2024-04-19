@@ -1,5 +1,6 @@
-using Mono.Cecil;
 using UnityEngine;
+using FMODUnity;
+using FMOD.Studio;
 
 public class FMODEvents : MonoBehaviour
 {
