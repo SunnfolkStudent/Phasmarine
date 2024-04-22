@@ -8,7 +8,7 @@ public class FishMovement : MonoBehaviour
     
     [SerializeField] private float displasmendDist = 5f;
     
-    [SerializeField] private NavMeshAgent _agent = null;
+    [SerializeField] public  NavMeshAgent _agent = null;
     [SerializeField] private Transform target = null;
     
     [SerializeField] private float circleRadius = 5f;
