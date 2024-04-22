@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using FMOD.Studio;
@@ -25,7 +24,7 @@ public class AudioManager : MonoBehaviour
 
    private void Start()
    {
-      
+      InitializeAmbience(FMODEvents.instance.ambience);
    }
 
    private void InitializeAmbience(EventReference ambienceEventReference)
