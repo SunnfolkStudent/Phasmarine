@@ -33,18 +33,21 @@ public class FishMovement : MonoBehaviour
     private bool increseCircleRadius;
     private bool canBeScared;
     private bool curentlyScared = false;
+    
+    [SerializeField] private float attackSpeed;
 
     [SerializeField] private float scaredDuration = 5;
     private float scaredTimer;
     private bool startScaredTimer = false;
    
+    [SerializeField] private bool swichSircleRadiusOn = true;
+
     [Header("Weaving")]
     [SerializeField] private double weaveTimer;
     [SerializeField] private float weaveDistance;
     [SerializeField] private float weaveSpeed;
     private bool weavingRight;
-   
-
+    
 
     private void Start()
     {
@@ -107,6 +110,7 @@ public class FishMovement : MonoBehaviour
     
     private void MoveToTarget()
     {
+        _agent.speed = attackSpeed;
         _agent.SetDestination(target.position);
         _agent.isStopped = false;
     }
@@ -138,7 +142,7 @@ public class FishMovement : MonoBehaviour
 
         var circlePosition = new Vector3(x, transform.position.y, z);
         //MoveToPos(circlePosition);
-        if (timer > 10)
+        if (timer > 10 && swichSircleRadiusOn)
         {
             if (increseCircleRadius)
             {
