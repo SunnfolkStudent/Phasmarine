@@ -3,18 +3,24 @@ using UnityEngine;
 
 public class FieldOfView : MonoBehaviour
 {
-    [SerializeField] private float radius;
-    [SerializeField][Range(0,360)] private float angle;
+    private FishMovement fishMovement;
+    
+    public float radius;
+    [Range(0,360)] public float angle;
 
-    [SerializeField] private GameObject playerRef;
+    public GameObject playerRef;
 
-    [SerializeField] private LayerMask targetMask;
+    public LayerMask targetMask;
     
     public bool canSeePlayer;
+    
+    
 
     private void Start()
     {
+        fishMovement = GetComponent<FishMovement>();
         playerRef = GameObject.FindGameObjectWithTag("Player");
+        StartCoroutine(FOVRoutine());
     }
 
     private IEnumerator FOVRoutine()
@@ -38,7 +44,7 @@ public class FieldOfView : MonoBehaviour
             Transform target = rangeCheks[0].transform;
             Vector3 directionToTarget = target.position - transform.position.normalized;
 
-            if (Vector3.Angle(transform.position, directionToTarget) < angle / 2)
+            if (Vector3.Angle(fishMovement._agent.velocity.normalized, directionToTarget) < angle / 2)
             {
                 float distanceToTarget = Vector3.Distance(transform.position, target.position);
 
