@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 61248521222148299}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
-  m_LocalPosition: {x: 0, y: 0.1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -41,7 +41,7 @@ SpriteRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 61248521222148299}
   m_Enabled: 1
-  m_CastShadows: 0
+  m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -55,7 +55,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 23d4592cb35adbb4ebb7f8c36fe6fd36, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -136,7 +136,7 @@ Transform:
   m_GameObject: {fileID: 2016053232162158385}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.378, y: -0.097, z: -0.443}
+  m_LocalPosition: {x: 0.235, y: 0, z: -0.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -382,14 +382,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1b2d330d8a6ca846b55db45b2f96cf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2
   groundDist: 0
   InteractPoint: {fileID: 2026828291934707334}
+  lightTransform: {fileID: 426815964247897053}
   terrainLayer:
     serializedVersion: 2
     m_Bits: 8
   rb: {fileID: 5397210958976820023}
-  sr: {fileID: 8098772626123319428}
+  sr: {fileID: 259868981529718849}
+  anim: {fileID: 186369870832934083}
 --- !u!114 &231461397178655355
 MonoBehaviour:
   m_ObjectHideFlags: 0
