@@ -201,6 +201,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bacff017a77acd34da7dd64998529976, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <music>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   <ambience>k__BackingField:
     Guid:
       Data1: 420809172
@@ -214,7 +221,7 @@ MonoBehaviour:
       Data2: 1320429687
       Data3: 129225404
       Data4: 392817359
-    Path: event:/SFX/footstepsMetal
+    Path: event:/SFX/Player/footstepsMetal
   <breathing>k__BackingField:
     Guid:
       Data1: 0
@@ -222,6 +229,20 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
+  <hurt>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  <eerie>k__BackingField:
+    Guid:
+      Data1: -84892422
+      Data2: 1282312580
+      Data3: -382657407
+      Data4: 792562223
+    Path: event:/Eerie/Eerie 1
 --- !u!1 &282310728
 GameObject:
   m_ObjectHideFlags: 0
