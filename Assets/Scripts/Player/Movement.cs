@@ -8,12 +8,15 @@ namespace Player
         [SerializeField] private float groundDist;
     
         [SerializeField] private Transform InteractPoint;
+        [SerializeField] private Transform lightTransform;
 
         [SerializeField] private LayerMask terrainLayer;
         [SerializeField] private Rigidbody rb;
-        [SerializeField] private SpriteRenderer sr;
+        [SerializeField] private Transform sr;
         [Header("Animator")]
         [SerializeField]private Animator anim;
+
+        private Vector3 lastMoveDir;
 
         private void Start()
         {
@@ -40,36 +43,57 @@ namespace Player
             Vector3 moveDir = new Vector3(x, 0, y);
             rb.velocity = moveDir * speed;
 
-            if (moveDir.x < 0 )
+            if (Mathf.Abs(moveDir.x) > Mathf.Abs(moveDir.z))
             {
-                InteractPoint.localPosition = new Vector3(-1f, -0.5f, 0f);
+                if (moveDir.x < 0)
+                {
+                    InteractPoint.localPosition = new Vector3(-1f, -0.5f, 0f);
+                    lightTransform.localPosition = new Vector3(-0.3f, 0, -0.2f);
+                }
+                else if (moveDir.x > 0)
+                {
+                    InteractPoint.localPosition = new Vector3(1f, -0.5f, 0f);
+                    lightTransform.localPosition = new Vector3(0.3f, 0, -0.2f);
+                }
             }
-            else if (moveDir.x > 0)
+            else
             {
-                InteractPoint.localPosition = new Vector3(1f, -0.5f, 0f);
+                if (moveDir.z < 0)
+                {
+                    InteractPoint.localPosition = new Vector3(0f, -0.5f, -1f);
+                    lightTransform.localPosition = new Vector3(0.2f, 0, -0.25f);
+                }
+                else if (moveDir.z > 0)
+                {
+                    InteractPoint.localPosition = new Vector3(0f, -0.5f, 1f);
+                    lightTransform.localPosition = new Vector3(-0.25f, 0, 0.2f);
+                }
             }
-            else if (moveDir.z < 0)
+            
+            if (moveDir != Vector3.zero)
             {
-                InteractPoint.localPosition = new Vector3(0f, -0.5f, -1f);
+                lastMoveDir = moveDir.normalized;
             }
-            else if (moveDir.z > 0)
+            
+            if (rb.velocity.magnitude < 0.1f)
             {
-                InteractPoint.localPosition = new Vector3(0f, -0.5f, 1f);
+                anim.SetFloat("MoveX", lastMoveDir.x);
+                anim.SetFloat("MoveY", lastMoveDir.z);
             }
-        
-
-            anim.SetFloat("MoveX", x);
-            anim.SetFloat("MoveY", y);
+            else
+            {
+                anim.SetFloat("MoveX", x);
+                anim.SetFloat("MoveY", y);
+            }
             anim.SetBool("moving", new Vector2(x,y) != Vector2.zero );
-
-            if (x != 0 && x < 0)
+        }
+            /*if (x != 0 && x < 0)
             {
-                sr.flipX = true;
+                sr.localScale = new Vector3(1, 1, 1);
             }
             else if(x != 0 && x > 0)
             {
-                sr.flipX = false;
-            }
-        }
+                sr.localScale = new Vector3(1, 1, -1);
+            }*/
     }
 }
