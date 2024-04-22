@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Minigames/SpinMiniGame.unity
     guid: f7b339f2a5aec1e4c81077e0d4dc0de9
+  - enabled: 1
+    path: Assets/Scenes/Minigames/CleaningMiniGame.unity
+    guid: f850b0c3023e1e84db77e8a1bee19c27
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
