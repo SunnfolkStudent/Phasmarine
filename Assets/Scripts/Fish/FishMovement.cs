@@ -8,7 +8,7 @@ public class FishMovement : MonoBehaviour
     
     [SerializeField] private float displasmendDist = 5f;
     
-    [SerializeField] public  NavMeshAgent _agent = null;
+    [SerializeField] public NavMeshAgent _agent = null;
     [SerializeField] private Transform target = null;
     
     [SerializeField] private float circleRadius = 5f;
@@ -33,6 +33,8 @@ public class FishMovement : MonoBehaviour
     private bool increseCircleRadius;
     private bool canBeScared;
     private bool curentlyScared = false;
+
+    private FieldOfView fov;
     
     [SerializeField] private float attackSpeed;
 
@@ -55,6 +57,8 @@ public class FishMovement : MonoBehaviour
         _agent.speed = 5;
         _agent.updateRotation = false;
         target = GameObject.Find("Player").GetComponent<Transform>();
+
+        fov = GetComponent<FieldOfView>();
         
         fishPos = GetComponent<Transform>();
         if (_agent == null)
@@ -89,7 +93,7 @@ public class FishMovement : MonoBehaviour
             MoveToPos(transform.position - new Vector3(normDir.x,0,normDir.z) * displasmendDist);
             
         }
-        else if (wantToAttack)
+        else if (fov.canSeePlayer)
         {
             if (target)
                 MoveToTarget();
@@ -179,7 +183,7 @@ public class FishMovement : MonoBehaviour
         print("enterd Triger");
         if (other.CompareTag("Player"))
         {
-            wantToAttack = true;
+            //wantToAttack = true;
             canBeScared = true;
             /*if (Random.Range(1, 3) == 1)
             {

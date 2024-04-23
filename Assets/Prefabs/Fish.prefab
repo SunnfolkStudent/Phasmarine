@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6184131344564855258}
   - component: {fileID: 4130152483174718343}
   - component: {fileID: 5607588148762735783}
+  - component: {fileID: 3019680313209517498}
   m_Layer: 0
   m_Name: Fish
   m_TagString: Fish
@@ -156,6 +157,25 @@ MonoBehaviour:
   weaveTimer: 0
   weaveDistance: 0
   weaveSpeed: 0
+--- !u!114 &3019680313209517498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2845567583652277890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30d04daeb190f844b8b0d034644a6a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 7
+  angle: 117
+  playerRef: {fileID: 0}
+  targetMask:
+    serializedVersion: 2
+    m_Bits: 128
+  canSeePlayer: 0
 --- !u!1 &3832154864297059850
 GameObject:
   m_ObjectHideFlags: 0
