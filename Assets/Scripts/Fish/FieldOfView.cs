@@ -7,15 +7,13 @@ public class FieldOfView : MonoBehaviour
     
     public float radius;
     [Range(0,360)] public float angle;
-
+    
     public GameObject playerRef;
-
+    
     public LayerMask targetMask;
     
     public bool canSeePlayer;
     
-    
-
     private void Start()
     {
         fishMovement = GetComponent<FishMovement>();
@@ -41,6 +39,7 @@ public class FieldOfView : MonoBehaviour
 
         if (rangeCheks.Length != 0)
         {
+            print(rangeCheks[0]);
             Transform target = rangeCheks[0].transform;
             Vector3 directionToTarget = target.position - transform.position.normalized;
 

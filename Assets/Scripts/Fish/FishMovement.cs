@@ -34,7 +34,7 @@ public class FishMovement : MonoBehaviour
     private bool canBeScared;
     private bool curentlyScared = false;
 
-    private FieldOfView fov;
+    [SerializeField] private FieldOfView fov;
     
     [SerializeField] private float attackSpeed;
 
