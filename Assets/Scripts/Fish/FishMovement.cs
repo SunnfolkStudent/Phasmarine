@@ -50,6 +50,10 @@ public class FishMovement : MonoBehaviour
     [SerializeField] private float weaveSpeed;
     private bool weavingRight;
     
+    [Header("AnglerFish")]
+    [SerializeField] private bool anglerFish;
+    [SerializeField] private SpriteRenderer sr;
+    [SerializeField] private Sprite closedMouth, openMouth;
 
     private void Start()
     {
@@ -97,6 +101,10 @@ public class FishMovement : MonoBehaviour
         {
             if (target)
                 MoveToTarget();
+            if (anglerFish)
+            {
+                sr.sprite = openMouth;
+            }
         }
         else
         {
@@ -160,6 +168,10 @@ public class FishMovement : MonoBehaviour
             }
             
             timer = 0;
+            if (anglerFish)
+            {
+                sr.sprite = closedMouth;
+            }
         }
 
 
