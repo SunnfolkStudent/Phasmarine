@@ -3,9 +3,10 @@ using UnityEngine.AI;
 
 public class FishMovement : MonoBehaviour
 {
-    //[SerializeField]private Animator animator;
-    //[SerializeField] private Transform spriteTransform;
-    
+    [Header("Animation")]
+    [SerializeField]private Animator animator;
+    [SerializeField] private Transform spriteTransform;
+    [Space]
     [SerializeField] private float displasmendDist = 5f;
     
     [SerializeField] public NavMeshAgent _agent = null;
@@ -54,9 +55,13 @@ public class FishMovement : MonoBehaviour
     [SerializeField] private bool anglerFish;
     [SerializeField] private SpriteRenderer sr;
     [SerializeField] private Sprite closedMouth, openMouth;
+    
+    
+    private bool animatorNotNull;
 
     private void Start()
     {
+        animatorNotNull = animator != null;
         timer = 0;
         _agent.speed = 5;
         _agent.updateRotation = false;
@@ -72,6 +77,11 @@ public class FishMovement : MonoBehaviour
 
     private void Update()
     {
+        if (animatorNotNull) 
+        {
+           updateAnimation(); 
+        }
+        
         if (startScaredTimer)
         {
             scaredTimer += Time.deltaTime;
@@ -239,7 +249,7 @@ public class FishMovement : MonoBehaviour
         
     }
 
-    /*private void updateAnimation()
+    private void updateAnimation()
     {
         animator.SetBool("Moving", _agent.velocity != Vector3.zero);
 
@@ -255,14 +265,14 @@ public class FishMovement : MonoBehaviour
 
         if (localDesiredVelocity.x > 0)
         {
-            spriteTransform.localScale = new Vector3(1f,1f,1f);
+            spriteTransform.localScale = new Vector3(-1f,1f,1f);
         }
         else if (localDesiredVelocity.x < 0)
         {
-            spriteTransform.localScale = new Vector3(-1f,1f,1f);
+            spriteTransform.localScale = new Vector3(1f,1f,1f);
         }
 
         animator.SetFloat("MoveX", localDesiredVelocity.x);
         animator.SetFloat("MoveY", localDesiredVelocity.z);
-    }*/
+    }
 }

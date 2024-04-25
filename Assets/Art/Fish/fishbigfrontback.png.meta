@@ -1,0 +1,246 @@
+fileFormatVersion: 2
+guid: 972cb714d9c81e14c97637191cfc4d34
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fishbigfrontback_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 66
+        width: 480
+        height: 447
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8bd37d679ce3448a8e37aaac18debd
+      internalID: -659002649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fishbigfrontback_23
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 69
+        width: 419
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2d5b2bb971b944690f2a062d36ad41
+      internalID: -389864101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fishbigfrontback_25
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 63
+        width: 414
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8d582ae590cf24ba570c27057728aa
+      internalID: -478600171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fishbigfrontback_27
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 67
+        width: 424
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bfcc4636525f447be8ef5b6b558527
+      internalID: 95991931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e1df9cdd18f8a94db3d1002f4a2d263
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      fishbigfrontback_0: -659002649
+      fishbigfrontback_1: 1625617477
+      fishbigfrontback_10: 1757326254
+      fishbigfrontback_11: -370458910
+      fishbigfrontback_12: -383124649
+      fishbigfrontback_13: 1181614895
+      fishbigfrontback_14: 1679336033
+      fishbigfrontback_15: 1787189473
+      fishbigfrontback_16: -1221398858
+      fishbigfrontback_17: 916270349
+      fishbigfrontback_18: -2026348410
+      fishbigfrontback_19: -168390285
+      fishbigfrontback_2: 801822265
+      fishbigfrontback_20: -1743681555
+      fishbigfrontback_21: 1225634221
+      fishbigfrontback_22: -1399439186
+      fishbigfrontback_23: -389864101
+      fishbigfrontback_24: 1280721619
+      fishbigfrontback_25: -478600171
+      fishbigfrontback_26: 827005377
+      fishbigfrontback_27: 95991931
+      fishbigfrontback_28: -1587513890
+      fishbigfrontback_29: -1473637348
+      fishbigfrontback_3: -602710852
+      fishbigfrontback_30: 1356844163
+      fishbigfrontback_31: -1917881984
+      fishbigfrontback_32: -1557847878
+      fishbigfrontback_33: 862520319
+      fishbigfrontback_34: 50031433
+      fishbigfrontback_35: 720313250
+      fishbigfrontback_36: -82074005
+      fishbigfrontback_37: 494487055
+      fishbigfrontback_38: 1217788049
+      fishbigfrontback_39: -2092754725
+      fishbigfrontback_4: -1341334991
+      fishbigfrontback_40: 1573297084
+      fishbigfrontback_41: 817384538
+      fishbigfrontback_42: -319769110
+      fishbigfrontback_43: 645356809
+      fishbigfrontback_44: -544226920
+      fishbigfrontback_45: -943568171
+      fishbigfrontback_46: -1278218694
+      fishbigfrontback_47: 649405783
+      fishbigfrontback_5: 822566571
+      fishbigfrontback_6: -723172525
+      fishbigfrontback_7: -770102890
+      fishbigfrontback_8: -1570313709
+      fishbigfrontback_9: 1063482995
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
