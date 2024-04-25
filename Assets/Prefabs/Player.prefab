@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 259868981529718849}
   - component: {fileID: 8098772626123319428}
   - component: {fileID: 186369870832934083}
+  - component: {fileID: 5746560408315299137}
   m_Layer: 0
   m_Name: gamann1_0
   m_TagString: Untagged
@@ -109,6 +110,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5746560408315299137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61248521222148299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab96d41a44e09a04287744c29d85f76f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2016053232162158385
 GameObject:
   m_ObjectHideFlags: 0
@@ -406,9 +419,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interactPoint: {fileID: 2026828291934707334}
   _interactRadius: 0.5
-  _interactbleMask:
+  interactableMask:
     serializedVersion: 2
     m_Bits: 64
+  promptUI: {fileID: 0}
   _numbFound: 0
 --- !u!114 &690304120794209248
 MonoBehaviour:

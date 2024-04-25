@@ -1,7 +1,12 @@
+using System;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Interactor : MonoBehaviour
 {
+    public UnityEvent InteractableFound = new UnityEvent();
+    
     [SerializeField] private Transform _interactPoint;
     [SerializeField] private float _interactRadius;
     [SerializeField] private LayerMask interactableMask;
@@ -12,7 +17,12 @@ public class Interactor : MonoBehaviour
     private readonly Collider[] _colliders = new Collider[3];
 
     private IInteracteble interactable;
+
+
+    private void Start()
+    {
         
+    }
 
     private void Update()
     {
@@ -20,14 +30,16 @@ public class Interactor : MonoBehaviour
 
         if (_numbFound > 0)
         {
+            
              interactable = _colliders[0].GetComponent<IInteracteble>();
+             promptUI = _colliders[0].GetComponent<InteractionPrompUI>();
 
              if (interactable != null)
              {
+                 InteractableFound?.Invoke();
                  if (!promptUI.isDisplayed)
                  {
                      promptUI.SetUp(interactable.InteractionPrompt);
-                     
                  }
                  if (interactable != null && Input.GetKeyDown(KeyCode.E))
                  {
