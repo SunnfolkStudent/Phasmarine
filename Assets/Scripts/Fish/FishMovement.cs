@@ -3,12 +3,13 @@ using UnityEngine.AI;
 
 public class FishMovement : MonoBehaviour
 {
-    //[SerializeField]private Animator animator;
-    //[SerializeField] private Transform spriteTransform;
-    
+    [Header("Animation")]
+    [SerializeField]private Animator animator;
+    [SerializeField] private Transform spriteTransform;
+    [Space]
     [SerializeField] private float displasmendDist = 5f;
     
-    [SerializeField] private NavMeshAgent _agent = null;
+    [SerializeField] public NavMeshAgent _agent = null;
     [SerializeField] private Transform target = null;
     
     [SerializeField] private float circleRadius = 5f;
@@ -33,6 +34,8 @@ public class FishMovement : MonoBehaviour
     private bool increseCircleRadius;
     private bool canBeScared;
     private bool curentlyScared = false;
+
+    [SerializeField] private FieldOfView fov;
     
     [SerializeField] private float attackSpeed;
 
@@ -48,13 +51,23 @@ public class FishMovement : MonoBehaviour
     [SerializeField] private float weaveSpeed;
     private bool weavingRight;
     
+    [Header("AnglerFish")]
+    [SerializeField] private bool anglerFish;
+    [SerializeField] private SpriteRenderer sr;
+    [SerializeField] private Sprite closedMouth, openMouth;
+    
+    
+    private bool animatorNotNull;
 
     private void Start()
     {
+        animatorNotNull = animator != null;
         timer = 0;
         _agent.speed = 5;
         _agent.updateRotation = false;
         target = GameObject.Find("Player").GetComponent<Transform>();
+
+        fov = GetComponent<FieldOfView>();
         
         fishPos = GetComponent<Transform>();
         if (_agent == null)
@@ -64,6 +77,11 @@ public class FishMovement : MonoBehaviour
 
     private void Update()
     {
+        if (animatorNotNull) 
+        {
+           updateAnimation(); 
+        }
+        
         if (startScaredTimer)
         {
             scaredTimer += Time.deltaTime;
@@ -89,10 +107,14 @@ public class FishMovement : MonoBehaviour
             MoveToPos(transform.position - new Vector3(normDir.x,0,normDir.z) * displasmendDist);
             
         }
-        else if (wantToAttack)
+        else if (fov.canSeePlayer)
         {
             if (target)
                 MoveToTarget();
+            if (anglerFish)
+            {
+                sr.sprite = openMouth;
+            }
         }
         else
         {
@@ -156,6 +178,10 @@ public class FishMovement : MonoBehaviour
             }
             
             timer = 0;
+            if (anglerFish)
+            {
+                sr.sprite = closedMouth;
+            }
         }
 
 
@@ -179,7 +205,7 @@ public class FishMovement : MonoBehaviour
         print("enterd Triger");
         if (other.CompareTag("Player"))
         {
-            wantToAttack = true;
+            //wantToAttack = true;
             canBeScared = true;
             /*if (Random.Range(1, 3) == 1)
             {
@@ -223,7 +249,7 @@ public class FishMovement : MonoBehaviour
         
     }
 
-    /*private void updateAnimation()
+    private void updateAnimation()
     {
         animator.SetBool("Moving", _agent.velocity != Vector3.zero);
 
@@ -239,14 +265,14 @@ public class FishMovement : MonoBehaviour
 
         if (localDesiredVelocity.x > 0)
         {
-            spriteTransform.localScale = new Vector3(1f,1f,1f);
+            spriteTransform.localScale = new Vector3(-1f,1f,1f);
         }
         else if (localDesiredVelocity.x < 0)
         {
-            spriteTransform.localScale = new Vector3(-1f,1f,1f);
+            spriteTransform.localScale = new Vector3(1f,1f,1f);
         }
 
         animator.SetFloat("MoveX", localDesiredVelocity.x);
         animator.SetFloat("MoveY", localDesiredVelocity.z);
-    }*/
+    }
 }
