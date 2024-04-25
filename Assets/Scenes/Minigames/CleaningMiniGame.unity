@@ -234,6 +234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c4d12078af7c584c9798c44c01f1d63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  seaweedleft: 7
 --- !u!1 &541396774
 GameObject:
   m_ObjectHideFlags: 0
@@ -323,8 +324,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
-  minmaxX: {x: 0, y: 0}
-  minmaxY: {x: 0, y: 0}
 --- !u!1 &625130499
 GameObject:
   m_ObjectHideFlags: 0
@@ -414,8 +413,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
-  minmaxX: {x: 0, y: 0}
-  minmaxY: {x: 0, y: 0}
 --- !u!1 &748753238
 GameObject:
   m_ObjectHideFlags: 0
@@ -505,8 +502,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
-  minmaxX: {x: 0, y: 0}
-  minmaxY: {x: 0, y: 0}
 --- !u!1 &1248973614
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,6 +513,7 @@ GameObject:
   - component: {fileID: 1248973615}
   - component: {fileID: 1248973617}
   - component: {fileID: 1248973616}
+  - component: {fileID: 1248973618}
   m_Layer: 5
   m_Name: Part
   m_TagString: Untagged
@@ -589,6 +585,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248973614}
   m_CullTransparentMesh: 1
+--- !u!114 &1248973618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248973614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c4d12078af7c584c9798c44c01f1d63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seaweedleft: 7
 --- !u!1 &1252271490
 GameObject:
   m_ObjectHideFlags: 0
@@ -678,8 +687,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
-  minmaxX: {x: 0, y: 0}
-  minmaxY: {x: 0, y: 0}
 --- !u!1 &1258598855
 GameObject:
   m_ObjectHideFlags: 0
@@ -769,8 +776,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
-  minmaxX: {x: 0, y: 0}
-  minmaxY: {x: 0, y: 0}
 --- !u!1 &1319180384
 GameObject:
   m_ObjectHideFlags: 0
@@ -860,8 +865,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
-  minmaxX: {x: 0, y: 0}
-  minmaxY: {x: 0, y: 0}
 --- !u!1 &1509048749
 GameObject:
   m_ObjectHideFlags: 0
@@ -951,8 +954,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
-  minmaxX: {x: 0, y: 0}
-  minmaxY: {x: 0, y: 0}
 --- !u!1 &1807976300
 GameObject:
   m_ObjectHideFlags: 0

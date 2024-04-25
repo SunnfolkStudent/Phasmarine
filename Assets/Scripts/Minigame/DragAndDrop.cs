@@ -5,16 +5,15 @@ using UnityEngine;using UnityEngine.EventSystems;
 
 public class DragAndDrop : MonoBehaviour, IDragHandler
 {
-    [SerializeField] 
+    [SerializeField]
     private float dampingSpeed;
-    private int seaweedleft = 7;
     private RectTransform draggingObjectRectTransform;
     private Vector3 velocity = Vector3.zero;
     private bool draggable = true;
     private MiniGameManager _miniGameManager;
 
-    [SerializeField] private Vector2 minmaxX = new Vector2(-250, 250);
-    [SerializeField] private Vector2 minmaxY = new Vector2(-250, 250);
+    private Vector2 minmaxX = new Vector2(-250, 250);
+    private Vector2 minmaxY = new Vector2(-250, 250);
     
     void Start()
     {
@@ -26,24 +25,26 @@ public class DragAndDrop : MonoBehaviour, IDragHandler
         draggingObjectRectTransform = transform as RectTransform;
     }
 
+    private bool hasbeencounted = false;
     private void Update()
     {
-        if (draggingObjectRectTransform.position.x > minmaxX.y || 
-            draggingObjectRectTransform.position.x < minmaxX.x ||
-            draggingObjectRectTransform.position.y > minmaxY.y || 
-            draggingObjectRectTransform.position.y < minmaxY.x)
+        if (draggingObjectRectTransform.localPosition.x > minmaxX.y || 
+            draggingObjectRectTransform.localPosition.x < minmaxX.x ||
+            draggingObjectRectTransform.localPosition.y > minmaxY.y || 
+            draggingObjectRectTransform.localPosition.y < minmaxY.x)
         {
-            if (draggable) 
-                //Want to make the current object only count once
-            { seaweedleft -= 1;
-                Debug.Log(seaweedleft);
-                draggable = false;}
-            
-            
-            if (seaweedleft == 0)
+            if (hasbeencounted == false)
             {
-                Debug.Log("Seaweed collider");
-                _miniGameManager.CleaningMiniGameDown();
+                hasbeencounted = true;
+                MiniGameManager.instance.seaweedleft -= 1;
+                Debug.Log(MiniGameManager.instance.seaweedleft);
+                draggable = false;
+                
+                if (MiniGameManager.instance.seaweedleft == 0)
+                {
+                    Debug.Log("Seaweed collider");
+                    _miniGameManager.CleaningMiniGameDown();
+                }
                 
             }
             
