@@ -20,6 +20,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 844448
   Exists: 1
+--- !u!114 &-7755776725508790464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/footstepsSand
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/footstepsSand
+  Guid:
+    Data1: -1820182221
+    Data2: 1282957156
+    Data3: 1108120754
+    Data4: 1434556327
+  Banks:
+  - {fileID: 8973622251072134689}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3000
 --- !u!114 &-6936178766768643985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,10 +89,10 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Eerie.bank
   Name: Eerie
   StudioPath: bank:/Eerie
-  lastModified: 638493949672535827
+  lastModified: 638496413492263504
   FileSizes:
   - Name: Desktop
-    Value: 520352
+    Value: 619840
   Exists: 1
 --- !u!114 &-2306835472606467729
 MonoBehaviour:
@@ -102,7 +129,7 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638493937071070052
+  lastModified: 638496413492384533
   FileSizes:
   - Name: Desktop
     Value: 2564
@@ -131,43 +158,14 @@ MonoBehaviour:
   - {fileID: 3380489676708778243}
   - {fileID: 6905326154829040998}
   - {fileID: 8732273382727214763}
-  - {fileID: 536082820256127123}
-  - {fileID: 5514318678264120176}
-  - {fileID: 6671559432791048347}
+  - {fileID: -7755776725508790464}
   EditorParameters: []
   MasterBanks:
   - {fileID: -285388320848781526}
   StringsBanks:
   - {fileID: 8301521104096498491}
-  cacheTime: 638493949672535827
+  cacheTime: 638496413494181398
   cacheVersion: 131617
---- !u!114 &536082820256127123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Eerie/Eerie 3
-  m_EditorClassIdentifier: 
-  Path: event:/Eerie/Eerie 3
-  Guid:
-    Data1: -678474790
-    Data2: 1163322748
-    Data3: -1557867882
-    Data4: -1454830571
-  Banks:
-  - {fileID: -2780572442259276600}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 14829
 --- !u!114 &3380489676708778243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,60 +193,6 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
---- !u!114 &5514318678264120176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Eerie/Eerie 2
-  m_EditorClassIdentifier: 
-  Path: event:/Eerie/Eerie 2
-  Guid:
-    Data1: -539908104
-    Data2: 1179122783
-    Data3: 1402748837
-    Data4: 1638308761
-  Banks:
-  - {fileID: -2780572442259276600}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 19190
---- !u!114 &6671559432791048347
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Eerie/Drowned
-  m_EditorClassIdentifier: 
-  Path: event:/Eerie/Drowned
-  Guid:
-    Data1: 1572188666
-    Data2: 1328497524
-    Data3: 2090764453
-    Data4: 1532536140
-  Banks:
-  - {fileID: -2780572442259276600}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 7943
 --- !u!114 &6905326154829040998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,7 +219,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 30000
+  Length: 45000
 --- !u!114 &8301521104096498491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -291,10 +235,10 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638493937071087675
+  lastModified: 638496413492410311
   FileSizes:
   - Name: Desktop
-    Value: 1510
+    Value: 1432
   Exists: 1
 --- !u!114 &8732273382727214763
 MonoBehaviour:
@@ -338,8 +282,8 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638493930527930619
+  lastModified: 638496413494181398
   FileSizes:
   - Name: Desktop
-    Value: 21856
+    Value: 71488
   Exists: 1
