@@ -109,6 +109,7 @@ public class FishMovement : MonoBehaviour
         }
         else if (fov.canSeePlayer)
         {
+            print("attacking");
             if (target)
                 MoveToTarget();
             if (anglerFish)

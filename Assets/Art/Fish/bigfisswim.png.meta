@@ -1,0 +1,271 @@
+fileFormatVersion: 2
+guid: 53d18c2cb6fe03c4883329b7898efc30
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bigfisswim_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 2302
+        width: 1424
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffe612c524d422499373ce652f3cea2
+      internalID: -1708044467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigfisswim_11
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1786
+        width: 1433
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddd81e5fc86b334fa7116be9bb990f6
+      internalID: 479479468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigfisswim_23
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1290
+        width: 1435
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118075ba7b61f7a4893b75c4066af28a
+      internalID: -939896750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigfisswim_37
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 740
+        width: 1436
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9579c10c6e09440a02684f76419fc9
+      internalID: 1245627835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigfisswim_40
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 214
+        width: 1440
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ab9275dd2efca47844f5c7fd12c138
+      internalID: 1909338513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6159fae9108e298469c7709ab401a744
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bigfisswim_0: -1708044467
+      bigfisswim_1: -1158652478
+      bigfisswim_10: -1810885076
+      bigfisswim_11: 479479468
+      bigfisswim_12: -11554304
+      bigfisswim_13: -782344430
+      bigfisswim_14: -431843485
+      bigfisswim_15: 1496236849
+      bigfisswim_16: 245575832
+      bigfisswim_17: -1882351373
+      bigfisswim_18: -930921995
+      bigfisswim_19: 1161236990
+      bigfisswim_2: -1586138547
+      bigfisswim_20: -90968148
+      bigfisswim_21: 2031175768
+      bigfisswim_22: -2006932499
+      bigfisswim_23: -939896750
+      bigfisswim_24: 1961251844
+      bigfisswim_25: 755875935
+      bigfisswim_26: -700286518
+      bigfisswim_27: -1136823858
+      bigfisswim_28: -491671421
+      bigfisswim_29: 1775898741
+      bigfisswim_3: 1394697138
+      bigfisswim_30: -104453768
+      bigfisswim_31: -1308674026
+      bigfisswim_32: 843959496
+      bigfisswim_33: -434615584
+      bigfisswim_34: 1454624900
+      bigfisswim_35: -1733289492
+      bigfisswim_36: -748511083
+      bigfisswim_37: 1245627835
+      bigfisswim_38: -1088929688
+      bigfisswim_39: -931059067
+      bigfisswim_4: 844904573
+      bigfisswim_40: 1909338513
+      bigfisswim_41: -32088781
+      bigfisswim_42: -1939057321
+      bigfisswim_43: -2126500558
+      bigfisswim_44: 501834329
+      bigfisswim_45: -544890352
+      bigfisswim_46: -2100166427
+      bigfisswim_47: 1876271089
+      bigfisswim_48: -230015982
+      bigfisswim_49: 111417085
+      bigfisswim_5: -1456990492
+      bigfisswim_50: -1720588790
+      bigfisswim_51: -1497215823
+      bigfisswim_6: -1550646948
+      bigfisswim_7: 910728970
+      bigfisswim_8: 340280026
+      bigfisswim_9: -452053093
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

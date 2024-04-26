@@ -1,11 +1,7 @@
-using System;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class Interactor : MonoBehaviour
 {
-    public UnityEvent InteractableFound = new UnityEvent();
     
     [SerializeField] private Transform _interactPoint;
     [SerializeField] private float _interactRadius;
@@ -17,12 +13,6 @@ public class Interactor : MonoBehaviour
     private readonly Collider[] _colliders = new Collider[3];
 
     private IInteracteble interactable;
-
-
-    private void Start()
-    {
-        
-    }
 
     private void Update()
     {
@@ -36,7 +26,6 @@ public class Interactor : MonoBehaviour
 
              if (interactable != null)
              {
-                 InteractableFound?.Invoke();
                  if (!promptUI.isDisplayed)
                  {
                      promptUI.SetUp(interactable.InteractionPrompt);

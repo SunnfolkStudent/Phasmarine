@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -66,5 +67,10 @@ public class FieldOfView : MonoBehaviour
             canSeePlayer = false;
         }
 
+    }
+
+    private void OnDrawGizmos()
+    {
+        
     }
 }
