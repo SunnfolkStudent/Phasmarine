@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using Unity.VisualScripting.Dependencies.NCalc;
 using UnityEngine;
@@ -11,7 +12,7 @@ public class PuzzleScript : MonoBehaviour, IDragHandler, IEndDragHandler
     // 20 funksjonerende i løsningen som skal ha en matchende ID med rutene (Ligger i tilfeldige posisjoner i starten og må rearangere på slutten)
     //foreach child return correct?
     
-    
+    public List<GameObject> TileListe = new List<GameObject> ();
     private float dampingSpeed;
     private RectTransform draggingObjectRectTransform;
     private Vector3 velocity = Vector3.zero;
@@ -55,27 +56,46 @@ public class PuzzleScript : MonoBehaviour, IDragHandler, IEndDragHandler
         {
             Correct = true;
         }
+
+        counter = 0;
+        foreach (var obj in TileListe)
+        {
+            if(obj.GetComponent<TileCheck>().IsCorrect)
+            {
+                counter++;
+            }
+            else
+            {
+                counter = 0;
+                break;
+            }
+        }
+        if (counter == 20)
+        {
+            _miniGameManager.PuzzleMiniGameDown();
+        }
+        
     }
-
-    /*ForEach()
-    {
-       if (Correct)
-       {
-           counter++;
-       }
-
-       if (counter == 20)
-       {
-           _miniGameManager.PuzzleMiniGameDown();
-       }
-
-       else
-       {
-           //Break;
-       }
-       */
+    Vector3 nearestPos;
     public void OnEndDrag(PointerEventData eventData)
     {
+        //finne tile some er nærmest
+        
+        float smallestdistance = 1000;
+        foreach (var obj in TileListe)
+        {
+            float difference = Vector3.Distance(draggingObjectRectTransform.position, obj.transform.position);
+            if ( difference < smallestdistance)
+            {
+                smallestdistance = difference;
+                nearestPos = obj.transform.position;
+            }
+        }
+        //snap to position 
+        draggingObjectRectTransform.position = nearestPos; 
+        //referere til tomme gameobject som tilecheck.check(tile-gameobject.name)
+        GameObject Emptyobject = null;  
+        Emptyobject.GetComponent<TileCheck>().Check(draggingObjectRectTransform.gameObject.name.ToIntArray()[0]);
         Checkifworks();
     }
        
