@@ -1,4 +1,5 @@
 using UnityEngine;
+using FMOD.Studio;
 
 namespace Player
 {
@@ -22,6 +23,33 @@ namespace Player
         {
             rb = gameObject.GetComponent<Rigidbody>();
             InteractPoint.transform.parent.SetParent(gameObject.transform);
+
+            footstepsSand = AudioManager.instance.CreateInstance(FMODEvents.instance.footstepsSand);
+
+        }
+        
+        //audio
+        private EventInstance footstepsSand;
+
+        private void UpdateSound()
+        {
+            // start footstep event if the player has an x velocity and is on the ground
+            if (rb.velocity.x != 0)
+            {
+                PLAYBACK_STATE playbackState;
+                footstepsSand.getPlaybackState(out playbackState);
+                if (playbackState.Equals(PLAYBACK_STATE.STOPPED ))
+                {
+                    footstepsSand.start();
+                }
+                
+            }
+
+            //otherwise stop footsteps event
+            else
+            {
+                footstepsSand.stop(STOP_MODE.ALLOWFADEOUT);
+            }
         }
 
         private void Update()
@@ -42,6 +70,8 @@ namespace Player
             float y = Input.GetAxis("Vertical");
             Vector3 moveDir = new Vector3(x, 0, y);
             rb.velocity = moveDir * speed;
+            
+            UpdateSound();
 
             if (Mathf.Abs(moveDir.x) > Mathf.Abs(moveDir.z))
             {
@@ -70,6 +100,8 @@ namespace Player
                 }
             }
             
+            UpdateSound();
+            
             if (moveDir != Vector3.zero)
             {
                 lastMoveDir = moveDir.normalized;
@@ -86,6 +118,8 @@ namespace Player
                 anim.SetFloat("MoveY", y);
             }
             anim.SetBool("moving", new Vector2(x,y) != Vector2.zero );
+            
+            UpdateSound();
         }
             /*if (x != 0 && x < 0)
             {
@@ -95,5 +129,7 @@ namespace Player
             {
                 sr.localScale = new Vector3(1, 1, -1);
             }*/
-    }
+    } 
+    
+    
 }

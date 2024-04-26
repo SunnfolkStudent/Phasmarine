@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 638493834367847775
+  lastModified: 638497274723150165
   FileSizes:
   - Name: Desktop
     Value: 844448
@@ -89,7 +89,7 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Eerie.bank
   Name: Eerie
   StudioPath: bank:/Eerie
-  lastModified: 638496413492263504
+  lastModified: 638497274724368509
   FileSizes:
   - Name: Desktop
     Value: 619840
@@ -164,7 +164,7 @@ MonoBehaviour:
   - {fileID: -285388320848781526}
   StringsBanks:
   - {fileID: 8301521104096498491}
-  cacheTime: 638496413494181398
+  cacheTime: 638497275464532100
   cacheVersion: 131617
 --- !u!114 &3380489676708778243
 MonoBehaviour:
@@ -282,7 +282,7 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638496413494181398
+  lastModified: 638497275464532100
   FileSizes:
   - Name: Desktop
     Value: 71488
