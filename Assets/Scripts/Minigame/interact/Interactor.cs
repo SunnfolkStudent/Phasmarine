@@ -26,10 +26,14 @@ public class Interactor : MonoBehaviour
 
              if (interactable != null)
              {
-                 if (!promptUI.isDisplayed)
+                 if (promptUI != null)
                  {
-                     promptUI.SetUp(interactable.InteractionPrompt);
+                    if (!promptUI.isDisplayed)
+                    {
+                        promptUI.SetUp(interactable.InteractionPrompt);
+                    } 
                  }
+                 
                  if (interactable != null && Input.GetKeyDown(KeyCode.E))
                  {
                      interactable.Interact(this);
@@ -41,7 +45,11 @@ public class Interactor : MonoBehaviour
         else
         {
             if (interactable != null) interactable = null;
-            if (promptUI.isDisplayed) promptUI.Close();
+            if (promptUI != null)
+            {
+                if (promptUI.isDisplayed) promptUI.Close();
+            }
+            
             
         }
     }

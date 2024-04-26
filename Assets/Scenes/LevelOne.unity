@@ -2422,6 +2422,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2595639049078126932, guid: d8dc34cce084ee54baf9f74e03a6d33b,
         type: 3}
+      propertyPath: angle
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595639049078126932, guid: d8dc34cce084ee54baf9f74e03a6d33b,
+        type: 3}
+      propertyPath: radius
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595639049078126932, guid: d8dc34cce084ee54baf9f74e03a6d33b,
+        type: 3}
       propertyPath: playerRef
       value: 
       objectReference: {fileID: 1891164900}
@@ -2447,6 +2457,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fish
+      objectReference: {fileID: 0}
+    - target: {fileID: 3019680313209517498, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
+        type: 3}
+      propertyPath: angle
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 3019680313209517498, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
         type: 3}

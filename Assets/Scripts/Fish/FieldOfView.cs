@@ -46,7 +46,7 @@ public class FieldOfView : MonoBehaviour
             
             
 
-            if (Vector3.Angle(fishMovement._agent.velocity.normalized, directionToTarget) < angle / 2)
+            if (Vector3.Angle(new Vector3(fishMovement._agent.velocity.x, 0, fishMovement._agent.velocity.z), directionToTarget) < angle / 2)
             {
                 float distanceToTarget = Vector3.Distance(transform.position, target.position);
 
