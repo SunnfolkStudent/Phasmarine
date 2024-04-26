@@ -101,18 +101,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 43
-        y: 2302
+        y: 2285
         width: 1424
-        height: 420
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 438
+      alignment: 9
+      pivot: {x: 0.37, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ffe612c524d422499373ce652f3cea2
-      internalID: -1708044467
+      spriteID: e7dc5aa3ccd73974d891a2b4d72e8d74
+      internalID: 1651835806
       vertices: []
       indices: 
       edges: []
@@ -123,59 +123,38 @@ TextureImporter:
         serializedVersion: 2
         x: 41
         y: 1786
-        width: 1433
-        height: 438
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 1422
+        height: 434
+      alignment: 9
+      pivot: {x: 0.37, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ddd81e5fc86b334fa7116be9bb990f6
-      internalID: 479479468
+      spriteID: 9359e63cac4f8de45a997d2aa57e25e2
+      internalID: -1754826924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bigfisswim_23
+      name: bigfisswim_25
       rect:
         serializedVersion: 2
         x: 43
-        y: 1290
-        width: 1435
-        height: 441
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1286
+        width: 1415
+        height: 438
+      alignment: 9
+      pivot: {x: 0.37, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 118075ba7b61f7a4893b75c4066af28a
-      internalID: -939896750
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bigfisswim_37
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 740
-        width: 1436
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc9579c10c6e09440a02684f76419fc9
-      internalID: 1245627835
+      spriteID: e625d9e06cfcec745b4bde363d29ba4f
+      internalID: 2141138994
       vertices: []
       indices: 
       edges: []
@@ -184,19 +163,40 @@ TextureImporter:
       name: bigfisswim_40
       rect:
         serializedVersion: 2
-        x: 43
-        y: 214
-        width: 1440
-        height: 438
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 42
+        y: 742
+        width: 1419
+        height: 445
+      alignment: 9
+      pivot: {x: 0.37, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87ab9275dd2efca47844f5c7fd12c138
-      internalID: 1909338513
+      spriteID: 1fe05c673381983439e3756de0a78edf
+      internalID: 999658223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bigfisswim_45
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 214
+        width: 1427
+        height: 437
+      alignment: 9
+      pivot: {x: 0.37, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8f452558a91ee45b14cc8262513785
+      internalID: 2100920608
       vertices: []
       indices: 
       edges: []
@@ -204,7 +204,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 6159fae9108e298469c7709ab401a744
+    spriteID: fa86bf3443a991c469a3eed0e3d1beaf
     internalID: 0
     vertices: []
     indices: 
@@ -212,58 +212,65 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      bigfisswim_0: -1708044467
-      bigfisswim_1: -1158652478
-      bigfisswim_10: -1810885076
-      bigfisswim_11: 479479468
-      bigfisswim_12: -11554304
-      bigfisswim_13: -782344430
-      bigfisswim_14: -431843485
-      bigfisswim_15: 1496236849
-      bigfisswim_16: 245575832
-      bigfisswim_17: -1882351373
-      bigfisswim_18: -930921995
-      bigfisswim_19: 1161236990
-      bigfisswim_2: -1586138547
-      bigfisswim_20: -90968148
-      bigfisswim_21: 2031175768
-      bigfisswim_22: -2006932499
-      bigfisswim_23: -939896750
-      bigfisswim_24: 1961251844
-      bigfisswim_25: 755875935
-      bigfisswim_26: -700286518
-      bigfisswim_27: -1136823858
-      bigfisswim_28: -491671421
-      bigfisswim_29: 1775898741
-      bigfisswim_3: 1394697138
-      bigfisswim_30: -104453768
-      bigfisswim_31: -1308674026
-      bigfisswim_32: 843959496
-      bigfisswim_33: -434615584
-      bigfisswim_34: 1454624900
-      bigfisswim_35: -1733289492
-      bigfisswim_36: -748511083
-      bigfisswim_37: 1245627835
-      bigfisswim_38: -1088929688
-      bigfisswim_39: -931059067
-      bigfisswim_4: 844904573
-      bigfisswim_40: 1909338513
-      bigfisswim_41: -32088781
-      bigfisswim_42: -1939057321
-      bigfisswim_43: -2126500558
-      bigfisswim_44: 501834329
-      bigfisswim_45: -544890352
-      bigfisswim_46: -2100166427
-      bigfisswim_47: 1876271089
-      bigfisswim_48: -230015982
-      bigfisswim_49: 111417085
-      bigfisswim_5: -1456990492
-      bigfisswim_50: -1720588790
-      bigfisswim_51: -1497215823
-      bigfisswim_6: -1550646948
-      bigfisswim_7: 910728970
-      bigfisswim_8: 340280026
-      bigfisswim_9: -452053093
+      bigfisswim_0: 1651835806
+      bigfisswim_1: 290484067
+      bigfisswim_10: 885424230
+      bigfisswim_11: -1754826924
+      bigfisswim_12: 1023050816
+      bigfisswim_13: 1427829418
+      bigfisswim_14: 114098835
+      bigfisswim_15: 1500018636
+      bigfisswim_16: 1949509110
+      bigfisswim_17: -56253544
+      bigfisswim_18: -1673634776
+      bigfisswim_19: -1421644459
+      bigfisswim_2: -1214063975
+      bigfisswim_20: 1305815943
+      bigfisswim_21: -1096156818
+      bigfisswim_22: 183145639
+      bigfisswim_23: 1904037933
+      bigfisswim_24: -2056537759
+      bigfisswim_25: 2141138994
+      bigfisswim_26: 1100738147
+      bigfisswim_27: -1908346686
+      bigfisswim_28: -88564784
+      bigfisswim_29: -652336922
+      bigfisswim_3: -806186645
+      bigfisswim_30: -393257044
+      bigfisswim_31: 504807161
+      bigfisswim_32: -1246534436
+      bigfisswim_33: -1663451884
+      bigfisswim_34: -747219533
+      bigfisswim_35: -296096975
+      bigfisswim_36: -211122636
+      bigfisswim_37: -1258430886
+      bigfisswim_38: -1232779896
+      bigfisswim_39: -1549718265
+      bigfisswim_4: 1214234132
+      bigfisswim_40: 999658223
+      bigfisswim_41: -594438313
+      bigfisswim_42: -438042410
+      bigfisswim_43: 1515819666
+      bigfisswim_44: 1386054959
+      bigfisswim_45: 2100920608
+      bigfisswim_46: -1258210848
+      bigfisswim_47: -1905480917
+      bigfisswim_48: -539135871
+      bigfisswim_49: -1876324964
+      bigfisswim_5: -1280205905
+      bigfisswim_50: -921614046
+      bigfisswim_51: 723586075
+      bigfisswim_52: 1921546818
+      bigfisswim_53: -683833346
+      bigfisswim_54: -1554530326
+      bigfisswim_55: 688943984
+      bigfisswim_56: -1298382794
+      bigfisswim_57: -1330201607
+      bigfisswim_58: -1085114472
+      bigfisswim_6: -77913565
+      bigfisswim_7: 1386887824
+      bigfisswim_8: -90511849
+      bigfisswim_9: -758270754
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
