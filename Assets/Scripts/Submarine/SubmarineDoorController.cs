@@ -9,9 +9,9 @@ public class SubmarineDoorController : MonoBehaviour, IInteracteble
 
     private void Update()
     {
-        if (MiniGameManager.instance.Parts > 0)
+        if (MiniGameManager.Parts > 0)
         {
-            _prompt = "You need" + (MiniGameManager.instance.Parts - maxParts) + "To continue";
+            _prompt = "You need" + (MiniGameManager.Parts - maxParts) + "To continue";
         }
         else
         {
