@@ -17,8 +17,10 @@ namespace Player
         [Header("Animator")]
         [SerializeField]private Animator anim;
 
-        private Vector3 lastMoveDir;
-
+        private Vector3 lastMoveDir; 
+        
+        //audio
+        private EventInstance footstepsSand;
         private void Start()
         {
             rb = gameObject.GetComponent<Rigidbody>();
@@ -28,8 +30,7 @@ namespace Player
 
         }
         
-        //audio
-        private EventInstance footstepsSand;
+        
 
         private void UpdateSound()
         {

@@ -16,15 +16,10 @@ public class FishMovement : MonoBehaviour
     [SerializeField] private float circleSpeed = 2f;
     [SerializeField] private Vector3 center;
     private float circleAngle = 0f;
-
-    
-    private bool wantToAttack = false;
     
     private Vector3 moveDelta;
     
     private Transform fishPos;
-    private float lookatAngle = -90f;
-    
 
     private float runAngle;
     
@@ -226,8 +221,6 @@ public class FishMovement : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         canBeScared = false;
-        if (other.CompareTag("Player")) 
-            wantToAttack = false;
     }
     
 

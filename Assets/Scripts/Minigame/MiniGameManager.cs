@@ -4,6 +4,7 @@ using UnityEngine;
 public class MiniGameManager : MonoBehaviour
 {
     public static MiniGameManager instance { get; private set; }
+    public static int Parts;
     
     public int seaweedleft = 7;
 
