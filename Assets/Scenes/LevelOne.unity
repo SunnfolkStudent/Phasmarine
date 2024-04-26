@@ -1233,7 +1233,7 @@ Transform:
   m_GameObject: {fileID: 772148990}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
-  m_LocalPosition: {x: -12.74, y: 8.750001, z: -14.100253}
+  m_LocalPosition: {x: -12.74, y: 8.750001, z: -15.020253}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1452,7 +1452,7 @@ MonoBehaviour:
   GravesChecked: 0
   parts: 0
   MonsterFaster: 1
-  _prompt: 
+  _prompt: Dig up grave
 --- !u!4 &1221389568
 Transform:
   m_ObjectHideFlags: 0
@@ -1700,7 +1700,7 @@ Transform:
   m_GameObject: {fileID: 1246292456}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
-  m_LocalPosition: {x: -12.74, y: 8.750001, z: -14.100253}
+  m_LocalPosition: {x: -12.74, y: 8.750001, z: -15.020253}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2356,7 +2356,7 @@ PrefabInstance:
     - target: {fileID: 7113428959534068296, guid: 847c1cadb1a82be47a0c4578277d173b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.44
+      value: -6.36
       objectReference: {fileID: 0}
     - target: {fileID: 7113428959534068296, guid: 847c1cadb1a82be47a0c4578277d173b,
         type: 3}
