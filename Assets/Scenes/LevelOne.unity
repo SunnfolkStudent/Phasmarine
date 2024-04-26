@@ -1364,6 +1364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _prompt: 
+  maxParts: 3
 --- !u!65 &907806127
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1825,7 +1826,7 @@ Animator:
   m_GameObject: {fileID: 1256009905}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 827d7d2f8ef31bf45b90d09b91c20cda, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2192,7 +2193,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -36.79657, w: 0}
+  m_margin: {x: 33.338074, y: 31.576157, z: 44.07071, w: 19.651169}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
