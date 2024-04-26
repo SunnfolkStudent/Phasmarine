@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FieldOfView : MonoBehaviour
 {
-    private FishMovement fishMovement;
+    public FishMovement fishMovement;
     
     public float radius;
     [Range(0,360)] public float angle;
@@ -37,12 +37,14 @@ public class FieldOfView : MonoBehaviour
     private void FieldOfViewCheck()
     {
         Collider[] rangeCheks = Physics.OverlapSphere(transform.position, radius, targetMask);
-
+        
         if (rangeCheks.Length != 0)
         {
             print(rangeCheks[0]);
             Transform target = rangeCheks[0].transform;
             Vector3 directionToTarget = target.position - transform.position.normalized;
+            
+            
 
             if (Vector3.Angle(fishMovement._agent.velocity.normalized, directionToTarget) < angle / 2)
             {
@@ -68,9 +70,5 @@ public class FieldOfView : MonoBehaviour
         }
 
     }
-
-    private void OnDrawGizmos()
-    {
-        
-    }
+    
 }

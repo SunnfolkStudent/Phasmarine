@@ -2297,47 +2297,7 @@ PrefabInstance:
         type: 3}
       propertyPath: promptUI
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 231461397178655355, guid: 847c1cadb1a82be47a0c4578277d173b,
-        type: 3}
-      propertyPath: InteractableFound.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 231461397178655355, guid: 847c1cadb1a82be47a0c4578277d173b,
-        type: 3}
-      propertyPath: InteractableFound.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 231461397178655355, guid: 847c1cadb1a82be47a0c4578277d173b,
-        type: 3}
-      propertyPath: InteractableFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 231461397178655355, guid: 847c1cadb1a82be47a0c4578277d173b,
-        type: 3}
-      propertyPath: InteractableFound.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 231461397178655355, guid: 847c1cadb1a82be47a0c4578277d173b,
-        type: 3}
-      propertyPath: InteractableFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetUp
-      objectReference: {fileID: 0}
-    - target: {fileID: 231461397178655355, guid: 847c1cadb1a82be47a0c4578277d173b,
-        type: 3}
-      propertyPath: InteractableFound.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: InteractionPrompUI, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 231461397178655355, guid: 847c1cadb1a82be47a0c4578277d173b,
-        type: 3}
-      propertyPath: InteractableFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 231461397178655355, guid: 847c1cadb1a82be47a0c4578277d173b,
-        type: 3}
-      propertyPath: InteractableFound.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 907806128}
     - target: {fileID: 3569526298095887024, guid: 847c1cadb1a82be47a0c4578277d173b,
         type: 3}
       propertyPath: m_Name
@@ -2413,12 +2373,12 @@ PrefabInstance:
     - target: {fileID: 132394889799215004, guid: d8dc34cce084ee54baf9f74e03a6d33b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -95.09
+      value: -95.1
       objectReference: {fileID: 0}
     - target: {fileID: 132394889799215004, guid: d8dc34cce084ee54baf9f74e03a6d33b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.79
+      value: 3.2
       objectReference: {fileID: 0}
     - target: {fileID: 132394889799215004, guid: d8dc34cce084ee54baf9f74e03a6d33b,
         type: 3}
