@@ -31,6 +31,10 @@ namespace Player
             BatteryLevel = Mathf.Clamp(BatteryLevel, 0f ,maxBattery);
             BatteryLevel -= batteryDrain * Time.deltaTime;
 
+            if (transform.position.y < -2)
+            {
+                batteryDrain = 10;
+            }
             
             if (BatteryLevel < 20)
             {

@@ -464,9 +464,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _volume: {fileID: 0}
   batteryDrain: 1
-  batteryLevel: 100
+  batteryLevel: 300
   transitionSpeed: 1
-  maxBattery: 100
+  maxBattery: 300
 --- !u!1 &5887643155041152408
 GameObject:
   m_ObjectHideFlags: 0
