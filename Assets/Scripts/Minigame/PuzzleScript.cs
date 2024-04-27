@@ -98,6 +98,6 @@ public class PuzzleScript : MonoBehaviour, IDragHandler, IEndDragHandler
         Emptyobject.GetComponent<TileCheck>().Check(draggingObjectRectTransform.gameObject.name.ToIntArray()[0]);
         Checkifworks();
     }
-       
+       //Gi wiresene kode som navn
     }
 
