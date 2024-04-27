@@ -70,7 +70,9 @@ namespace Player
             float x = Input.GetAxis("Horizontal");
             float y = Input.GetAxis("Vertical");
             Vector3 moveDir = new Vector3(x, 0, y);
-            rb.velocity = moveDir * speed;
+            Vector3 newVelocity = new Vector3(moveDir.x * speed, rb.velocity.y, moveDir.z * speed);
+            rb.velocity = newVelocity;
+            
             
             UpdateSound();
 

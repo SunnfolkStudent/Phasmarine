@@ -9,9 +9,9 @@ public class SubmarineDoorController : MonoBehaviour, IInteracteble
 
     private void Update()
     {
-        if (MiniGameManager.Parts > 0)
+        if (MiniGameManager.Parts < maxParts)
         {
-            _prompt = "You need" + (MiniGameManager.Parts - maxParts) + "To continue";
+            _prompt = "You need" + (maxParts - MiniGameManager.Parts) + "To continue";
         }
         else
         {
@@ -21,6 +21,11 @@ public class SubmarineDoorController : MonoBehaviour, IInteracteble
 
     public bool Interact(Interactor interactor)
     {
+        if (MiniGameManager.Parts == maxParts)
+        {
+            print("go to next level");
+            return true;
+        }
         return false;
     }
 }

@@ -1,9 +1,8 @@
 using UnityEngine;
 
-public class WrekedSubmarine : MonoBehaviour
+public class WrekedSubmarine : MonoBehaviour, IInteracteble
 {
     [SerializeField] private string _prompt;
-    [SerializeField] private int maxParts = 1;
 
     public string InteractionPrompt => _prompt;
 
@@ -14,7 +13,9 @@ public class WrekedSubmarine : MonoBehaviour
 
     public bool Interact(Interactor interactor)
     {
+        print("colectedPart");
         MiniGameManager.Parts += 1;
-        return true;
+        Destroy(this);
+        return false;
     }
 }
