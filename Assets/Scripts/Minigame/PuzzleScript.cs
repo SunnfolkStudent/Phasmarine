@@ -21,7 +21,6 @@ public class PuzzleScript : MonoBehaviour, IDragHandler, IEndDragHandler
     
     
     public int counter = 0;
-    private bool Correct;
     //passe på at den kun kan telle som korrekt en gang
     
     void Start()
@@ -35,10 +34,7 @@ public class PuzzleScript : MonoBehaviour, IDragHandler, IEndDragHandler
     }
 
     private bool hasbeencounted = false;
-    private void Update()
-    {
 
-    }
     public void OnDrag(PointerEventData eventData)
     {
         if (RectTransformUtility.ScreenPointToWorldPointInRectangle(draggingObjectRectTransform, eventData.position,
@@ -52,11 +48,6 @@ public class PuzzleScript : MonoBehaviour, IDragHandler, IEndDragHandler
     //Skjer på dragrelease
     public void Checkifworks()
     {
-        //if (tileID == ObjectID)
-        {
-            Correct = true;
-        }
-
         counter = 0;
         foreach (var obj in TileListe)
         {
@@ -76,6 +67,8 @@ public class PuzzleScript : MonoBehaviour, IDragHandler, IEndDragHandler
         }
         
     }
+
+    private GameObject CurrentTile;
     Vector3 nearestPos;
     public void OnEndDrag(PointerEventData eventData)
     {
@@ -87,15 +80,17 @@ public class PuzzleScript : MonoBehaviour, IDragHandler, IEndDragHandler
             float difference = Vector3.Distance(draggingObjectRectTransform.position, obj.transform.position);
             if ( difference < smallestdistance)
             {
+                Debug.Log("found closer tile");
                 smallestdistance = difference;
+                CurrentTile = obj;
                 nearestPos = obj.transform.position;
             }
         }
         //snap to position 
-        draggingObjectRectTransform.position = nearestPos; 
+        //draggingObjectRectTransform.position = nearestPos; 
         //referere til tomme gameobject som tilecheck.check(tile-gameobject.name)
-        GameObject Emptyobject = null;  
-        Emptyobject.GetComponent<TileCheck>().Check(draggingObjectRectTransform.gameObject.name.ToIntArray()[0]);
+          
+        CurrentTile.GetComponent<TileCheck>().Check(draggingObjectRectTransform.gameObject.name.ToIntArray()[0]);
         Checkifworks();
     }
        //Gi wiresene kode som navn

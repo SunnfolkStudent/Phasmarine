@@ -9,9 +9,11 @@ public class TileCheck : MonoBehaviour
     
     public void Check(int id)
     {
+        print("Checked");
         if (TileID == id)
         {
             IsCorrect = true;
+            print("Correct");
         }
     }
 }
