@@ -68,8 +68,8 @@ public class PuzzleScript : MonoBehaviour, IDragHandler, IEndDragHandler
         
     }
 
-    private GameObject CurrentTile;
-    Vector3 nearestPos;
+    [HideInInspector] public GameObject CurrentTile;
+    [HideInInspector] public Vector3 nearestPos;
     public void OnEndDrag(PointerEventData eventData)
     {
         //finne tile some er nærmest
@@ -87,7 +87,7 @@ public class PuzzleScript : MonoBehaviour, IDragHandler, IEndDragHandler
             }
         }
         //snap to position 
-        //draggingObjectRectTransform.position = nearestPos; 
+        draggingObjectRectTransform.position = nearestPos; 
         //referere til tomme gameobject som tilecheck.check(tile-gameobject.name)
           
         CurrentTile.GetComponent<TileCheck>().Check(draggingObjectRectTransform.gameObject.name.ToIntArray()[0]);
