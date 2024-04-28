@@ -1,3 +1,5 @@
+using System;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -14,7 +16,8 @@ public class FishMovement : MonoBehaviour
     
     [SerializeField] private float circleRadius = 5f;
     [SerializeField] private float circleSpeed = 2f;
-    [SerializeField] private Vector3 center;
+    
+    private Vector3 center;
     private float circleAngle = 0f;
     
     private Vector3 moveDelta;
@@ -56,6 +59,7 @@ public class FishMovement : MonoBehaviour
 
     private void Start()
     {
+        center = transform.position;
         animatorNotNull = animator != null;
         timer = 0;
         _agent.speed = 5;
@@ -269,4 +273,5 @@ public class FishMovement : MonoBehaviour
         animator.SetFloat("MoveX", localDesiredVelocity.x);
         animator.SetFloat("MoveY", localDesiredVelocity.z);
     }
+    
 }

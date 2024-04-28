@@ -1,18 +1,14 @@
-using System;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Events;
+
 
 public class InteractionPrompUI : MonoBehaviour
 {
-    //public UnityEvent InteractableFound = new UnityEvent();
-    
     private Camera _mainCam;
     [SerializeField]private GameObject _UIPanel;
     [SerializeField] private TextMeshProUGUI _promtText;
     private void Start()
     {
-        //InteractableFound.AddListener(PlayerMeetsInteractable);
         _mainCam = Camera.main;
         _UIPanel.SetActive(false);
     }

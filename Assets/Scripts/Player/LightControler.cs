@@ -7,8 +7,9 @@ public class LightControler : MonoBehaviour
     private Light light;
     
     [SerializeField] private float stunCost;
+    
     public static bool scared;
-    private bool canStun;
+    private bool canStun = true;
 
 
     private void Start()
@@ -23,7 +24,7 @@ public class LightControler : MonoBehaviour
 
     private void Stun()
     {
-        if (!Input.GetKeyDown(KeyCode.F) && canStun) return;
+        if (!Input.GetKeyDown(KeyCode.F) || !canStun) return;
         canStun = false;
         scared = true;
         BatteryController.BatteryLevel -= stunCost;

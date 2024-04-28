@@ -153,14 +153,13 @@ MonoBehaviour:
   target: {fileID: 0}
   circleRadius: 10
   circleSpeed: 0.3
-  center: {x: -9, y: 3.5, z: 56}
   fov: {fileID: 3019680313209517498}
   attackSpeed: 5
   scaredDuration: 5
   swichSircleRadiusOn: 1
   weaveTimer: 0
-  weaveDistance: 0
-  weaveSpeed: 0
+  weaveDistance: 2
+  weaveSpeed: 2
   anglerFish: 0
   sr: {fileID: 0}
   closedMouth: {fileID: 0}
@@ -177,9 +176,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30d04daeb190f844b8b0d034644a6a0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fishMovement: {fileID: 0}
+  fishMovement: {fileID: 5607588148762735783}
   radius: 7
-  angle: 117
+  angle: 120
   playerRef: {fileID: 0}
   targetMask:
     serializedVersion: 2

@@ -9,7 +9,6 @@ public class FieldOfViewEditor : Editor
         FieldOfView fov = (FieldOfView)target;
         Handles.color = Color.white;
         Handles.DrawWireArc(fov.transform.position, Vector3.up, Vector3.forward, 360, fov.radius);
-
         
         if (Application.isPlaying)
         {
