@@ -18,7 +18,7 @@ public class PuzzleScript : MonoBehaviour, IDragHandler, IEndDragHandler
     private Vector3 velocity = Vector3.zero;
     private bool draggable = true;
     private MiniGameManager _miniGameManager;
-    
+    private IDscript _iDscript;
     
     public int counter = 0;
     //passe på at den kun kan telle som korrekt en gang
@@ -26,6 +26,7 @@ public class PuzzleScript : MonoBehaviour, IDragHandler, IEndDragHandler
     void Start()
     {
         _miniGameManager = GameObject.Find("Background").GetComponent<MiniGameManager>();
+        _iDscript.GetComponent<IDscript>();
     }
 
     private void Awake()
@@ -53,6 +54,7 @@ public class PuzzleScript : MonoBehaviour, IDragHandler, IEndDragHandler
         {
             if(obj.GetComponent<TileCheck>().IsCorrect)
             {
+                Debug.Log("One right");
                 counter++;
             }
             else
@@ -63,6 +65,7 @@ public class PuzzleScript : MonoBehaviour, IDragHandler, IEndDragHandler
         }
         if (counter == 20)
         {
+            Debug.Log("All right");
             _miniGameManager.PuzzleMiniGameDown();
         }
         
@@ -86,12 +89,13 @@ public class PuzzleScript : MonoBehaviour, IDragHandler, IEndDragHandler
                 nearestPos = obj.transform.position;
             }
         }
-        //snap to position 
+        //snap to position  _iDscript.ID
         draggingObjectRectTransform.position = nearestPos; 
-        //referere til tomme gameobject som tilecheck.check(tile-gameobject.name)
+        //referere til tomme gameobject som tilecheck.check(tile-gameobject.name) draggingObjectRectTransform.gameObject.name.ToIntArray()[0]
           
-        CurrentTile.GetComponent<TileCheck>().Check(draggingObjectRectTransform.gameObject.name.ToIntArray()[0]);
+        CurrentTile.GetComponent<TileCheck>().Check(int.Parse(draggingObjectRectTransform.gameObject.name));
         Checkifworks();
+        //Checkifworks funker ikke kan være fordi den ikke får informasjonen fra den andreoperasjonen
     }
        //Gi wiresene kode som navn
     }

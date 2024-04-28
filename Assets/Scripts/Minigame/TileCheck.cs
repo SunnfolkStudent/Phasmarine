@@ -9,7 +9,9 @@ public class TileCheck : MonoBehaviour
     
     public void Check(int id)
     {
-        print("Checked");
+        Debug.Log("Checked");
+        Debug.Log(TileID);
+        Debug.Log(id);
         if (TileID == id)
         {
             IsCorrect = true;
