@@ -692,7 +692,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   oxygenBar: {fileID: 4528396362505858683}
   maxBattery: 300
-  lerpSpeed: 1
+  lerpSpeed: 2
 --- !u!1 &7303956495230435738
 GameObject:
   m_ObjectHideFlags: 0
