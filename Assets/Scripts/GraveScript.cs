@@ -1,10 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
-using Unity.VisualScripting.Dependencies.Sqlite;
 using UnityEngine;
-using UnityEngine.UIElements;
 using Random = UnityEngine.Random;
 
 //Bruke en timer som basescript for oksygensystemet
@@ -19,15 +13,9 @@ public class GraveScript : MonoBehaviour, IInteracteble
 
     [SerializeField] private string _prompt;
     public string InteractionPrompt => _prompt;
-
-    private void Start()
-    {
-        _miniGameManager = GetComponent<MiniGameManager>();
-    }
-
     public bool Interact(Interactor interactor)
     {
-        _miniGameManager.SpinMiniGameUp();
+        StatickSceneControler.SpinMiniGameUp();
         //Hente ut poengene fra spinminigame til å påvirke sjansene dine i treasurefunksjonen
         GravesChecked += 1;
         Treasure();
