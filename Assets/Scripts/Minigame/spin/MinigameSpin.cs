@@ -1,3 +1,4 @@
+using System.Dynamic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 using FMODUnity;
@@ -7,6 +8,7 @@ namespace Minigame.spin
 {
     public class MinigameSpin : MonoBehaviour
     {
+        private EventInstance minigameMusicEventInstance;
         private MiniGameManager _miniGameManager;
         
         // speed er mengden grader pilen roteres per frame
@@ -23,7 +25,6 @@ namespace Minigame.spin
         
         [SerializeField] private EventReference klokkeFeil;
         
-        [SerializeField] private EventReference klokkeBakgrunn;
 
 // rangev1 er fra pilposisjon - klrange til pilposisjon
 // rangev2 er fra pilposisjon til pilposisjon + klrange
@@ -37,8 +38,14 @@ namespace Minigame.spin
 
         private void Start()
         {
+            InitializeMinigameMusic(FMODEvents.instance.minigameMusic);
             _miniGameManager = GetComponent<MiniGameManager>();
-            
+        }
+
+        private void InitializeMinigameMusic(EventReference minigameMusicEventReference)
+        {
+            minigameMusicEventInstance = RuntimeManager.CreateInstance(minigameMusicEventReference);
+            minigameMusicEventInstance.start();
         }
 
         private void Update()
@@ -74,14 +81,14 @@ namespace Minigame.spin
             // dersom spilleren trykker, sette ny posisjon av spot
             if (Input.GetKeyDown("space") && irange == true)
             {
-                AudioManager.instance.PlayOneShot(klokkeRiktig, this.transform.position);
+                global::AudioManager.instance.PlayOneShot(klokkeRiktig, this.transform.position);
                 spotpos += Random.Range(60, 300);
                 score++;
             }
 
             if (Input.GetKeyDown("space") && irange == false)
             {
-                AudioManager.instance.PlayOneShot(klokkeFeil, this.transform.position);
+                global::AudioManager.instance.PlayOneShot(klokkeFeil, this.transform.position);
             }
             
 

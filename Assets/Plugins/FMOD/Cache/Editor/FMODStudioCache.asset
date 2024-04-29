@@ -101,6 +101,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-3378725795571860234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Minigame/klokkeRiktig
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Minigame/klokkeRiktig
+  Guid:
+    Data1: 1182495617
+    Data2: 1226949296
+    Data3: 934635965
+    Data4: -260513566
+  Banks:
+  - {fileID: 8973622251072134689}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-2780572442259276600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,33 +168,6 @@ MonoBehaviour:
   - Name: Desktop
     Value: 494
   Exists: 1
---- !u!114 &-531450703486680758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Minigame/klokke riktig
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Minigame/klokke riktig
-  Guid:
-    Data1: 1182495617
-    Data2: 1226949296
-    Data3: 934635965
-    Data4: -260513566
-  Banks:
-  - {fileID: 8973622251072134689}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &-285388320848781526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,7 +183,7 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638499179095614021
+  lastModified: 638499986348694537
   FileSizes:
   - Name: Desktop
     Value: 2564
@@ -207,6 +207,7 @@ MonoBehaviour:
   - {fileID: -285388320848781526}
   - {fileID: -2306835472606467729}
   - {fileID: 8973622251072134689}
+  - {fileID: 6264221398891693635}
   EditorEvents:
   - {fileID: -6936178766768643985}
   - {fileID: 3380489676708778243}
@@ -214,70 +215,16 @@ MonoBehaviour:
   - {fileID: 8732273382727214763}
   - {fileID: -7755776725508790464}
   - {fileID: -3834096093340105495}
-  - {fileID: -531450703486680758}
-  - {fileID: 2822181885976371340}
-  - {fileID: 3076833743468838074}
+  - {fileID: -3378725795571860234}
+  - {fileID: 9041983996545952212}
+  - {fileID: 5888992367422043185}
   EditorParameters: []
   MasterBanks:
   - {fileID: -285388320848781526}
   StringsBanks:
   - {fileID: 8301521104096498491}
-  cacheTime: 638499179098386021
+  cacheTime: 638499986351313592
   cacheVersion: 131617
---- !u!114 &2822181885976371340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Minigame/klokke feil
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Minigame/klokke feil
-  Guid:
-    Data1: -1071959649
-    Data2: 1090570764
-    Data3: -883118692
-    Data4: 1293987305
-  Banks:
-  - {fileID: 8973622251072134689}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &3076833743468838074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Minigame/klokke bakgrunn
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Minigame/klokke bakgrunn
-  Guid:
-    Data1: -14007840
-    Data2: 1197042020
-    Data3: -2071133807
-    Data4: 1491251826
-  Banks:
-  - {fileID: 8973622251072134689}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 4266
 --- !u!114 &3380489676708778243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -305,6 +252,54 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &5888992367422043185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MinigameMusic/minigameMusic
+  m_EditorClassIdentifier: 
+  Path: event:/MinigameMusic/minigameMusic
+  Guid:
+    Data1: -14007840
+    Data2: 1197042020
+    Data3: -2071133807
+    Data4: 1491251826
+  Banks:
+  - {fileID: 6264221398891693635}
+  - {fileID: 8973622251072134689}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4266
+--- !u!114 &6264221398891693635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/MinigameMusic.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/MinigameMusic.bank
+  Name: MinigameMusic
+  StudioPath: bank:/MinigameMusic
+  lastModified: 638499986351313592
+  FileSizes:
+  - Name: Desktop
+    Value: 60928
+  Exists: 1
 --- !u!114 &6905326154829040998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -347,10 +342,10 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638499179095639267
+  lastModified: 638499986348735354
   FileSizes:
   - Name: Desktop
-    Value: 1634
+    Value: 1696
   Exists: 1
 --- !u!114 &8732273382727214763
 MonoBehaviour:
@@ -394,8 +389,35 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638499179098386021
+  lastModified: 638499986351051293
   FileSizes:
   - Name: Desktop
     Value: 134944
   Exists: 1
+--- !u!114 &9041983996545952212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Minigame/klokkeFeil
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Minigame/klokkeFeil
+  Guid:
+    Data1: -1071959649
+    Data2: 1090570764
+    Data3: -883118692
+    Data4: 1293987305
+  Banks:
+  - {fileID: 8973622251072134689}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
