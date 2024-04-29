@@ -347,6 +347,27 @@ MonoBehaviour:
   irange: 0
   pilpos: 0
   spotpos: 0
+  klokkeRiktig:
+    Guid:
+      Data1: 1182495617
+      Data2: 1226949296
+      Data3: 934635965
+      Data4: -260513566
+    Path: event:/SFX/Minigame/klokke riktig
+  klokkeFeil:
+    Guid:
+      Data1: -1071959649
+      Data2: 1090570764
+      Data3: -883118692
+      Data4: 1293987305
+    Path: event:/SFX/Minigame/klokke feil
+  klokkeBakgrunn:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   pilTransform: {fileID: 312907823}
   spotTransform: {fileID: 1584658239}
 --- !u!4 &625924826

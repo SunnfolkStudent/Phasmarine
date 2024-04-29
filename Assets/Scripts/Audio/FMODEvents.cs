@@ -4,7 +4,9 @@ using FMODUnity;
 public class FMODEvents : MonoBehaviour
 {
     [field: Header("Music")]
-    [field: SerializeField] public EventReference music { get; private set; }
+    [field: SerializeField] public EventReference mainMenu { get; private set; }
+    [field: SerializeField] public EventReference tutorial { get; private set; }
+    [field: SerializeField] public EventReference level1 { get; private set; }
    
     [field: Header("Ambience")]
     [field: SerializeField] public EventReference ambience { get; private set; }
@@ -14,7 +16,13 @@ public class FMODEvents : MonoBehaviour
     [field: SerializeField] public EventReference footstepsSand { get; private set; }
     [field: SerializeField] public EventReference breathing { get; private set; }
     [field: SerializeField] public EventReference hurt { get; private set; }
+    [field: SerializeField] public EventReference heartbeat { get; private set; }
    
+    [field: Header("Minigame")]
+    [field: SerializeField] public EventReference klokkeBakgrunn { get; private set; }
+    [field: SerializeField] public EventReference klokkeFeil { get; private set; }
+    [field: SerializeField] public EventReference klokkeRiktig { get; private set; }
+    
     [field: Header("Eerie")]
     [field: SerializeField] public EventReference eerie { get; private set; }
     
