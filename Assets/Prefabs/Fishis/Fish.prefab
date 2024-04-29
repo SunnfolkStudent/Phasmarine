@@ -261,6 +261,7 @@ GameObject:
   - component: {fileID: 337265690051513845}
   - component: {fileID: 4606931829217003472}
   - component: {fileID: 7321283420915587096}
+  - component: {fileID: 4810793431636596286}
   m_Layer: 0
   m_Name: fishswiim1_0
   m_TagString: Untagged
@@ -326,12 +327,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -812786478, guid: 0c246fc588af9504db9504769288ee3c, type: 3}
+  m_Sprite: {fileID: -945925479, guid: 9f212e067fbfee64080a402e46504702, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.6894531, y: 0.44921875}
+  m_Size: {x: 1.6386719, y: 0.45117188}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -359,3 +360,15 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4810793431636596286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7200639782137089821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab96d41a44e09a04287744c29d85f76f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
