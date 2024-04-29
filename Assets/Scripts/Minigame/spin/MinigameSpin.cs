@@ -1,5 +1,7 @@
 using UnityEngine;
 using Random = UnityEngine.Random;
+using FMODUnity;
+using FMOD.Studio;
 
 namespace Minigame.spin
 {
@@ -17,6 +19,10 @@ namespace Minigame.spin
 
         [SerializeField]private float spotpos;
 
+        [SerializeField] private EventReference klokkeRiktig;
+        
+        [SerializeField] private EventReference klokkeFeil;
+
 // rangev1 er fra pilposisjon - klrange til pilposisjon
 // rangev2 er fra pilposisjon til pilposisjon + klrange
         private Vector2 rangev1 = new Vector2(0, 0);
@@ -30,6 +36,7 @@ namespace Minigame.spin
         private void Start()
         {
             _miniGameManager = GetComponent<MiniGameManager>();
+            
         }
 
         private void Update()
@@ -67,6 +74,7 @@ namespace Minigame.spin
             {
                 spotpos += Random.Range(60, 300);
                 score++;
+                AudioManager.instance.PlayOneShot(klokkeRiktig, this.transform.position);
             }
 
             if (score >= 3)
@@ -85,6 +93,7 @@ namespace Minigame.spin
             if (irange == false)
             {
                 print("miss");
+                AudioManager.instance.PlayOneShot(klokkeFeil, this.transform.position);
             }
         
             // bevege pilpos med speed, så sette spritens rotasjon til pilpos

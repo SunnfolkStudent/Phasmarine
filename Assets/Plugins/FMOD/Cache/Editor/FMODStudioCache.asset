@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 638497274723150165
+  lastModified: 638497367571993637
   FileSizes:
   - Name: Desktop
-    Value: 844448
+    Value: 845088
   Exists: 1
 --- !u!114 &-7755776725508790464
 MonoBehaviour:
@@ -42,7 +42,7 @@ MonoBehaviour:
   - {fileID: 8973622251072134689}
   IsStream: 0
   Is3D: 0
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -74,6 +74,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 100597
+--- !u!114 &-3834096093340105495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/breathing
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/breathing
+  Guid:
+    Data1: -500086114
+    Data2: 1207245385
+    Data3: -879065669
+    Data4: 1502305317
+  Banks:
+  - {fileID: -9178201120950246205}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-2780572442259276600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89,10 +116,10 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Eerie.bank
   Name: Eerie
   StudioPath: bank:/Eerie
-  lastModified: 638497274724368509
+  lastModified: 638499179095444364
   FileSizes:
   - Name: Desktop
-    Value: 619840
+    Value: 1075968
   Exists: 1
 --- !u!114 &-2306835472606467729
 MonoBehaviour:
@@ -114,6 +141,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 494
   Exists: 1
+--- !u!114 &-531450703486680758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Minigame/klokke riktig
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Minigame/klokke riktig
+  Guid:
+    Data1: 1182495617
+    Data2: 1226949296
+    Data3: 934635965
+    Data4: -260513566
+  Banks:
+  - {fileID: 8973622251072134689}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-285388320848781526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,7 +183,7 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638496413492384533
+  lastModified: 638499179095614021
   FileSizes:
   - Name: Desktop
     Value: 2564
@@ -159,13 +213,71 @@ MonoBehaviour:
   - {fileID: 6905326154829040998}
   - {fileID: 8732273382727214763}
   - {fileID: -7755776725508790464}
+  - {fileID: -3834096093340105495}
+  - {fileID: -531450703486680758}
+  - {fileID: 2822181885976371340}
+  - {fileID: 3076833743468838074}
   EditorParameters: []
   MasterBanks:
   - {fileID: -285388320848781526}
   StringsBanks:
   - {fileID: 8301521104096498491}
-  cacheTime: 638497275464532100
+  cacheTime: 638499179098386021
   cacheVersion: 131617
+--- !u!114 &2822181885976371340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Minigame/klokke feil
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Minigame/klokke feil
+  Guid:
+    Data1: -1071959649
+    Data2: 1090570764
+    Data3: -883118692
+    Data4: 1293987305
+  Banks:
+  - {fileID: 8973622251072134689}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3076833743468838074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Minigame/klokke bakgrunn
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Minigame/klokke bakgrunn
+  Guid:
+    Data1: -14007840
+    Data2: 1197042020
+    Data3: -2071133807
+    Data4: 1491251826
+  Banks:
+  - {fileID: 8973622251072134689}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4266
 --- !u!114 &3380489676708778243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,10 +347,10 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638496413492410311
+  lastModified: 638499179095639267
   FileSizes:
   - Name: Desktop
-    Value: 1432
+    Value: 1634
   Exists: 1
 --- !u!114 &8732273382727214763
 MonoBehaviour:
@@ -282,8 +394,8 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638497275464532100
+  lastModified: 638499179098386021
   FileSizes:
   - Name: Desktop
-    Value: 71488
+    Value: 134944
   Exists: 1
