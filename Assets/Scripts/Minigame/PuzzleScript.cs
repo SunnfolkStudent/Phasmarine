@@ -18,15 +18,14 @@ public class PuzzleScript : MonoBehaviour, IDragHandler, IEndDragHandler
     private Vector3 velocity = Vector3.zero;
     private bool draggable = true;
     private MiniGameManager _miniGameManager;
-    private IDscript _iDscript;
+    private PuzzleManager _puzzleManager;
     
-    public int counter = 0;
     //passe på at den kun kan telle som korrekt en gang
     
     void Start()
     {
         _miniGameManager = GameObject.Find("Background").GetComponent<MiniGameManager>();
-        _iDscript.GetComponent<IDscript>();
+        _puzzleManager= GameObject.Find("Background").GetComponent<PuzzleManager>();
     }
 
     private void Awake()
@@ -46,31 +45,7 @@ public class PuzzleScript : MonoBehaviour, IDragHandler, IEndDragHandler
         }
     }
     
-    //Skjer på dragrelease
-    public void Checkifworks()
-    {
-        counter = 0;
-        foreach (var obj in TileListe)
-        {
-            if(obj.GetComponent<TileCheck>().IsCorrect)
-            {
-                Debug.Log("One right");
-                counter++;
-            }
-            else
-            {
-                counter = 0;
-                break;
-            }
-        }
-        if (counter == 20)
-        {
-            Debug.Log("All right");
-            _miniGameManager.PuzzleMiniGameDown();
-        }
-        
-    }
-
+    
     [HideInInspector] public GameObject CurrentTile;
     [HideInInspector] public Vector3 nearestPos;
     public void OnEndDrag(PointerEventData eventData)
@@ -94,8 +69,8 @@ public class PuzzleScript : MonoBehaviour, IDragHandler, IEndDragHandler
         //referere til tomme gameobject som tilecheck.check(tile-gameobject.name) draggingObjectRectTransform.gameObject.name.ToIntArray()[0]
           
         CurrentTile.GetComponent<TileCheck>().Check(int.Parse(draggingObjectRectTransform.gameObject.name));
-        Checkifworks();
-        //Checkifworks funker ikke kan være fordi den ikke får informasjonen fra den andreoperasjonen
+        _puzzleManager.Checkifworks();
+        //Checkifworks funker kun når starter på de første og vil kun gi en riktig
     }
        //Gi wiresene kode som navn
     }
