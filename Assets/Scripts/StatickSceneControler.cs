@@ -5,7 +5,6 @@ public static class StatickSceneControler
     public static void CleaningMiniGameUp()
     {
         SceneManager.LoadScene("CleaningMiniGame", LoadSceneMode.Additive);
-        
     }
 
     public static void CleaningMiniGameDown()
@@ -27,7 +26,6 @@ public static class StatickSceneControler
     public static void SpinMiniGameUp()
     {
         SceneManager.LoadScene("SpinMiniGame", LoadSceneMode.Additive);
-        
     }
 
     public static void SpinMiniGameDown()
@@ -38,5 +36,10 @@ public static class StatickSceneControler
     public static void StartGame()
     {
         SceneManager.LoadScene("Tutorial");
+    }
+
+    public static void DeathUp()
+    {
+        SceneManager.LoadScene("Death");
     }
 }

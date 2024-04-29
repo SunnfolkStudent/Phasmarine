@@ -6,7 +6,7 @@ public class KillPlayer : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            print("kill Player");
+            StatickSceneControler.DeathUp();
         }
     }
 }

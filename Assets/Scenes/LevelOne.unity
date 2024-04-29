@@ -15,12 +15,12 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
   m_Fog: 1
-  m_FogColor: {r: 0, g: 0.20784314, b: 0.18867922, a: 1}
+  m_FogColor: {r: 0, g: 0.105882354, b: 0.043137256, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0
+  m_FogDensity: 0.07
   m_LinearFogStart: 98.95
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0.029725887, g: 0.03868519, b: 0.05660379, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 0
@@ -29,7 +29,7 @@ RenderSettings:
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0
   m_FlareStrength: 1
-  m_FlareFadeSpeed: 3
+  m_FlareFadeSpeed: 0
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
@@ -1859,7 +1859,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: aa336a7040018834cb5e514097086d33, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 4b563ef751f9e524d84e43a072b61a04, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1001 &287976519
 PrefabInstance:
@@ -4810,11 +4810,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5607588148762735783, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
         type: 3}
-      propertyPath: weaveSpeed
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5607588148762735783, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
-        type: 3}
       propertyPath: circleSpeed
       value: 0.04
       objectReference: {fileID: 0}
@@ -4822,16 +4817,6 @@ PrefabInstance:
         type: 3}
       propertyPath: circleRadius
       value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 5607588148762735783, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
-        type: 3}
-      propertyPath: weaveDistance
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5607588148762735783, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
-        type: 3}
-      propertyPath: swichSircleRadiusOn
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6575249146503021633, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
         type: 3}
@@ -7206,7 +7191,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &1262578890
 Light:
   m_ObjectHideFlags: 0
@@ -12342,7 +12327,7 @@ PrefabInstance:
     - target: {fileID: 7343642996570528726, guid: 847c1cadb1a82be47a0c4578277d173b,
         type: 3}
       propertyPath: m_Intensity
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
