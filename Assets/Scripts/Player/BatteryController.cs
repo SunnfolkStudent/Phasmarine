@@ -33,7 +33,7 @@ namespace Player
 
             if (transform.position.y < -2)
             {
-                batteryDrain = 10;
+                batteryDrain = 20;
             }
             
             if (BatteryLevel < 20)
