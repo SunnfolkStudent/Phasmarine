@@ -26,6 +26,21 @@ public class PuzzleScript : MonoBehaviour, IDragHandler, IEndDragHandler
     {
         _miniGameManager = GameObject.Find("Background").GetComponent<MiniGameManager>();
         _puzzleManager= GameObject.Find("Background").GetComponent<PuzzleManager>();
+        
+        float smallestdistance = 1000;
+        foreach (var obj in TileListe)
+        {
+            float difference = Vector3.Distance(draggingObjectRectTransform.position, obj.transform.position);
+            if (difference < smallestdistance)
+            {
+                smallestdistance = difference;
+                CurrentTile = obj;
+                nearestPos = obj.transform.position;
+            }
+        }
+
+        CurrentTile.GetComponent<TileCheck>().Check(int.Parse(draggingObjectRectTransform.gameObject.name));
+            _puzzleManager.Checkifworks();
     }
 
     private void Awake()

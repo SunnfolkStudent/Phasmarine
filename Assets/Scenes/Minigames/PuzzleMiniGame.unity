@@ -3991,7 +3991,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TileListe: []
-  counter: 0
 --- !u!1 &1578514201
 GameObject:
   m_ObjectHideFlags: 0
@@ -4170,7 +4169,6 @@ MonoBehaviour:
   - {fileID: 1055862745}
   - {fileID: 1067400766}
   - {fileID: 1125412186}
-  counter: 0
 --- !u!1 &1624105908
 GameObject:
   m_ObjectHideFlags: 0
