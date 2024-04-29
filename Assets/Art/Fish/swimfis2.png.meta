@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0c246fc588af9504db9504769288ee3c
+guid: 9f212e067fbfee64080a402e46504702
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,85 +97,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: swimfis1_0
+      name: swimfis2_0
       rect:
         serializedVersion: 2
-        x: 338
-        y: 1275
-        width: 865
-        height: 230
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 360
+        y: 1273
+        width: 839
+        height: 231
+      alignment: 9
+      pivot: {x: 0.49789926, y: 0.4803805}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7197a4ac81f00545865af2ac2c89773
-      internalID: -812786478
+      spriteID: fbd5fca6dfc88264eb7f94531bbbd8e0
+      internalID: -945925479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swimfis1_5
+      name: swimfis2_5
       rect:
         serializedVersion: 2
-        x: 337
+        x: 360
         y: 941
-        width: 865
-        height: 230
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 841
+        height: 229
+      alignment: 9
+      pivot: {x: 0.48617384, y: 0.52281225}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4dc4d3e2b831ee246929c39a816862a5
-      internalID: 1296338313
+      spriteID: 48972abbe5e80f3438fe583e1526ef46
+      internalID: 1264534076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swimfis1_10
+      name: swimfis2_10
       rect:
         serializedVersion: 2
-        x: 338
-        y: 555
-        width: 865
-        height: 230
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 360
+        y: 558
+        width: 839
+        height: 229
+      alignment: 9
+      pivot: {x: 0.4991829, y: 0.4621966}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2284cb795299f744b88962178ceb6c88
-      internalID: -136841488
+      spriteID: b4695c0788d23c941ad0a927ac588d7f
+      internalID: 2083307064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: swimfis1_15
+      name: swimfis2_15
       rect:
         serializedVersion: 2
-        x: 338
-        y: 184
-        width: 865
-        height: 230
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 360
+        y: 188
+        width: 844
+        height: 221
+      alignment: 9
+      pivot: {x: 0.49260056, y: 0.42234576}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50d7e595be821f14b8b8e0479d93030d
-      internalID: 90290636
+      spriteID: 1590366f9dff6044888e326356cef335
+      internalID: -1820470103
       vertices: []
       indices: 
       edges: []
@@ -183,7 +183,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: ee13c0c69f9422f498150dbf670f69f7
+    spriteID: aa77792703603f04a848d0b4e4c768d6
     internalID: 0
     vertices: []
     indices: 
@@ -191,26 +191,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      swimfis1_0: -812786478
-      swimfis1_1: 1817986113
-      swimfis1_10: -136841488
-      swimfis1_11: -1941945267
-      swimfis1_12: 2122229486
-      swimfis1_13: 79332981
-      swimfis1_14: 2124289614
-      swimfis1_15: 90290636
-      swimfis1_16: -783919298
-      swimfis1_17: 351921570
-      swimfis1_18: 377107826
-      swimfis1_19: 1396247116
-      swimfis1_2: 196330115
-      swimfis1_3: 258301643
-      swimfis1_4: -14789235
-      swimfis1_5: 1296338313
-      swimfis1_6: 787478625
-      swimfis1_7: -285174969
-      swimfis1_8: -1324007202
-      swimfis1_9: 2088590549
+      swimfis2_0: -945925479
+      swimfis2_1: 443685461
+      swimfis2_10: 2083307064
+      swimfis2_11: 1090050291
+      swimfis2_12: -1002166691
+      swimfis2_13: 447939869
+      swimfis2_14: -891228240
+      swimfis2_15: -1820470103
+      swimfis2_16: 42606561
+      swimfis2_17: 1720982508
+      swimfis2_18: 238563300
+      swimfis2_19: 520796631
+      swimfis2_2: 809244315
+      swimfis2_3: 563490674
+      swimfis2_4: 1553594182
+      swimfis2_5: 1264534076
+      swimfis2_6: 1100946612
+      swimfis2_7: 2007280223
+      swimfis2_8: 655343855
+      swimfis2_9: 1872264757
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
