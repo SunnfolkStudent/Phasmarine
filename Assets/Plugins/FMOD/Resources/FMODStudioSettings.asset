@@ -627,6 +627,7 @@ MonoBehaviour:
   Banks:
   - Ambience
   - Eerie
+  - MinigameMusic
   - Music
   - SFX
   BanksToLoad: []

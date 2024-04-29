@@ -10,6 +10,7 @@ public class AudioManager : MonoBehaviour
    private EventInstance ambienceEventInstance;
    
    private EventInstance eerieEventInstance;
+   
    public static AudioManager instance { get; private set; }
 
    private void Awake()

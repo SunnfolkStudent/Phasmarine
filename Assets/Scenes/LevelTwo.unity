@@ -2143,27 +2143,27 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  <klokkeBakgrunn>k__BackingField:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
   <klokkeFeil>k__BackingField:
     Guid:
       Data1: -1071959649
       Data2: 1090570764
       Data3: -883118692
       Data4: 1293987305
-    Path: event:/SFX/Minigame/klokke feil
+    Path: event:/SFX/Minigame/klokkeFeil
   <klokkeRiktig>k__BackingField:
     Guid:
       Data1: 1182495617
       Data2: 1226949296
       Data3: 934635965
       Data4: -260513566
-    Path: event:/SFX/Minigame/klokke riktig
+    Path: event:/SFX/Minigame/klokkeRiktig
+  <minigameMusic>k__BackingField:
+    Guid:
+      Data1: -14007840
+      Data2: 1197042020
+      Data3: -2071133807
+      Data4: 1491251826
+    Path: event:/MinigameMusic/minigameMusic
   <eerie>k__BackingField:
     Guid:
       Data1: -84892422
