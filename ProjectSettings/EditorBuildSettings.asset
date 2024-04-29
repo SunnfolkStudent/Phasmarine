@@ -14,5 +14,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Minigames/CleaningMiniGame.unity
     guid: f850b0c3023e1e84db77e8a1bee19c27
+  - enabled: 1
+    path: Assets/Scenes/Death.unity
+    guid: 6b6b036dd03b9e4408ddbf238ecabd62
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 8e66297946bb45f4cade118d5d24cb7d
+  - enabled: 1
+    path: Assets/Scenes/LevelOne.unity
+    guid: 739cba03ad9eab14399558fce0e6dbd9
+  - enabled: 1
+    path: Assets/Scenes/Leveltwo.unity
+    guid: d3a825c421600cf47a4c80116bcb3d48
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
