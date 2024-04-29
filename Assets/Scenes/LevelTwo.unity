@@ -2080,7 +2080,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bacff017a77acd34da7dd64998529976, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <music>k__BackingField:
+  <mainMenu>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  <tutorial>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  <level1>k__BackingField:
     Guid:
       Data1: 0
       Data2: 0
@@ -2122,6 +2136,34 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
+  <heartbeat>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  <klokkeBakgrunn>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  <klokkeFeil>k__BackingField:
+    Guid:
+      Data1: -1071959649
+      Data2: 1090570764
+      Data3: -883118692
+      Data4: 1293987305
+    Path: event:/SFX/Minigame/klokke feil
+  <klokkeRiktig>k__BackingField:
+    Guid:
+      Data1: 1182495617
+      Data2: 1226949296
+      Data3: 934635965
+      Data4: -260513566
+    Path: event:/SFX/Minigame/klokke riktig
   <eerie>k__BackingField:
     Guid:
       Data1: -84892422

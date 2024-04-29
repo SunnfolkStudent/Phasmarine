@@ -22,6 +22,8 @@ namespace Minigame.spin
         [SerializeField] private EventReference klokkeRiktig;
         
         [SerializeField] private EventReference klokkeFeil;
+        
+        [SerializeField] private EventReference klokkeBakgrunn;
 
 // rangev1 er fra pilposisjon - klrange til pilposisjon
 // rangev2 er fra pilposisjon til pilposisjon + klrange
@@ -72,10 +74,16 @@ namespace Minigame.spin
             // dersom spilleren trykker, sette ny posisjon av spot
             if (Input.GetKeyDown("space") && irange == true)
             {
+                AudioManager.instance.PlayOneShot(klokkeRiktig, this.transform.position);
                 spotpos += Random.Range(60, 300);
                 score++;
-                AudioManager.instance.PlayOneShot(klokkeRiktig, this.transform.position);
             }
+
+            if (Input.GetKeyDown("space") && irange == false)
+            {
+                AudioManager.instance.PlayOneShot(klokkeFeil, this.transform.position);
+            }
+            
 
             if (score >= 3)
             {
@@ -93,7 +101,6 @@ namespace Minigame.spin
             if (irange == false)
             {
                 print("miss");
-                AudioManager.instance.PlayOneShot(klokkeFeil, this.transform.position);
             }
         
             // bevege pilpos med speed, så sette spritens rotasjon til pilpos
