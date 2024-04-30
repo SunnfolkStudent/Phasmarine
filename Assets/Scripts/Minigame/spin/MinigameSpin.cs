@@ -3,6 +3,7 @@ using UnityEngine;
 using Random = UnityEngine.Random;
 using FMODUnity;
 using FMOD.Studio;
+using STOP_MODE = FMOD.Studio.STOP_MODE;
 
 namespace Minigame.spin
 {
@@ -95,6 +96,7 @@ namespace Minigame.spin
             if (score >= 3)
             {
                 MiniGameManager.Parts += 1;
+                minigameMusicEventInstance.stop(STOP_MODE.IMMEDIATE);
                 _miniGameManager.SpinMiniGameDown();
             }
 
