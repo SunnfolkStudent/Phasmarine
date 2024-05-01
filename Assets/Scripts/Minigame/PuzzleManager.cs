@@ -36,7 +36,7 @@ public class PuzzleManager : MonoBehaviour
                 }
             }
 
-            if (counter >= 25)
+            if (counter >= 21)
             {
                 Debug.Log("All right");
                 _miniGameManager.PuzzleMiniGameDown();
