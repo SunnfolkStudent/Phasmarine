@@ -32,6 +32,16 @@ public class MiniGameManager : MonoBehaviour
         SceneManager.UnloadSceneAsync("CleaningMiniGame");
     }
     
+    public void CleaningMiniGameDown2()
+    {
+        SceneManager.UnloadSceneAsync("Cleaning2");
+    }
+    public void CleaningMiniGameDown3()
+    {
+        SceneManager.UnloadSceneAsync("Cleaning3");
+    }
+
+    
     public void PuzzleMiniGameUp()
     {
         SceneManager.LoadScene("PuzzleMiniGame", LoadSceneMode.Additive);
