@@ -12,8 +12,8 @@ public class DragAndDrop : MonoBehaviour, IDragHandler
     private bool draggable = true;
     private MiniGameManager _miniGameManager;
 
-    private Vector2 minmaxX = new Vector2(-300, 650);
-    private Vector2 minmaxY = new Vector2(-300, 550);
+    private Vector2 minmaxX = new Vector2(-500, 850);
+    private Vector2 minmaxY = new Vector2(-500, 650);
     
     void Start()
     {
