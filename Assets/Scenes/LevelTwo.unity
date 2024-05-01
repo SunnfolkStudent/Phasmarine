@@ -2066,7 +2066,7 @@ MonoBehaviour:
     Path: event:/SFX/World/SonarPing
   Event: 
   PlayEvent: 1
-  StopEvent: 4
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -3641,7 +3641,7 @@ MonoBehaviour:
     Path: event:/SFX/World/SonarPing
   Event: 
   PlayEvent: 1
-  StopEvent: 4
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -6030,7 +6030,7 @@ MonoBehaviour:
     Path: event:/SFX/World/SonarPing
   Event: 
   PlayEvent: 1
-  StopEvent: 4
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -10792,7 +10792,7 @@ MonoBehaviour:
     Path: event:/SFX/World/SonarPing
   Event: 
   PlayEvent: 1
-  StopEvent: 4
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -15961,7 +15961,7 @@ MonoBehaviour:
     Path: event:/SFX/World/SonarPing
   Event: 
   PlayEvent: 1
-  StopEvent: 4
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -15969,7 +15969,7 @@ MonoBehaviour:
   Params: []
   OverrideAttenuation: 1
   OverrideMinDistance: 1
-  OverrideMaxDistance: 25
+  OverrideMaxDistance: 40
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
