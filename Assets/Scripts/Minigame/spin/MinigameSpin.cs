@@ -25,6 +25,8 @@ namespace Minigame.spin
         [SerializeField] private EventReference klokkeRiktig;
         
         [SerializeField] private EventReference klokkeFeil;
+
+        [SerializeField] private EventReference scrapPick;
         
 
 // rangev1 er fra pilposisjon - klrange til pilposisjon
@@ -95,6 +97,7 @@ namespace Minigame.spin
 
             if (score >= 3)
             {
+                global::AudioManager.instance.PlayOneShot(scrapPick, this.transform.position);
                 MiniGameManager.Parts += 1;
                 minigameMusicEventInstance.stop(STOP_MODE.IMMEDIATE);
                 _miniGameManager.SpinMiniGameDown();

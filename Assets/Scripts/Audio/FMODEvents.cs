@@ -18,6 +18,7 @@ public class FMODEvents : MonoBehaviour
     [field: SerializeField] public EventReference breathing { get; private set; }
     [field: SerializeField] public EventReference hurt { get; private set; }
     [field: SerializeField] public EventReference heartbeat { get; private set; }
+    [field: SerializeField] public EventReference scrapPick { get; private set; }
    
     [field: Header("Minigame")]
     [field: SerializeField] public EventReference klokkeFeil { get; private set; }

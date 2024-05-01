@@ -195,6 +195,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 494
   Exists: 1
+--- !u!114 &-957685700854930332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Death/playerdied
+  m_EditorClassIdentifier: 
+  Path: event:/Death/playerdied
+  Guid:
+    Data1: 1942400990
+    Data2: 1323308280
+    Data3: -1661813879
+    Data4: 1874218981
+  Banks:
+  - {fileID: 4795848956991092548}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-285388320848781526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,7 +237,7 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638499986348694537
+  lastModified: 638501997397781782
   FileSizes:
   - Name: Desktop
     Value: 2564
@@ -235,6 +262,7 @@ MonoBehaviour:
   - {fileID: -2306835472606467729}
   - {fileID: 8973622251072134689}
   - {fileID: 1650577763926043040}
+  - {fileID: 4795848956991092548}
   EditorEvents:
   - {fileID: -6936178766768643985}
   - {fileID: 3380489676708778243}
@@ -245,13 +273,44 @@ MonoBehaviour:
   - {fileID: 2223630343044865921}
   - {fileID: 4918156121218485034}
   - {fileID: -5508857535655869782}
+  - {fileID: 4327304160167485988}
+  - {fileID: 411700288445007587}
+  - {fileID: -957685700854930332}
+  - {fileID: 8602109530578357580}
   EditorParameters: []
   MasterBanks:
   - {fileID: -285388320848781526}
   StringsBanks:
   - {fileID: 8301521104096498491}
-  cacheTime: 638499986351313592
+  cacheTime: 638501997398764115
   cacheVersion: 131617
+--- !u!114 &411700288445007587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Death/deathsong
+  m_EditorClassIdentifier: 
+  Path: event:/Death/deathsong
+  Guid:
+    Data1: -1399150538
+    Data2: 1243332059
+    Data3: 1324892607
+    Data4: 890348497
+  Banks:
+  - {fileID: 4795848956991092548}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &1650577763926043040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -267,7 +326,7 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/MinigameMusic.bank
   Name: MinigameMusic
   StudioPath: bank:/MinigameMusic
-  lastModified: 638499986351313592
+  lastModified: 638501994752137804
   FileSizes:
   - Name: Desktop
     Value: 60928
@@ -327,6 +386,53 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &4327304160167485988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/scrapPick
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/scrapPick
+  Guid:
+    Data1: 116142578
+    Data2: 1247444327
+    Data3: 612574907
+    Data4: -497568927
+  Banks:
+  - {fileID: 8973622251072134689}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4795848956991092548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Death.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Death.bank
+  Name: Death
+  StudioPath: bank:/Death
+  lastModified: 638501994748105210
+  FileSizes:
+  - Name: Desktop
+    Value: 1938
+  Exists: 1
 --- !u!114 &4918156121218485034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -444,11 +550,38 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638499986348735354
+  lastModified: 638501997397813094
   FileSizes:
   - Name: Desktop
-    Value: 1696
+    Value: 1928
   Exists: 1
+--- !u!114 &8602109530578357580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/World/SonarPing
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/World/SonarPing
+  Guid:
+    Data1: -264622210
+    Data2: 1074041560
+    Data3: -1093090426
+    Data4: 674322755
+  Banks:
+  - {fileID: 8973622251072134689}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2600
 --- !u!114 &8732273382727214763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -491,10 +624,10 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638499986351051293
+  lastModified: 638501997398764115
   FileSizes:
   - Name: Desktop
-    Value: 134944
+    Value: 169760
   Exists: 1
 --- !u!114 &9041983996545952212
 MonoBehaviour:

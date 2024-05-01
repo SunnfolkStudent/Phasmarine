@@ -1954,8 +1954,49 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6252869077761100258, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 247793194}
   m_SourcePrefab: {fileID: 100100000, guid: 4f9b0ac0505c067458de02767bd3634c, type: 3}
+--- !u!1 &247793193 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6252869077761100258, guid: 4f9b0ac0505c067458de02767bd3634c,
+    type: 3}
+  m_PrefabInstance: {fileID: 247793192}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &247793194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247793193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -264622210
+      Data2: 1074041560
+      Data3: -1093090426
+      Data4: 674322755
+    Path: event:/SFX/World/SonarPing
+  Event: 
+  PlayEvent: 1
+  StopEvent: 4
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 30
 --- !u!4 &255147510 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2292821344605886878, guid: 6fbc37892edc83b4fa17ed6aba369264,
@@ -2137,6 +2178,13 @@ MonoBehaviour:
       Data4: 0
     Path: 
   <heartbeat>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  <scrapPick>k__BackingField:
     Guid:
       Data1: 0
       Data2: 0
@@ -3474,8 +3522,49 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6252869077761100258, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 451058612}
   m_SourcePrefab: {fileID: 100100000, guid: 4f9b0ac0505c067458de02767bd3634c, type: 3}
+--- !u!1 &451058611 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6252869077761100258, guid: 4f9b0ac0505c067458de02767bd3634c,
+    type: 3}
+  m_PrefabInstance: {fileID: 451058610}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &451058612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451058611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -264622210
+      Data2: 1074041560
+      Data3: -1093090426
+      Data4: 674322755
+    Path: event:/SFX/World/SonarPing
+  Event: 
+  PlayEvent: 1
+  StopEvent: 4
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &455288734
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5818,8 +5907,49 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6252869077761100258, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 783069506}
   m_SourcePrefab: {fileID: 100100000, guid: 4f9b0ac0505c067458de02767bd3634c, type: 3}
+--- !u!1 &783069505 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6252869077761100258, guid: 4f9b0ac0505c067458de02767bd3634c,
+    type: 3}
+  m_PrefabInstance: {fileID: 783069504}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &783069506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783069505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -264622210
+      Data2: 1074041560
+      Data3: -1093090426
+      Data4: 674322755
+    Path: event:/SFX/World/SonarPing
+  Event: 
+  PlayEvent: 1
+  StopEvent: 4
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 25
 --- !u!1001 &800025424
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10535,8 +10665,49 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6252869077761100258, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1436487144}
   m_SourcePrefab: {fileID: 100100000, guid: 4f9b0ac0505c067458de02767bd3634c, type: 3}
+--- !u!1 &1436487143 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6252869077761100258, guid: 4f9b0ac0505c067458de02767bd3634c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1436487142}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1436487144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436487143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -264622210
+      Data2: 1074041560
+      Data3: -1093090426
+      Data4: 674322755
+    Path: event:/SFX/World/SonarPing
+  Event: 
+  PlayEvent: 1
+  StopEvent: 4
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &1445174113 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7350838447636535912, guid: b08b25f3c07b9ed499688dc345a02a4e,
@@ -15544,8 +15715,49 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6252869077761100258, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7335804836731337249}
   m_SourcePrefab: {fileID: 100100000, guid: 4f9b0ac0505c067458de02767bd3634c, type: 3}
+--- !u!1 &7335804836731337248 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6252869077761100258, guid: 4f9b0ac0505c067458de02767bd3634c,
+    type: 3}
+  m_PrefabInstance: {fileID: 7335804836731337247}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7335804836731337249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7335804836731337248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -264622210
+      Data2: 1074041560
+      Data3: -1093090426
+      Data4: 674322755
+    Path: event:/SFX/World/SonarPing
+  Event: 
+  PlayEvent: 1
+  StopEvent: 4
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 25
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
