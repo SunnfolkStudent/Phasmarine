@@ -24,7 +24,7 @@ public class SubmarineDoorController : MonoBehaviour, IInteracteble
     {
         if (MiniGameManager.Parts == maxParts)
         {
-            MiniGameManager.instance.PuzzleMiniGameUp();
+            StatickSceneControler.PuzzleMiniGameUp();
             //Gå til neste level??
             //Destroy(gameObject);
             return true;

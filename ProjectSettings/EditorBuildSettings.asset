@@ -24,7 +24,10 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelOne.unity
     guid: 739cba03ad9eab14399558fce0e6dbd9
   - enabled: 1
-    path: Assets/Scenes/Leveltwo.unity
+    path: Assets/Scenes/LevelTwo.unity
     guid: d3a825c421600cf47a4c80116bcb3d48
+  - enabled: 1
+    path: Assets/Scenes/Minigames/PuzzleMiniGame.unity
+    guid: cfe576ccb72b50d48b58c0ed80b860c0
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

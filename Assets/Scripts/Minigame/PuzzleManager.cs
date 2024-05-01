@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -39,7 +38,7 @@ public class PuzzleManager : MonoBehaviour
             if (counter >= 21)
             {
                 Debug.Log("All right");
-                _miniGameManager.PuzzleMiniGameDown();
+                StatickSceneControler.nextLevel();
             }
 
             isChecking = false;
