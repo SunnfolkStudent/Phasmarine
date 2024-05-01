@@ -2,7 +2,7 @@ using UnityEngine.SceneManagement;
 
 public static class StatickSceneControler
 {
-    private static int level;
+    public static int level;
     public static void CleaningMiniGameUp()
     {
         SceneManager.LoadScene("CleaningMiniGame", LoadSceneMode.Additive);
@@ -62,6 +62,7 @@ public static class StatickSceneControler
         {
             SceneManager.LoadScene("LevelOne");
             level = 2;
+            
         }
         else if (level == 2)
         {
