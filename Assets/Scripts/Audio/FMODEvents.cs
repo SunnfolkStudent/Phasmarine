@@ -12,6 +12,9 @@ public class FMODEvents : MonoBehaviour
     [field: Header("Ambience")]
     [field: SerializeField] public EventReference ambience { get; private set; }
     
+    [field: Header("Death")]
+    [field: SerializeField] public EventReference playerDied { get; private set; }
+    
     [field: Header("Player SFX")]
     [field: SerializeField] public EventReference footstepsMetal { get; private set; }
     [field: SerializeField] public EventReference footstepsSand { get; private set; }

@@ -21,7 +21,8 @@ namespace Minigame.spin
         [SerializeField]private float pilpos;
 
         [SerializeField]private float spotpos;
-
+        
+        //audio
         [SerializeField] private EventReference klokkeRiktig;
         
         [SerializeField] private EventReference klokkeFeil;
@@ -38,7 +39,8 @@ namespace Minigame.spin
         [SerializeField]private RectTransform spotTransform;
         
         private int score;
-
+        
+        //audio
         private void Start()
         {
             InitializeMinigameMusic(FMODEvents.instance.minigameMusic);

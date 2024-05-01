@@ -427,6 +427,43 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 77096341}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &78293134 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3832154864297059850, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
+    type: 3}
+  m_PrefabInstance: {fileID: 88869990}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &78293138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78293134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -269566501
+      Data2: 1107969999
+      Data3: -1116481113
+      Data4: -1562296811
+    Path: event:/SFX/World/FishPing
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &78351584
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -572,7 +609,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3832154864297059850, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 78293138}
   m_SourcePrefab: {fileID: 100100000, guid: 7f1b96fb0c5670640bb6bf51ff219a05, type: 3}
 --- !u!1001 &89291008
 PrefabInstance:
@@ -1720,6 +1761,13 @@ MonoBehaviour:
       Data3: 1172334486
       Data4: -893329921
     Path: event:/Ambience/Deep Sea
+  <playerDied>k__BackingField:
+    Guid:
+      Data1: 1942400990
+      Data2: 1323308280
+      Data3: -1661813879
+      Data4: 1874218981
+    Path: event:/Death/playerdied
   <footstepsMetal>k__BackingField:
     Guid:
       Data1: 1768421824
@@ -1757,32 +1805,32 @@ MonoBehaviour:
     Path: 
   <scrapPick>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 116142578
+      Data2: 1247444327
+      Data3: 612574907
+      Data4: -497568927
+    Path: event:/SFX/Player/scrapPick
   <klokkeFeil>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1071959649
+      Data2: 1090570764
+      Data3: -883118692
+      Data4: 1293987305
+    Path: event:/SFX/Minigame/klokkeFeil
   <klokkeRiktig>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1182495617
+      Data2: 1226949296
+      Data3: 934635965
+      Data4: -260513566
+    Path: event:/SFX/Minigame/klokkeRiktig
   <minigameMusic>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -14007840
+      Data2: 1197042020
+      Data3: -2071133807
+      Data4: 1491251826
+    Path: event:/MinigameMusic/minigameMusic
   <eerie>k__BackingField:
     Guid:
       Data1: -84892422
@@ -3384,6 +3432,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &497773277 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3832154864297059850, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
+    type: 3}
+  m_PrefabInstance: {fileID: 1403373687}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &497773281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497773277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -269566501
+      Data2: 1107969999
+      Data3: -1116481113
+      Data4: -1562296811
+    Path: event:/SFX/World/FishPing
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &515414673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4893,8 +4978,49 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3832154864297059850, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1492415304}
   m_SourcePrefab: {fileID: 100100000, guid: 7f1b96fb0c5670640bb6bf51ff219a05, type: 3}
+--- !u!1 &809914718 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3832154864297059850, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
+    type: 3}
+  m_PrefabInstance: {fileID: 886526040}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &809914722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809914718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -269566501
+      Data2: 1107969999
+      Data3: -1116481113
+      Data4: -1562296811
+    Path: event:/SFX/World/FishPing
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &842266449
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5043,6 +5169,43 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 870410510}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &876419662 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3832154864297059850, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
+    type: 3}
+  m_PrefabInstance: {fileID: 2118632059}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &876419666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 876419662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -269566501
+      Data2: 1107969999
+      Data3: -1116481113
+      Data4: -1562296811
+    Path: event:/SFX/World/FishPing
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &884967000
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5193,7 +5356,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3832154864297059850, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 809914722}
   m_SourcePrefab: {fileID: 100100000, guid: 7f1b96fb0c5670640bb6bf51ff219a05, type: 3}
 --- !u!1001 &903254919
 PrefabInstance:
@@ -8999,7 +9166,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3832154864297059850, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 497773281}
   m_SourcePrefab: {fileID: 100100000, guid: 7f1b96fb0c5670640bb6bf51ff219a05, type: 3}
 --- !u!1 &1436351891
 GameObject:
@@ -9743,6 +9914,43 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1491086737}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1492415300 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3832154864297059850, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
+    type: 3}
+  m_PrefabInstance: {fileID: 807000123}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1492415304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492415300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -269566501
+      Data2: 1107969999
+      Data3: -1116481113
+      Data4: -1562296811
+    Path: event:/SFX/World/FishPing
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1547020419
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12822,7 +13030,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3832154864297059850, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 876419666}
   m_SourcePrefab: {fileID: 100100000, guid: 7f1b96fb0c5670640bb6bf51ff219a05, type: 3}
 --- !u!1001 &2138549087
 PrefabInstance:
