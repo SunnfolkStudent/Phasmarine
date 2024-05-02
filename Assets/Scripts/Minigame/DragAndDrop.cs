@@ -44,10 +44,21 @@ public class DragAndDrop : MonoBehaviour, IDragHandler
                 
                 if (MiniGameManager.instance.seaweedleft == 0)
                 {
-                    MiniGameManager.Parts += 1;
                     AudioManager.instance.PlayOneShot(scrapPick, this.transform.position);
                     Debug.Log("Seaweed collider");
-                    _miniGameManager.CleaningMiniGameDown();
+                    if (MiniGameManager.Parts == 0)
+                    {
+                        _miniGameManager.CleaningMiniGameDown();
+                    }
+                    if (MiniGameManager.Parts == 1)
+                    {
+                        _miniGameManager.CleaningMiniGameDown2();
+                    }
+                    if (MiniGameManager.Parts == 2)
+                    {
+                        _miniGameManager.CleaningMiniGameDown3();
+                    }
+                    MiniGameManager.Parts += 1;
                 }
                 
             }
