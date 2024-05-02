@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;using UnityEngine.EventSystems;
+using FMODUnity;
 
 public class DragAndDrop : MonoBehaviour, IDragHandler
 {
@@ -11,6 +12,7 @@ public class DragAndDrop : MonoBehaviour, IDragHandler
     private Vector3 velocity = Vector3.zero;
     private bool draggable = true;
     private MiniGameManager _miniGameManager;
+    [SerializeField] private EventReference scrapPick;
 
     private Vector2 minmaxX = new Vector2(-500, 850);
     private Vector2 minmaxY = new Vector2(-500, 650);
@@ -43,6 +45,7 @@ public class DragAndDrop : MonoBehaviour, IDragHandler
                 if (MiniGameManager.instance.seaweedleft == 0)
                 {
                     MiniGameManager.Parts += 1;
+                    AudioManager.instance.PlayOneShot(scrapPick, this.transform.position);
                     Debug.Log("Seaweed collider");
                     _miniGameManager.CleaningMiniGameDown();
                 }

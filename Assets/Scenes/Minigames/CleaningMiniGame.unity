@@ -286,6 +286,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 116142578
+      Data2: 1247444327
+      Data3: 612574907
+      Data4: -497568927
+    Path: event:/SFX/Player/scrapPick
 --- !u!114 &484839204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -375,6 +382,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 116142578
+      Data2: 1247444327
+      Data3: 612574907
+      Data4: -497568927
+    Path: event:/SFX/Player/scrapPick
 --- !u!114 &534958241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -502,6 +516,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 116142578
+      Data2: 1247444327
+      Data3: 612574907
+      Data4: -497568927
+    Path: event:/SFX/Player/scrapPick
 --- !u!1 &625130499
 GameObject:
   m_ObjectHideFlags: 0
@@ -591,6 +612,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 116142578
+      Data2: 1247444327
+      Data3: 612574907
+      Data4: -497568927
+    Path: event:/SFX/Player/scrapPick
 --- !u!1 &709098880
 GameObject:
   m_ObjectHideFlags: 0
@@ -642,6 +670,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 116142578
+      Data2: 1247444327
+      Data3: 612574907
+      Data4: -497568927
+    Path: event:/SFX/Player/scrapPick
 --- !u!114 &709098883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -731,6 +766,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 116142578
+      Data2: 1247444327
+      Data3: 612574907
+      Data4: -497568927
+    Path: event:/SFX/Player/scrapPick
 --- !u!114 &720929058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -858,6 +900,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 116142578
+      Data2: 1247444327
+      Data3: 612574907
+      Data4: -497568927
+    Path: event:/SFX/Player/scrapPick
 --- !u!1 &802018196
 GameObject:
   m_ObjectHideFlags: 0
@@ -909,6 +958,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 116142578
+      Data2: 1247444327
+      Data3: 612574907
+      Data4: -497568927
+    Path: event:/SFX/Player/scrapPick
 --- !u!114 &802018199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -998,6 +1054,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 116142578
+      Data2: 1247444327
+      Data3: 612574907
+      Data4: -497568927
+    Path: event:/SFX/Player/scrapPick
 --- !u!114 &1138236411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1227,6 +1290,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 116142578
+      Data2: 1247444327
+      Data3: 612574907
+      Data4: -497568927
+    Path: event:/SFX/Player/scrapPick
 --- !u!1 &1258598855
 GameObject:
   m_ObjectHideFlags: 0
@@ -1316,6 +1386,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 116142578
+      Data2: 1247444327
+      Data3: 612574907
+      Data4: -497568927
+    Path: event:/SFX/Player/scrapPick
 --- !u!1 &1319180384
 GameObject:
   m_ObjectHideFlags: 0
@@ -1405,6 +1482,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 116142578
+      Data2: 1247444327
+      Data3: 612574907
+      Data4: -497568927
+    Path: event:/SFX/Player/scrapPick
 --- !u!1 &1509048749
 GameObject:
   m_ObjectHideFlags: 0
@@ -1494,6 +1578,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 116142578
+      Data2: 1247444327
+      Data3: 612574907
+      Data4: -497568927
+    Path: event:/SFX/Player/scrapPick
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
