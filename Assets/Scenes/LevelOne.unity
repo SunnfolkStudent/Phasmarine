@@ -1810,6 +1810,13 @@ MonoBehaviour:
       Data3: 612574907
       Data4: -497568927
     Path: event:/SFX/Player/scrapPick
+  <stun>k__BackingField:
+    Guid:
+      Data1: -13726271
+      Data2: 1183059927
+      Data3: 306193340
+      Data4: -2040009041
+    Path: event:/SFX/Player/stun
   <klokkeFeil>k__BackingField:
     Guid:
       Data1: -1071959649
@@ -13318,6 +13325,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 690304120794209248, guid: 847c1cadb1a82be47a0c4578277d173b,
+        type: 3}
+      propertyPath: stun.Path
+      value: event:/SFX/Player/stun
+      objectReference: {fileID: 0}
+    - target: {fileID: 690304120794209248, guid: 847c1cadb1a82be47a0c4578277d173b,
+        type: 3}
+      propertyPath: stun.Guid.Data1
+      value: -13726271
+      objectReference: {fileID: 0}
+    - target: {fileID: 690304120794209248, guid: 847c1cadb1a82be47a0c4578277d173b,
+        type: 3}
+      propertyPath: stun.Guid.Data2
+      value: 1183059927
+      objectReference: {fileID: 0}
+    - target: {fileID: 690304120794209248, guid: 847c1cadb1a82be47a0c4578277d173b,
+        type: 3}
+      propertyPath: stun.Guid.Data3
+      value: 306193340
+      objectReference: {fileID: 0}
+    - target: {fileID: 690304120794209248, guid: 847c1cadb1a82be47a0c4578277d173b,
+        type: 3}
+      propertyPath: stun.Guid.Data4
+      value: -2040009041
       objectReference: {fileID: 0}
     - target: {fileID: 3569526298095887024, guid: 847c1cadb1a82be47a0c4578277d173b,
         type: 3}

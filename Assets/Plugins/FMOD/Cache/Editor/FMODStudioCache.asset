@@ -202,6 +202,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1075968
   Exists: 1
+--- !u!114 &-2701493572043550257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/stun
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/stun
+  Guid:
+    Data1: -13726271
+    Data2: 1183059927
+    Data3: 306193340
+    Data4: -2040009041
+  Banks:
+  - {fileID: 8973622251072134689}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-2306835472606467729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -264,7 +291,7 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638502021634502583
+  lastModified: 638502450485399052
   FileSizes:
   - Name: Desktop
     Value: 2564
@@ -305,12 +332,13 @@ MonoBehaviour:
   - {fileID: -957685700854930332}
   - {fileID: 8602109530578357580}
   - {fileID: -7296114276025318184}
+  - {fileID: -2701493572043550257}
   EditorParameters: []
   MasterBanks:
   - {fileID: -285388320848781526}
   StringsBanks:
   - {fileID: 8301521104096498491}
-  cacheTime: 638502098250183630
+  cacheTime: 638502450488155113
   cacheVersion: 131617
 --- !u!114 &411700288445007587
 MonoBehaviour:
@@ -578,10 +606,10 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638502021634528681
+  lastModified: 638502450485429499
   FileSizes:
   - Name: Desktop
-    Value: 1980
+    Value: 2026
   Exists: 1
 --- !u!114 &8602109530578357580
 MonoBehaviour:
@@ -652,10 +680,10 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638502098250183630
+  lastModified: 638502450488155113
   FileSizes:
   - Name: Desktop
-    Value: 197600
+    Value: 213600
   Exists: 1
 --- !u!114 &9041983996545952212
 MonoBehaviour:
