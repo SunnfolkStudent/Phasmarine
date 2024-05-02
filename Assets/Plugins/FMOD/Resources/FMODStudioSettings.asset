@@ -599,9 +599,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game
-    Project/Final Game Project.fspro
-  sourceBankPath: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build
+  sourceProjectPath: ../FMOD-RHEA/Final Game Project.fspro
+  sourceBankPath: ../FMOD-RHEA/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1

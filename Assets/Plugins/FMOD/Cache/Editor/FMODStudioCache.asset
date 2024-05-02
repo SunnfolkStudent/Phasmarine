@@ -1,25 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9178201120950246205
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Ambience.bank
-  m_EditorClassIdentifier: 
-  Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Ambience.bank
-  Name: Ambience
-  StudioPath: bank:/Ambience
-  lastModified: 638497367571993637
-  FileSizes:
-  - Name: Desktop
-    Value: 845088
-  Exists: 1
 --- !u!114 &-7755776725508790464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39,7 +19,7 @@ MonoBehaviour:
     Data3: 1108120754
     Data4: 1434556327
   Banks:
-  - {fileID: 8973622251072134689}
+  - {fileID: -6986838956035516223}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -66,7 +46,7 @@ MonoBehaviour:
     Data3: -1116481113
     Data4: -1562296811
   Banks:
-  - {fileID: 8973622251072134689}
+  - {fileID: -6986838956035516223}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -74,6 +54,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3131
+--- !u!114 &-6986838956035516223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD-RHEA/Build/Desktop/SFX.bank
+  Name: SFX
+  StudioPath: bank:/SFX
+  lastModified: 638502436030366009
+  FileSizes:
+  - Name: Desktop
+    Value: 197600
+  Exists: 1
 --- !u!114 &-6936178766768643985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93,7 +93,7 @@ MonoBehaviour:
     Data3: 1172334486
     Data4: -893329921
   Banks:
-  - {fileID: -9178201120950246205}
+  - {fileID: 2685948036011649177}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -120,7 +120,7 @@ MonoBehaviour:
     Data3: -883118692
     Data4: 1293987305
   Banks:
-  - {fileID: 8973622251072134689}
+  - {fileID: -6986838956035516223}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -128,6 +128,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-4342512173466826267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Eerie.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD-RHEA/Build/Desktop/Eerie.bank
+  Name: Eerie
+  StudioPath: bank:/Eerie
+  lastModified: 638502436027177212
+  FileSizes:
+  - Name: Desktop
+    Value: 1075968
+  Exists: 1
 --- !u!114 &-3834096093340105495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,7 +167,7 @@ MonoBehaviour:
     Data3: -879065669
     Data4: 1502305317
   Banks:
-  - {fileID: -9178201120950246205}
+  - {fileID: 2685948036011649177}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -182,7 +202,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-2780572442259276600
+--- !u!114 &-1149947493122175436
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -192,62 +212,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Eerie.bank
+  m_Name: bank:/Master.bank
   m_EditorClassIdentifier: 
-  Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Eerie.bank
-  Name: Eerie
-  StudioPath: bank:/Eerie
-  lastModified: 638502024217329058
+  Path: ../FMOD-RHEA/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638502436027257511
   FileSizes:
   - Name: Desktop
-    Value: 1075968
-  Exists: 1
---- !u!114 &-2701493572043550257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Player/stun
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Player/stun
-  Guid:
-    Data1: -13726271
-    Data2: 1183059927
-    Data3: 306193340
-    Data4: -2040009041
-  Banks:
-  - {fileID: 8973622251072134689}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-2306835472606467729
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Music.bank
-  m_EditorClassIdentifier: 
-  Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Music.bank
-  Name: Music
-  StudioPath: bank:/Music
-  lastModified: 638489595639426987
-  FileSizes:
-  - Name: Desktop
-    Value: 494
+    Value: 2564
   Exists: 1
 --- !u!114 &-957685700854930332
 MonoBehaviour:
@@ -268,7 +241,7 @@ MonoBehaviour:
     Data3: -1661813879
     Data4: 1874218981
   Banks:
-  - {fileID: 4795848956991092548}
+  - {fileID: 1240074637440863724}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -276,7 +249,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-285388320848781526
+--- !u!114 &-775729460829749549
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -286,15 +259,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
+  m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
-  Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638502450485399052
+  Path: ../FMOD-RHEA/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638502436027263523
   FileSizes:
   - Name: Desktop
-    Value: 2564
+    Value: 1980
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -309,14 +282,14 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 8301521104096498491}
-  - {fileID: -9178201120950246205}
-  - {fileID: -2780572442259276600}
-  - {fileID: -285388320848781526}
-  - {fileID: -2306835472606467729}
-  - {fileID: 8973622251072134689}
-  - {fileID: 1650577763926043040}
-  - {fileID: 4795848956991092548}
+  - {fileID: -775729460829749549}
+  - {fileID: 2685948036011649177}
+  - {fileID: 1240074637440863724}
+  - {fileID: -4342512173466826267}
+  - {fileID: -1149947493122175436}
+  - {fileID: 2112808306693878098}
+  - {fileID: 8905877925966769597}
+  - {fileID: -6986838956035516223}
   EditorEvents:
   - {fileID: -6936178766768643985}
   - {fileID: 3380489676708778243}
@@ -332,13 +305,12 @@ MonoBehaviour:
   - {fileID: -957685700854930332}
   - {fileID: 8602109530578357580}
   - {fileID: -7296114276025318184}
-  - {fileID: -2701493572043550257}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -285388320848781526}
+  - {fileID: -1149947493122175436}
   StringsBanks:
-  - {fileID: 8301521104096498491}
-  cacheTime: 638502450488155113
+  - {fileID: -775729460829749549}
+  cacheTime: 638502436030366009
   cacheVersion: 131617
 --- !u!114 &411700288445007587
 MonoBehaviour:
@@ -359,7 +331,7 @@ MonoBehaviour:
     Data3: 1324892607
     Data4: 890348497
   Banks:
-  - {fileID: 4795848956991092548}
+  - {fileID: 1240074637440863724}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -367,7 +339,27 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &1650577763926043040
+--- !u!114 &1240074637440863724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Death.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD-RHEA/Build/Desktop/Death.bank
+  Name: Death
+  StudioPath: bank:/Death
+  lastModified: 638502436026451805
+  FileSizes:
+  - Name: Desktop
+    Value: 86528
+  Exists: 1
+--- !u!114 &2112808306693878098
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -379,10 +371,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/MinigameMusic.bank
   m_EditorClassIdentifier: 
-  Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/MinigameMusic.bank
+  Path: ../FMOD-RHEA/Build/Desktop/MinigameMusic.bank
   Name: MinigameMusic
   StudioPath: bank:/MinigameMusic
-  lastModified: 638501994752137804
+  lastModified: 638502436028618188
   FileSizes:
   - Name: Desktop
     Value: 60928
@@ -406,8 +398,8 @@ MonoBehaviour:
     Data3: -2071133807
     Data4: 1491251826
   Banks:
-  - {fileID: 1650577763926043040}
-  - {fileID: 8973622251072134689}
+  - {fileID: 2112808306693878098}
+  - {fileID: -6986838956035516223}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -415,6 +407,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4266
+--- !u!114 &2685948036011649177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD-RHEA/Build/Desktop/Ambience.bank
+  Name: Ambience
+  StudioPath: bank:/Ambience
+  lastModified: 638497377206165213
+  FileSizes:
+  - Name: Desktop
+    Value: 845088
+  Exists: 1
 --- !u!114 &3380489676708778243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -434,7 +446,7 @@ MonoBehaviour:
     Data3: -785409110
     Data4: 776239347
   Banks:
-  - {fileID: -285388320848781526}
+  - {fileID: -1149947493122175436}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -461,7 +473,7 @@ MonoBehaviour:
     Data3: 612574907
     Data4: -497568927
   Banks:
-  - {fileID: 8973622251072134689}
+  - {fileID: -6986838956035516223}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -469,26 +481,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &4795848956991092548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Death.bank
-  m_EditorClassIdentifier: 
-  Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Death.bank
-  Name: Death
-  StudioPath: bank:/Death
-  lastModified: 638502035244954180
-  FileSizes:
-  - Name: Desktop
-    Value: 86528
-  Exists: 1
 --- !u!114 &4918156121218485034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -508,7 +500,7 @@ MonoBehaviour:
     Data3: 934635965
     Data4: -260513566
   Banks:
-  - {fileID: 8973622251072134689}
+  - {fileID: -6986838956035516223}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -583,7 +575,7 @@ MonoBehaviour:
     Data3: -382657407
     Data4: 792562223
   Banks:
-  - {fileID: -2780572442259276600}
+  - {fileID: -4342512173466826267}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -591,26 +583,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 45000
---- !u!114 &8301521104096498491
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638502450485429499
-  FileSizes:
-  - Name: Desktop
-    Value: 2026
-  Exists: 1
 --- !u!114 &8602109530578357580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -630,7 +602,7 @@ MonoBehaviour:
     Data3: -1093090426
     Data4: 674322755
   Banks:
-  - {fileID: 8973622251072134689}
+  - {fileID: -6986838956035516223}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -657,7 +629,7 @@ MonoBehaviour:
     Data3: 129225404
     Data4: 392817359
   Banks:
-  - {fileID: 8973622251072134689}
+  - {fileID: -6986838956035516223}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -665,7 +637,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 650
---- !u!114 &8973622251072134689
+--- !u!114 &8905877925966769597
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -675,15 +647,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/SFX.bank
+  m_Name: bank:/Music.bank
   m_EditorClassIdentifier: 
-  Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/SFX.bank
-  Name: SFX
-  StudioPath: bank:/SFX
-  lastModified: 638502450488155113
+  Path: ../FMOD-RHEA/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638497285490925436
   FileSizes:
   - Name: Desktop
-    Value: 213600
+    Value: 494
   Exists: 1
 --- !u!114 &9041983996545952212
 MonoBehaviour:
