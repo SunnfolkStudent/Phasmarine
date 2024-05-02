@@ -44,6 +44,7 @@ public class DragAndDrop : MonoBehaviour, IDragHandler
                 {
                     MiniGameManager.Parts += 1;
                     Debug.Log("Seaweed collider");
+                    if 
                     _miniGameManager.CleaningMiniGameDown();
                 }
                 
