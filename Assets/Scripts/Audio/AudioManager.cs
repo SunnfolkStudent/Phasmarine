@@ -11,6 +11,8 @@ public class AudioManager : MonoBehaviour
    
    private EventInstance eerieEventInstance;
    
+   private EventInstance playerDiedEventInstance;
+   
    public static AudioManager instance { get; private set; }
 
    private void Awake()
@@ -29,6 +31,7 @@ public class AudioManager : MonoBehaviour
    {
       InitializeAmbience(FMODEvents.instance.ambience);
       InitializeEerie(FMODEvents.instance.eerie);
+      InitializeplayerDied(FMODEvents.instance.playerDied);
    }
 
    private void InitializeAmbience(EventReference ambienceEventReference)
@@ -41,6 +44,12 @@ public class AudioManager : MonoBehaviour
    {
       eerieEventInstance = CreateInstance(eerieEventReference);
       eerieEventInstance.start();
+   }
+
+   private void InitializeplayerDied(EventReference playerDiedEventReference)
+   {
+      playerDiedEventInstance = CreateInstance(playerDiedEventReference);
+      playerDiedEventInstance.start();
    }
 
    public EventInstance CreateInstance(EventReference eventReference)

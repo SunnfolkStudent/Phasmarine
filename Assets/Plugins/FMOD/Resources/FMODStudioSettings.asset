@@ -626,6 +626,7 @@ MonoBehaviour:
   - Master
   Banks:
   - Ambience
+  - Death
   - Eerie
   - MinigameMusic
   - Music

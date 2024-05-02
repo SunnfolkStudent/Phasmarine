@@ -278,6 +278,7 @@ GameObject:
   m_Component:
   - component: {fileID: 32049638}
   - component: {fileID: 32049637}
+  - component: {fileID: 32049639}
   m_Layer: 0
   m_Name: DestroydSubmarine
   m_TagString: Untagged
@@ -325,6 +326,37 @@ Transform:
   - {fileID: 1313899387}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &32049639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32049636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -264622210
+      Data2: 1074041560
+      Data3: -1093090426
+      Data4: 674322755
+    Path: event:/SFX/World/SonarPing
+  Event: 
+  PlayEvent: 1
+  StopEvent: 3
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 50
 --- !u!1001 &46665938
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1922,6 +1954,13 @@ MonoBehaviour:
       Data3: 1172334486
       Data4: -893329921
     Path: event:/Ambience/Deep Sea
+  <playerDied>k__BackingField:
+    Guid:
+      Data1: 1942400990
+      Data2: 1323308280
+      Data3: -1661813879
+      Data4: 1874218981
+    Path: event:/Death/playerdied
   <footstepsMetal>k__BackingField:
     Guid:
       Data1: 1768421824
@@ -1951,6 +1990,13 @@ MonoBehaviour:
       Data4: 0
     Path: 
   <heartbeat>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  <scrapPick>k__BackingField:
     Guid:
       Data1: 0
       Data2: 0
@@ -5689,7 +5735,7 @@ Camera:
   far clip plane: 1000
   field of view: 60.000004
   orthographic: 0
-  orthographic size: 10
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -7209,8 +7255,49 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3832154864297059850, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1401563053}
   m_SourcePrefab: {fileID: 100100000, guid: 7f1b96fb0c5670640bb6bf51ff219a05, type: 3}
+--- !u!1 &1401563052 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3832154864297059850, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
+    type: 3}
+  m_PrefabInstance: {fileID: 1401563051}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1401563053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401563052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -269566501
+      Data2: 1107969999
+      Data3: -1116481113
+      Data4: -1562296811
+    Path: event:/SFX/World/FishPing
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1434783750
 PrefabInstance:
   m_ObjectHideFlags: 0
