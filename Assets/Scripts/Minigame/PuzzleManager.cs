@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -38,10 +39,16 @@ public class PuzzleManager : MonoBehaviour
             if (counter >= 21)
             {
                 Debug.Log("All right");
-                StatickSceneControler.nextLevel();
+                StartCoroutine(INextLevel());
             }
 
             isChecking = false;
         }
+    }
+
+    public IEnumerator INextLevel()
+    {
+        yield return new WaitForSeconds(1.5f);
+        StatickSceneControler.nextLevel();
     }
 }

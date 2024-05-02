@@ -6840,6 +6840,59 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1347954145}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1361534602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1361534604}
+  - component: {fileID: 1361534603}
+  m_Layer: 0
+  m_Name: FadeOutControler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!320 &1361534603
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361534602}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 4f3470395de5b914c850ea7f89cdf603, type: 2}
+  m_InitialState: 0
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -5470883965800788149, guid: 4f3470395de5b914c850ea7f89cdf603, type: 2}
+    value: {fileID: 1420892448}
+  - key: {fileID: -116933677468731341, guid: 4f3470395de5b914c850ea7f89cdf603, type: 2}
+    value: {fileID: 747779508}
+  m_ExposedReferences:
+    m_References: []
+--- !u!4 &1361534604
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361534602}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.216938, y: 10.920757, z: -9.331589}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1362204551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11958,3 +12011,4 @@ SceneRoots:
   - {fileID: 1669892559}
   - {fileID: 1712347802}
   - {fileID: 1420892452}
+  - {fileID: 1361534604}
