@@ -49,6 +49,7 @@ public class PuzzleManager : MonoBehaviour
     public IEnumerator INextLevel()
     {
         yield return new WaitForSeconds(1.5f);
-        StatickSceneControler.nextLevel();
+        var timelineController = GetComponent<ITimelineController>();
+        timelineController?.StartTimeline();
     }
 }
