@@ -1817,6 +1817,13 @@ MonoBehaviour:
       Data3: 306193340
       Data4: -2040009041
     Path: event:/SFX/Player/stun
+  <nostun>k__BackingField:
+    Guid:
+      Data1: -1645923378
+      Data2: 1226828205
+      Data3: -2045533002
+      Data4: -1446207573
+    Path: event:/SFX/Player/noStun
   <klokkeFeil>k__BackingField:
     Guid:
       Data1: -1071959649
@@ -13333,6 +13340,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 690304120794209248, guid: 847c1cadb1a82be47a0c4578277d173b,
         type: 3}
+      propertyPath: nostun.Path
+      value: event:/SFX/Player/noStun
+      objectReference: {fileID: 0}
+    - target: {fileID: 690304120794209248, guid: 847c1cadb1a82be47a0c4578277d173b,
+        type: 3}
       propertyPath: stun.Guid.Data1
       value: -13726271
       objectReference: {fileID: 0}
@@ -13350,6 +13362,26 @@ PrefabInstance:
         type: 3}
       propertyPath: stun.Guid.Data4
       value: -2040009041
+      objectReference: {fileID: 0}
+    - target: {fileID: 690304120794209248, guid: 847c1cadb1a82be47a0c4578277d173b,
+        type: 3}
+      propertyPath: nostun.Guid.Data1
+      value: -1645923378
+      objectReference: {fileID: 0}
+    - target: {fileID: 690304120794209248, guid: 847c1cadb1a82be47a0c4578277d173b,
+        type: 3}
+      propertyPath: nostun.Guid.Data2
+      value: 1226828205
+      objectReference: {fileID: 0}
+    - target: {fileID: 690304120794209248, guid: 847c1cadb1a82be47a0c4578277d173b,
+        type: 3}
+      propertyPath: nostun.Guid.Data3
+      value: -2045533002
+      objectReference: {fileID: 0}
+    - target: {fileID: 690304120794209248, guid: 847c1cadb1a82be47a0c4578277d173b,
+        type: 3}
+      propertyPath: nostun.Guid.Data4
+      value: -1446207573
       objectReference: {fileID: 0}
     - target: {fileID: 3569526298095887024, guid: 847c1cadb1a82be47a0c4578277d173b,
         type: 3}

@@ -1,589 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7755776725508790464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Player/footstepsSand
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Player/footstepsSand
-  Guid:
-    Data1: -1820182221
-    Data2: 1282957156
-    Data3: 1108120754
-    Data4: 1434556327
-  Banks:
-  - {fileID: -6986838956035516223}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3000
---- !u!114 &-7296114276025318184
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/World/FishPing
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/World/FishPing
-  Guid:
-    Data1: -269566501
-    Data2: 1107969999
-    Data3: -1116481113
-    Data4: -1562296811
-  Banks:
-  - {fileID: -6986838956035516223}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3131
---- !u!114 &-6986838956035516223
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/SFX.bank
-  m_EditorClassIdentifier: 
-  Path: ../FMOD-RHEA/Build/Desktop/SFX.bank
-  Name: SFX
-  StudioPath: bank:/SFX
-  lastModified: 638502436030366009
-  FileSizes:
-  - Name: Desktop
-    Value: 197600
-  Exists: 1
---- !u!114 &-6936178766768643985
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambience/Deep Sea
-  m_EditorClassIdentifier: 
-  Path: event:/Ambience/Deep Sea
-  Guid:
-    Data1: 420809172
-    Data2: 1172624186
-    Data3: 1172334486
-    Data4: -893329921
-  Banks:
-  - {fileID: 2685948036011649177}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 100597
---- !u!114 &-5508857535655869782
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Minigame/klokkeFeil
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Minigame/klokkeFeil
-  Guid:
-    Data1: -1071959649
-    Data2: 1090570764
-    Data3: -883118692
-    Data4: 1293987305
-  Banks:
-  - {fileID: -6986838956035516223}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-4342512173466826267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Eerie.bank
-  m_EditorClassIdentifier: 
-  Path: ../FMOD-RHEA/Build/Desktop/Eerie.bank
-  Name: Eerie
-  StudioPath: bank:/Eerie
-  lastModified: 638502436027177212
-  FileSizes:
-  - Name: Desktop
-    Value: 1075968
-  Exists: 1
---- !u!114 &-3834096093340105495
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambience/breathing
-  m_EditorClassIdentifier: 
-  Path: event:/Ambience/breathing
-  Guid:
-    Data1: -500086114
-    Data2: 1207245385
-    Data3: -879065669
-    Data4: 1502305317
-  Banks:
-  - {fileID: 2685948036011649177}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-3378725795571860234
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Minigame/klokkeRiktig
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Minigame/klokkeRiktig
-  Guid:
-    Data1: 1182495617
-    Data2: 1226949296
-    Data3: 934635965
-    Data4: -260513566
-  Banks:
-  - {fileID: 8973622251072134689}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-1149947493122175436
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: ../FMOD-RHEA/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638502436027257511
-  FileSizes:
-  - Name: Desktop
-    Value: 2564
-  Exists: 1
---- !u!114 &-957685700854930332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Death/playerdied
-  m_EditorClassIdentifier: 
-  Path: event:/Death/playerdied
-  Guid:
-    Data1: 1942400990
-    Data2: 1323308280
-    Data3: -1661813879
-    Data4: 1874218981
-  Banks:
-  - {fileID: 1240074637440863724}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-775729460829749549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: ../FMOD-RHEA/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638502436027263523
-  FileSizes:
-  - Name: Desktop
-    Value: 1980
-  Exists: 1
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: -775729460829749549}
-  - {fileID: 2685948036011649177}
-  - {fileID: 1240074637440863724}
-  - {fileID: -4342512173466826267}
-  - {fileID: -1149947493122175436}
-  - {fileID: 2112808306693878098}
-  - {fileID: 8905877925966769597}
-  - {fileID: -6986838956035516223}
-  EditorEvents:
-  - {fileID: -6936178766768643985}
-  - {fileID: 3380489676708778243}
-  - {fileID: 6905326154829040998}
-  - {fileID: 8732273382727214763}
-  - {fileID: -7755776725508790464}
-  - {fileID: -3834096093340105495}
-  - {fileID: 2223630343044865921}
-  - {fileID: 4918156121218485034}
-  - {fileID: -5508857535655869782}
-  - {fileID: 4327304160167485988}
-  - {fileID: 411700288445007587}
-  - {fileID: -957685700854930332}
-  - {fileID: 8602109530578357580}
-  - {fileID: -7296114276025318184}
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: -1149947493122175436}
-  StringsBanks:
-  - {fileID: -775729460829749549}
-  cacheTime: 638502436030366009
-  cacheVersion: 131617
---- !u!114 &411700288445007587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Death/deathsong
-  m_EditorClassIdentifier: 
-  Path: event:/Death/deathsong
-  Guid:
-    Data1: -1399150538
-    Data2: 1243332059
-    Data3: 1324892607
-    Data4: 890348497
-  Banks:
-  - {fileID: 1240074637440863724}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &1240074637440863724
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Death.bank
-  m_EditorClassIdentifier: 
-  Path: ../FMOD-RHEA/Build/Desktop/Death.bank
-  Name: Death
-  StudioPath: bank:/Death
-  lastModified: 638502436026451805
-  FileSizes:
-  - Name: Desktop
-    Value: 86528
-  Exists: 1
---- !u!114 &2112808306693878098
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/MinigameMusic.bank
-  m_EditorClassIdentifier: 
-  Path: ../FMOD-RHEA/Build/Desktop/MinigameMusic.bank
-  Name: MinigameMusic
-  StudioPath: bank:/MinigameMusic
-  lastModified: 638502436028618188
-  FileSizes:
-  - Name: Desktop
-    Value: 60928
-  Exists: 1
---- !u!114 &2223630343044865921
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MinigameMusic/minigameMusic
-  m_EditorClassIdentifier: 
-  Path: event:/MinigameMusic/minigameMusic
-  Guid:
-    Data1: -14007840
-    Data2: 1197042020
-    Data3: -2071133807
-    Data4: 1491251826
-  Banks:
-  - {fileID: 2112808306693878098}
-  - {fileID: -6986838956035516223}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 4266
---- !u!114 &2685948036011649177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Ambience.bank
-  m_EditorClassIdentifier: 
-  Path: ../FMOD-RHEA/Build/Desktop/Ambience.bank
-  Name: Ambience
-  StudioPath: bank:/Ambience
-  lastModified: 638497377206165213
-  FileSizes:
-  - Name: Desktop
-    Value: 845088
-  Exists: 1
---- !u!114 &3380489676708778243
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/Normal
-  m_EditorClassIdentifier: 
-  Path: snapshot:/Normal
-  Guid:
-    Data1: -1442927254
-    Data2: 1131295814
-    Data3: -785409110
-    Data4: 776239347
-  Banks:
-  - {fileID: -1149947493122175436}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
---- !u!114 &4327304160167485988
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Player/scrapPick
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Player/scrapPick
-  Guid:
-    Data1: 116142578
-    Data2: 1247444327
-    Data3: 612574907
-    Data4: -497568927
-  Banks:
-  - {fileID: -6986838956035516223}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &4918156121218485034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Minigame/klokkeRiktig
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Minigame/klokkeRiktig
-  Guid:
-    Data1: 1182495617
-    Data2: 1226949296
-    Data3: 934635965
-    Data4: -260513566
-  Banks:
-  - {fileID: -6986838956035516223}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &5888992367422043185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MinigameMusic/minigameMusic
-  m_EditorClassIdentifier: 
-  Path: event:/MinigameMusic/minigameMusic
-  Guid:
-    Data1: -14007840
-    Data2: 1197042020
-    Data3: -2071133807
-    Data4: 1491251826
-  Banks:
-  - {fileID: 6264221398891693635}
-  - {fileID: 8973622251072134689}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 4266
---- !u!114 &6264221398891693635
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/MinigameMusic.bank
-  m_EditorClassIdentifier: 
-  Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/MinigameMusic.bank
-  Name: MinigameMusic
-  StudioPath: bank:/MinigameMusic
-  lastModified: 638499986351313592
-  FileSizes:
-  - Name: Desktop
-    Value: 60928
-  Exists: 1
---- !u!114 &6905326154829040998
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Eerie/Eerie 1
-  m_EditorClassIdentifier: 
-  Path: event:/Eerie/Eerie 1
-  Guid:
-    Data1: -84892422
-    Data2: 1282312580
-    Data3: -382657407
-    Data4: 792562223
-  Banks:
-  - {fileID: -4342512173466826267}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 45000
---- !u!114 &8602109530578357580
+--- !u!114 &-8590538863727942728
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -602,7 +19,7 @@ MonoBehaviour:
     Data3: -1093090426
     Data4: 674322755
   Banks:
-  - {fileID: -6986838956035516223}
+  - {fileID: 2119255602621895156}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -610,34 +27,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2600
---- !u!114 &8732273382727214763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Player/footstepsMetal
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Player/footstepsMetal
-  Guid:
-    Data1: 1768421824
-    Data2: 1320429687
-    Data3: 129225404
-    Data4: 392817359
-  Banks:
-  - {fileID: -6986838956035516223}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 650
---- !u!114 &8905877925966769597
+--- !u!114 &-8132920897888910894
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -647,17 +37,345 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Music.bank
+  m_Name: bank:/Death.bank
   m_EditorClassIdentifier: 
-  Path: ../FMOD-RHEA/Build/Desktop/Music.bank
-  Name: Music
-  StudioPath: bank:/Music
-  lastModified: 638497285490925436
+  Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Death.bank
+  Name: Death
+  StudioPath: bank:/Death
+  lastModified: 638502035244954180
   FileSizes:
   - Name: Desktop
-    Value: 494
+    Value: 86528
   Exists: 1
---- !u!114 &9041983996545952212
+--- !u!114 &-6987433724914424392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/MinigameMusic.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/MinigameMusic.bank
+  Name: MinigameMusic
+  StudioPath: bank:/MinigameMusic
+  lastModified: 638501994752137804
+  FileSizes:
+  - Name: Desktop
+    Value: 60928
+  Exists: 1
+--- !u!114 &-6526758464227741176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/World/FishPing
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/World/FishPing
+  Guid:
+    Data1: -269566501
+    Data2: 1107969999
+    Data3: -1116481113
+    Data4: -1562296811
+  Banks:
+  - {fileID: 2119255602621895156}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3131
+--- !u!114 &-6405817923303524119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/scrapPick
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/scrapPick
+  Guid:
+    Data1: 116142578
+    Data2: 1247444327
+    Data3: 612574907
+    Data4: -497568927
+  Banks:
+  - {fileID: 2119255602621895156}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4794738622214474713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/stun
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/stun
+  Guid:
+    Data1: -13726271
+    Data2: 1183059927
+    Data3: 306193340
+    Data4: -2040009041
+  Banks:
+  - {fileID: 2119255602621895156}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3023979643605344087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/noStun
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/noStun
+  Guid:
+    Data1: -1645923378
+    Data2: 1226828205
+    Data3: -2045533002
+    Data4: -1446207573
+  Banks:
+  - {fileID: 2119255602621895156}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2932473533099799200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/breathing
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/breathing
+  Guid:
+    Data1: -500086114
+    Data2: 1207245385
+    Data3: -879065669
+    Data4: 1502305317
+  Banks:
+  - {fileID: 7774847640081839547}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2879491257140046542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Death/deathsong
+  m_EditorClassIdentifier: 
+  Path: event:/Death/deathsong
+  Guid:
+    Data1: -1399150538
+    Data2: 1243332059
+    Data3: 1324892607
+    Data4: 890348497
+  Banks:
+  - {fileID: -8132920897888910894}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2644866314340404734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Normal
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Normal
+  Guid:
+    Data1: -1442927254
+    Data2: 1131295814
+    Data3: -785409110
+    Data4: 776239347
+  Banks:
+  - {fileID: -751045604753495431}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-1283904401002492854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Eerie/Eerie 1
+  m_EditorClassIdentifier: 
+  Path: event:/Eerie/Eerie 1
+  Guid:
+    Data1: -84892422
+    Data2: 1282312580
+    Data3: -382657407
+    Data4: 792562223
+  Banks:
+  - {fileID: 2025108006481193496}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 45000
+--- !u!114 &-751045604753495431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638502465606914780
+  FileSizes:
+  - Name: Desktop
+    Value: 2564
+  Exists: 1
+--- !u!114 &-99041157686916608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Minigame/klokkeRiktig
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Minigame/klokkeRiktig
+  Guid:
+    Data1: 1182495617
+    Data2: 1226949296
+    Data3: 934635965
+    Data4: -260513566
+  Banks:
+  - {fileID: 2119255602621895156}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 8029348193096736356}
+  - {fileID: 7774847640081839547}
+  - {fileID: -8132920897888910894}
+  - {fileID: 2025108006481193496}
+  - {fileID: -751045604753495431}
+  - {fileID: -6987433724914424392}
+  - {fileID: 8622635371974617510}
+  - {fileID: 2119255602621895156}
+  EditorEvents:
+  - {fileID: -2932473533099799200}
+  - {fileID: 6268676560687054106}
+  - {fileID: -2879491257140046542}
+  - {fileID: 8475855534439021769}
+  - {fileID: -1283904401002492854}
+  - {fileID: -2644866314340404734}
+  - {fileID: 4790895597532450124}
+  - {fileID: 2135108346094263819}
+  - {fileID: -8590538863727942728}
+  - {fileID: -99041157686916608}
+  - {fileID: 1528340926279956762}
+  - {fileID: 2767893548862906224}
+  - {fileID: -4794738622214474713}
+  - {fileID: -3023979643605344087}
+  - {fileID: -6526758464227741176}
+  - {fileID: -6405817923303524119}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -751045604753495431}
+  StringsBanks:
+  - {fileID: 8029348193096736356}
+  cacheTime: 638502465608088383
+  cacheVersion: 131617
+--- !u!114 &1528340926279956762
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -676,7 +394,7 @@ MonoBehaviour:
     Data3: -883118692
     Data4: 1293987305
   Banks:
-  - {fileID: 8973622251072134689}
+  - {fileID: 2119255602621895156}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -684,3 +402,239 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &2025108006481193496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Eerie.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Eerie.bank
+  Name: Eerie
+  StudioPath: bank:/Eerie
+  lastModified: 638502024217329058
+  FileSizes:
+  - Name: Desktop
+    Value: 1075968
+  Exists: 1
+--- !u!114 &2119255602621895156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/SFX.bank
+  Name: SFX
+  StudioPath: bank:/SFX
+  lastModified: 638502465608088383
+  FileSizes:
+  - Name: Desktop
+    Value: 222176
+  Exists: 1
+--- !u!114 &2135108346094263819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/footstepsSand
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/footstepsSand
+  Guid:
+    Data1: -1820182221
+    Data2: 1282957156
+    Data3: 1108120754
+    Data4: 1434556327
+  Banks:
+  - {fileID: 2119255602621895156}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3000
+--- !u!114 &2767893548862906224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/footstepsMetal
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/footstepsMetal
+  Guid:
+    Data1: 1768421824
+    Data2: 1320429687
+    Data3: 129225404
+    Data4: 392817359
+  Banks:
+  - {fileID: 2119255602621895156}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 650
+--- !u!114 &4790895597532450124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MinigameMusic/minigameMusic
+  m_EditorClassIdentifier: 
+  Path: event:/MinigameMusic/minigameMusic
+  Guid:
+    Data1: -14007840
+    Data2: 1197042020
+    Data3: -2071133807
+    Data4: 1491251826
+  Banks:
+  - {fileID: -6987433724914424392}
+  - {fileID: 2119255602621895156}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4266
+--- !u!114 &6268676560687054106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Deep Sea
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Deep Sea
+  Guid:
+    Data1: 420809172
+    Data2: 1172624186
+    Data3: 1172334486
+    Data4: -893329921
+  Banks:
+  - {fileID: 7774847640081839547}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 100597
+--- !u!114 &7774847640081839547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Ambience.bank
+  Name: Ambience
+  StudioPath: bank:/Ambience
+  lastModified: 638497367571993637
+  FileSizes:
+  - Name: Desktop
+    Value: 845088
+  Exists: 1
+--- !u!114 &8029348193096736356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638502465606947251
+  FileSizes:
+  - Name: Desktop
+    Value: 2062
+  Exists: 1
+--- !u!114 &8475855534439021769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Death/playerdied
+  m_EditorClassIdentifier: 
+  Path: event:/Death/playerdied
+  Guid:
+    Data1: 1942400990
+    Data2: 1323308280
+    Data3: -1661813879
+    Data4: 1874218981
+  Banks:
+  - {fileID: -8132920897888910894}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8622635371974617510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638489595639426987
+  FileSizes:
+  - Name: Desktop
+    Value: 494
+  Exists: 1

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using Player;
 using UnityEngine;
@@ -9,6 +10,7 @@ public class LightControler : MonoBehaviour
     
     [SerializeField] private float stunCost;
     [SerializeField] private EventReference stun;
+    [SerializeField] private EventReference nostun;
     
     public static bool scared;
     private bool canStun = true;
@@ -23,6 +25,7 @@ public class LightControler : MonoBehaviour
     {
         Stun();
     }
+    
 
     private void Stun()
     {
@@ -32,7 +35,15 @@ public class LightControler : MonoBehaviour
         AudioManager.instance.PlayOneShot(stun, this.transform.position);
         BatteryController.BatteryLevel -= stunCost;
         StartCoroutine(IStopStun());
+
+        if (!Input.GetKeyDown(KeyCode.F) && (canStun = false)) AudioManager.instance.PlayOneShot(nostun, this.transform.position);
     }
+
+    
+        
+    
+        
+    
 
     private IEnumerator IStopStun()
     {
