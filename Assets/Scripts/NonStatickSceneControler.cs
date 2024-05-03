@@ -16,6 +16,16 @@ public class NonStatickSceneControler : MonoBehaviour
         StartCoroutine(ICreedits());
         timline.Play();
     }
+    public void TryAgain()
+    {
+        StartCoroutine(ITryAgain());
+        timline.Play();
+    }
+    public void ReturnToMenue()
+    {
+        StartCoroutine(IReturnToMenue());
+        timline.Play();
+    }
     public void Exit()
     {
         Application.Quit();
@@ -30,5 +40,15 @@ public class NonStatickSceneControler : MonoBehaviour
     public IEnumerator ICreedits()
     {
         yield return new WaitForSeconds(1.5f);
+    }
+    public IEnumerator ITryAgain()
+    {
+        yield return new WaitForSeconds(1.5f);
+        StatickSceneControler.TryAgain();
+    }
+    public IEnumerator IReturnToMenue()
+    {
+        yield return new WaitForSeconds(1.5f);
+        StatickSceneControler.MainMenu();
     }
 }

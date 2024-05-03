@@ -51,6 +51,11 @@ public static class StatickSceneControler
         level = 1;
     }
 
+    public static void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
     public static void DeathUp()
     {
         SceneManager.LoadScene("Death");
@@ -58,21 +63,36 @@ public static class StatickSceneControler
 
     public static void nextLevel()
     {
-        if (level == 1)
+        switch (level)
         {
-            SceneManager.LoadScene("LevelOne");
-            level = 2;
-            
+            case 1:
+                SceneManager.LoadScene("LevelOne");
+                level = 2;
+                break;
+            case 2:
+                SceneManager.LoadScene("Leveltwo");
+                level = 3;
+                break;
+            case 3:
+                SceneManager.LoadScene("MainMenu");
+                level = 0;
+                break;
         }
-        else if (level == 2)
+    }
+
+    public static void TryAgain()
+    {
+        switch (level)
         {
-            SceneManager.LoadScene("Leveltwo");
-            level = 3;
-        }
-        else if (level == 3)
-        {
-            SceneManager.LoadScene("MainMenu");
-            level = 0;
+            case 1:
+                SceneManager.LoadScene("Tutorial");
+                break;
+            case 2:
+                SceneManager.LoadScene("LevelOne");
+                break;
+            case 3:
+                SceneManager.LoadScene("Leveltwo");
+                break;
         }
     }
 }
