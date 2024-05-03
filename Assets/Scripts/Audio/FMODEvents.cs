@@ -20,7 +20,7 @@ public class FMODEvents : MonoBehaviour
     [field: SerializeField] public EventReference footstepsSand { get; private set; }
     [field: SerializeField] public EventReference breathing { get; private set; }
     [field: SerializeField] public EventReference hurt { get; private set; }
-    [field: SerializeField] public EventReference heartbeat { get; private set; }
+    [field: SerializeField] public EventReference oxygenRefill { get; private set; }
     [field: SerializeField] public EventReference scrapPick { get; private set; }
     [field: SerializeField] public EventReference stun { get; private set; }
     [field: SerializeField] public EventReference nostun { get; private set; }

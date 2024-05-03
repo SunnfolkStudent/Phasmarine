@@ -1796,13 +1796,13 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  <heartbeat>k__BackingField:
+  <oxygenRefill>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 223745848
+      Data2: 1217649490
+      Data3: -775212121
+      Data4: 413079471
+    Path: event:/SFX/Player/OxygenRefill
   <scrapPick>k__BackingField:
     Guid:
       Data1: 116142578
@@ -7804,6 +7804,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5448056335444c348a172a4332d9c5c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OxygenRefill:
+    Guid:
+      Data1: 223745848
+      Data2: 1217649490
+      Data3: -775212121
+      Data4: 413079471
+    Path: event:/SFX/Player/OxygenRefill
 --- !u!135 &1256009911
 SphereCollider:
   m_ObjectHideFlags: 0
