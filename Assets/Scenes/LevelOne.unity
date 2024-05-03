@@ -13333,6 +13333,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 383722309402148749, guid: 847c1cadb1a82be47a0c4578277d173b,
+        type: 3}
+      propertyPath: subPos
+      value: 
+      objectReference: {fileID: 1256009907}
     - target: {fileID: 690304120794209248, guid: 847c1cadb1a82be47a0c4578277d173b,
         type: 3}
       propertyPath: stun.Path
