@@ -26,6 +26,10 @@ public class NonStatickSceneControler : MonoBehaviour
         StartCoroutine(IReturnToMenue());
         timline.Play();
     }
+    public void ReturnToMenueWhitouteFade()
+    {
+        StatickSceneControler.MainMenu();
+    }
     public void Exit()
     {
         Application.Quit();
