@@ -5,7 +5,7 @@ public class MiniGameManager : MonoBehaviour
 {
     public static MiniGameManager instance { get; private set; }
     
-    public static int Parts;
+    public static int Parts= 0;
     
     public int seaweedleft = 13;
 
