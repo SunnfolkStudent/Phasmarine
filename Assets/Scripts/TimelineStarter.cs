@@ -1,34 +1,19 @@
 using UnityEngine;
 using UnityEngine.Playables;
-using UnityEngine.SceneManagement;
+
 
 public class TimelineStarter : MonoBehaviour, ITimelineController
 {
-    public PlayableDirector timeline;
+    private PlayableDirector timeline;
 
-    /*
-    private void OnEnable()
+    private void Start()
     {
-        SceneManager.sceneLoaded += OnSceneLoaded;
+        timeline = GetComponent<PlayableDirector>();
     }
-
-    private void OnDisable()
-    {
-        SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
-
-    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        if (scene.name == "")
-        {
-            CustomEventManager.instance.onTimelineStart.AddListener(StartTimeline);
-        }
-    }
-    */
-
 
     public void StartTimeline()
     {
+        print("playing timline");
         timeline.Play();
     }
 }
