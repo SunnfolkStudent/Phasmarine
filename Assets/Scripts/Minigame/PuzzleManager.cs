@@ -39,7 +39,6 @@ public class PuzzleManager : MonoBehaviour
             if (counter >= 21)
             {
                 Debug.Log("All right");
-                StartCoroutine(INextLevel()); 
                 var timelineController = GameObject.Find("FadeOutControler").GetComponent<TimelineStarter>();
                 if (timelineController != null)
                 {
@@ -55,9 +54,4 @@ public class PuzzleManager : MonoBehaviour
         }
     }
 
-    private IEnumerator INextLevel()
-    {
-        yield return new WaitForSeconds(1.5f);
-        StatickSceneControler.nextLevel(); 
-    }
 }

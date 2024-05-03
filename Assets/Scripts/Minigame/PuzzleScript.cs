@@ -1,10 +1,6 @@
-using System.Collections;
 using System.Collections.Generic;
-using TMPro;
-using Unity.VisualScripting;
-using Unity.VisualScripting.Dependencies.NCalc;
 using UnityEngine;
-using UnityEngine;using UnityEngine.EventSystems;
+using UnityEngine.EventSystems;
 
 public class PuzzleScript : MonoBehaviour, IDragHandler, IEndDragHandler
 

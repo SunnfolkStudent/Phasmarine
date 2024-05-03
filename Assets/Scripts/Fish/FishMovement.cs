@@ -1,5 +1,3 @@
-using System;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -119,13 +117,6 @@ public class FishMovement : MonoBehaviour
         else
         {
             IdleMovementSirciel();
-            /*timer += Time.deltaTime;
-            if (timer >= 5)
-            {
-                print("somting");
-                IdleMovementRandomPos(transform.position + new Vector3(Random.Range(-10,10),0,Random.Range(-10,10)));
-            }*/
-            
         }
         
     }
@@ -141,15 +132,6 @@ public class FishMovement : MonoBehaviour
     {
         _agent.SetDestination(pos);
         _agent.isStopped = false;
-    }
-
-    private void IdleMovementRandomPos(Vector3 pos)
-    {
-        print("findingIdleMovmentRandomPos");
-        _agent.speed = 5;
-        _agent.SetDestination(pos);
-        _agent.isStopped = false;
-        timer = 0f;
     }
 
     private void IdleMovementSirciel()
@@ -207,14 +189,6 @@ public class FishMovement : MonoBehaviour
         {
             //wantToAttack = true;
             canBeScared = true;
-            /*if (Random.Range(1, 3) == 1)
-            {
-                runAngle = 45;
-            }
-            else
-            {
-                runAngle = -45;
-            }*/
         }
 
         if (other.CompareTag("PlayerHitBox"))
@@ -227,25 +201,6 @@ public class FishMovement : MonoBehaviour
         canBeScared = false;
     }
     
-
-    private void OnTriggerStay(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            if (fishPos != null && target != null)
-            {
-                /*Vector3 direction = target.position - jackalopPos.position;
-                float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-                Quaternion rotation = Quaternion.AngleAxis(angle - lookatAngle, Vector3.up);
-                jackalopPos.rotation = rotation*/;
-            }
-            else
-            {
-                print("somting is null");
-            }
-        }
-        
-    }
 
     private void updateAnimation()
     {

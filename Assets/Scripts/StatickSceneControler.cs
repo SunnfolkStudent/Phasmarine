@@ -61,6 +61,11 @@ public static class StatickSceneControler
         SceneManager.LoadScene("Death");
     }
 
+    public static void EndingUp()
+    {
+        SceneManager.LoadScene("Ending");
+    }
+
     public static void nextLevel()
     {
         switch (level)
