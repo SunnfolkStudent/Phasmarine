@@ -10,20 +10,20 @@ public class SeaweedTrigger : MonoBehaviour, IInteracteble
         if (foundpart == 0)
         {
             StatickSceneControler.CleaningMiniGameUp();
-            foundpart+=1;
+            foundpart++;
         }
         else if (foundpart == 1)
         {
             StatickSceneControler.CleaningMiniGameUp2();
-            foundpart+=1;
+            foundpart++;
         }
         
         else if (foundpart == 2)
         {
             StatickSceneControler.CleaningMiniGameUp3();
-            foundpart+=1;
+            foundpart++;
         }
-        
+        Debug.Log(foundpart);
         Destroy(gameObject);
         return true;
     }
