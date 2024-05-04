@@ -23,12 +23,21 @@ public class SubmarineDoorController : MonoBehaviour, IInteracteble
     {
         if (MiniGameManager.Parts >= maxParts)
         {
-            if (StatickSceneControler.level== 1)
-            {StatickSceneControler.PuzzleMiniGameUp();}
-            if (StatickSceneControler.level== 2)
-            {StatickSceneControler.PuzzleMiniGameUp2();}
-            if (StatickSceneControler.level== 3)
-            {StatickSceneControler.PuzzleMiniGameUp3();}
+            if (StatickSceneControler.level == 1)
+            {
+                StatickSceneControler.PuzzleMiniGameUp();
+                print("trying to opne puzzel 1");
+            }
+            if (StatickSceneControler.level == 2)
+            {
+                StatickSceneControler.PuzzleMiniGameUp2();
+                print("trying to opne puzzel 2");
+            }
+            if (StatickSceneControler.level == 3)
+            {
+                StatickSceneControler.PuzzleMiniGameUp3();
+                print("trying to opne puzzel 3");
+            }
             return true;
         }
         return false;

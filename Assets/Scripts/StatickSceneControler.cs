@@ -91,10 +91,12 @@ public static class StatickSceneControler
             case 1:
                 SceneManager.LoadScene("LevelOne");
                 level = 2;
+                MiniGameManager.Parts = 0;
                 break;
             case 2:
                 SceneManager.LoadScene("Leveltwo");
                 level = 3;
+                MiniGameManager.Parts = 0;
                 break;
             case 3:
                 SceneManager.LoadScene("MainMenu");

@@ -12,7 +12,6 @@ public class PuzzleScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
     private float dampingSpeed;
     private RectTransform draggingObjectRectTransform;
     private Vector3 velocity = Vector3.zero;
-    private bool draggable = true;
     private MiniGameManager _miniGameManager;
     private PuzzleManager _puzzleManager;
 

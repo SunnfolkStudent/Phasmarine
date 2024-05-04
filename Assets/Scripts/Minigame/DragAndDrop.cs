@@ -41,7 +41,9 @@ public class DragAndDrop : MonoBehaviour, IDragHandler
                 {
                     print("parts:"+MiniGameManager.Parts);
                     AudioManager.instance.PlayOneShot(scrapPick, this.transform.position);
-                    if (MiniGameManager.Parts == 0)
+                    StatickSceneControler.CleaningMiniGameDown();
+                    MiniGameManager.Parts ++;
+                    /*if (MiniGameManager.Parts == 0)
                     {
                         print("levelToUnlode 1");
                         StatickSceneControler.CleaningMiniGameDown();
@@ -58,7 +60,7 @@ public class DragAndDrop : MonoBehaviour, IDragHandler
                         print("levelToUnlode 3");
                         StatickSceneControler.CleaningMiniGameDown3();
                         MiniGameManager.Parts ++;
-                    }
+                    }*/
                     
                 }
                 
