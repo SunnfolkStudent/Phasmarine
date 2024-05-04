@@ -35,8 +35,8 @@ public class PuzzleManager : MonoBehaviour
                     break;
                 }
             }
-
-            if (counter >= 21)
+//Counter blir 20 men kjører ikke kan være fordi det er 21 ting som sjekkes?
+            if (counter >= 20)
             {
                 Debug.Log("All right");
                 var timelineController = GameObject.Find("FadeOutControler").GetComponent<TimelineStarter>();

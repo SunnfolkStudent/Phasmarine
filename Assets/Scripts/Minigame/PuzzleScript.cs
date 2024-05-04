@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class PuzzleScript : MonoBehaviour, IDragHandler, IEndDragHandler
+public class PuzzleScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 
 {
     // 20 funksjonerende i løsningen som skal ha en matchende ID med rutene (Ligger i tilfeldige posisjoner i starten og må rearangere på slutten)
@@ -15,7 +15,8 @@ public class PuzzleScript : MonoBehaviour, IDragHandler, IEndDragHandler
     private bool draggable = true;
     private MiniGameManager _miniGameManager;
     private PuzzleManager _puzzleManager;
-    
+
+    private GameObject lastPos;
     //passe på at den kun kan telle som korrekt en gang
     
     void Start()
@@ -46,6 +47,22 @@ public class PuzzleScript : MonoBehaviour, IDragHandler, IEndDragHandler
 
     private bool hasbeencounted = false;
 
+    public void OnBeginDrag(PointerEventData eventData)
+    {
+        float smallestdistance = 1000;
+        foreach (var obj in TileListe)
+        {
+            float difference = Vector3.Distance(draggingObjectRectTransform.position, obj.transform.position);
+            if ( difference < smallestdistance)
+            {
+                smallestdistance = difference;
+                CurrentTile = obj;
+                
+            }
+        }
+        lastPos = CurrentTile;
+        CurrentTile.GetComponent<TileCheck>().Occupied = false;
+    }
     public void OnDrag(PointerEventData eventData)
     {
         if (RectTransformUtility.ScreenPointToWorldPointInRectangle(draggingObjectRectTransform, eventData.position,
@@ -75,13 +92,22 @@ public class PuzzleScript : MonoBehaviour, IDragHandler, IEndDragHandler
                 nearestPos = obj.transform.position;
             }
         }
-        //snap to position  _iDscript.ID
-        draggingObjectRectTransform.position = nearestPos; 
-        //referere til tomme gameobject som tilecheck.check(tile-gameobject.name) draggingObjectRectTransform.gameObject.name.ToIntArray()[0]
+
+        if (CurrentTile.GetComponent<TileCheck>().Occupied == false)
+        {
+            //snap to position  _iDscript.ID
+            draggingObjectRectTransform.position = nearestPos; 
+            //referere til tomme gameobject som tilecheck.check(tile-gameobject.name) draggingObjectRectTransform.gameObject.name.ToIntArray()[0]
           
-        CurrentTile.GetComponent<TileCheck>().Check(int.Parse(draggingObjectRectTransform.gameObject.name));
-        _puzzleManager.Checkifworks();
-        //Checkifworks funker kun når starter på de første og vil kun gi en riktig
+            CurrentTile.GetComponent<TileCheck>().Check(int.Parse(draggingObjectRectTransform.gameObject.name));
+            _puzzleManager.Checkifworks();
+            //Checkifworks funker kun når starter på de første og vil kun gi en riktig
+        }
+        else
+        {
+            draggingObjectRectTransform.position = lastPos.transform.position;
+            lastPos.GetComponent<TileCheck>().Check(int.Parse(draggingObjectRectTransform.gameObject.name));
+        }
     }
        //Gi wiresene kode som navn
     }
