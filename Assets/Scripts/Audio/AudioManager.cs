@@ -34,6 +34,7 @@ public class AudioManager : MonoBehaviour
 
    private void Start()
    {
+      //if scene is not mainmenu activate eerie
       if (SceneManager.GetActiveScene() != SceneManager.GetSceneByName("MainMenu"))
       {
          if (SceneManager.GetActiveScene() != SceneManager.GetSceneByName("Tutorial"))
@@ -42,6 +43,7 @@ public class AudioManager : MonoBehaviour
          }
       }
       
+      //mainmenu plays ambience and mainmenu theme
       if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("MainMenu"))
       {
          InitializemainMenu(FMODEvents.instance.mainMenu);
@@ -49,14 +51,24 @@ public class AudioManager : MonoBehaviour
          
       }
       
+      //tutorial plays ambience and tutorial theme
       if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("Tutorial"))
       {
          InitializeTutorial(FMODEvents.instance.tutorial);
          InitializeAmbience(FMODEvents.instance.ambience);
       }
       
-      if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("Level1"))
+      //levelone plays ambience and levels themes
+      if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("LevelOne"))
       {
+         InitializeLevels(FMODEvents.instance.levels);
+         InitializeAmbience(FMODEvents.instance.ambience);
+      }
+      
+      //leveltwo plays ambience and levels themes
+      if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("LevelTwo"))
+      {
+         InitializeLevels(FMODEvents.instance.levels);
          InitializeAmbience(FMODEvents.instance.ambience);
       }
    }
@@ -83,6 +95,13 @@ public class AudioManager : MonoBehaviour
       tutorialEventInstance = CreateInstance(tutorialEventReference);
       tutorialEventInstance.start();
    }
+
+   private void InitializeLevels(EventReference levelsEventReference)
+   {
+      levelsEventInstance = CreateInstance(levelsEventReference);
+      levelsEventInstance.start();
+   }
+
    public EventInstance CreateInstance(EventReference eventReference)
    {
       EventInstance eventInstance = RuntimeManager.CreateInstance(eventReference);

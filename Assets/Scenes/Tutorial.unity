@@ -1791,6 +1791,13 @@ MonoBehaviour:
       Data3: 1135541951
       Data4: -1302501537
     Path: event:/Music/Tutorial
+  <levels>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   <ambience>k__BackingField:
     Guid:
       Data1: 420809172
@@ -1842,11 +1849,11 @@ MonoBehaviour:
     Path: event:/SFX/Player/OxygenRefill
   <scrapPick>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 116142578
+      Data2: 1247444327
+      Data3: 612574907
+      Data4: -497568927
+    Path: event:/SFX/Player/scrapPick
   <stun>k__BackingField:
     Guid:
       Data1: -13726271

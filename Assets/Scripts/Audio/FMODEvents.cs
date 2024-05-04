@@ -7,8 +7,10 @@ public class FMODEvents : MonoBehaviour
     [field: SerializeField] public EventReference mainMenu{ get; private set; }
     
     [field: Header("Tutorial")]
-    
     [field: SerializeField] public EventReference tutorial{ get; private set; }
+    
+    [field: Header("Levels")]
+    [field: SerializeField] public EventReference levels{ get; private set; }
    
     [field: Header("Ambience")]
     [field: SerializeField] public EventReference ambience { get; private set; }

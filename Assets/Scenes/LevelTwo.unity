@@ -2165,13 +2165,13 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  <level1>k__BackingField:
+  <levels>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 173164281
+      Data2: 1207761011
+      Data3: 463231873
+      Data4: 1781359467
+    Path: event:/Music/Levels
   <ambience>k__BackingField:
     Guid:
       Data1: 420809172
@@ -2216,11 +2216,11 @@ MonoBehaviour:
     Path: 
   <oxygenRefill>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 223745848
+      Data2: 1217649490
+      Data3: -775212121
+      Data4: 413079471
+    Path: event:/SFX/Player/OxygenRefill
   <scrapPick>k__BackingField:
     Guid:
       Data1: 116142578
@@ -2230,18 +2230,18 @@ MonoBehaviour:
     Path: event:/SFX/Player/scrapPick
   <stun>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -13726271
+      Data2: 1183059927
+      Data3: 306193340
+      Data4: -2040009041
+    Path: event:/SFX/Player/stun
   <nostun>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1645923378
+      Data2: 1226828205
+      Data3: -2045533002
+      Data4: -1446207573
+    Path: event:/SFX/Player/noStun
   <klokkeFeil>k__BackingField:
     Guid:
       Data1: -1071959649
