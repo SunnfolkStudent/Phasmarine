@@ -42,7 +42,7 @@ public class DragAndDrop : MonoBehaviour, IDragHandler
                 Debug.Log(MiniGameManager.instance.seaweedleft);
                 draggable = false;
                 
-                if (MiniGameManager.instance.seaweedleft == 0)
+                if (MiniGameManager.instance.seaweedleft <= 0)
                 {
                     AudioManager.instance.PlayOneShot(scrapPick, this.transform.position);
                     Debug.Log("Seaweed collider");
