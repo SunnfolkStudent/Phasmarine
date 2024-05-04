@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 742259}
   - component: {fileID: 742261}
   - component: {fileID: 742260}
+  - component: {fileID: 742262}
   m_Layer: 7
   m_Name: Stun Effect
   m_TagString: Untagged
@@ -234,6 +235,18 @@ VisualEffect:
       m_Array: []
     m_Bool:
       m_Array: []
+--- !u!114 &742262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0777c2f318eda244db761bbc4757e2a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7535478
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1955,11 +1968,11 @@ MonoBehaviour:
     Path: 
   <oxygenRefill>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 223745848
+      Data2: 1217649490
+      Data3: -775212121
+      Data4: 413079471
+    Path: event:/SFX/Player/OxygenRefill
   <scrapPick>k__BackingField:
     Guid:
       Data1: 0
@@ -1969,18 +1982,18 @@ MonoBehaviour:
     Path: 
   <stun>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -13726271
+      Data2: 1183059927
+      Data3: 306193340
+      Data4: -2040009041
+    Path: event:/SFX/Player/stun
   <nostun>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1645923378
+      Data2: 1226828205
+      Data3: -2045533002
+      Data4: -1446207573
+    Path: event:/SFX/Player/noStun
   <klokkeFeil>k__BackingField:
     Guid:
       Data1: 0
@@ -11119,6 +11132,31 @@ PrefabInstance:
       propertyPath: m_ExposedReferences.m_References.Array.data[1].second
       value: 
       objectReference: {fileID: 154300697}
+    - target: {fileID: 7409052985061941020, guid: cd85db65ab417e440a437b6b7a64d097,
+        type: 3}
+      propertyPath: OxygenRefill.Path
+      value: event:/SFX/Player/OxygenRefill
+      objectReference: {fileID: 0}
+    - target: {fileID: 7409052985061941020, guid: cd85db65ab417e440a437b6b7a64d097,
+        type: 3}
+      propertyPath: OxygenRefill.Guid.Data1
+      value: 223745848
+      objectReference: {fileID: 0}
+    - target: {fileID: 7409052985061941020, guid: cd85db65ab417e440a437b6b7a64d097,
+        type: 3}
+      propertyPath: OxygenRefill.Guid.Data2
+      value: 1217649490
+      objectReference: {fileID: 0}
+    - target: {fileID: 7409052985061941020, guid: cd85db65ab417e440a437b6b7a64d097,
+        type: 3}
+      propertyPath: OxygenRefill.Guid.Data3
+      value: -775212121
+      objectReference: {fileID: 0}
+    - target: {fileID: 7409052985061941020, guid: cd85db65ab417e440a437b6b7a64d097,
+        type: 3}
+      propertyPath: OxygenRefill.Guid.Data4
+      value: 413079471
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11443,6 +11481,61 @@ PrefabInstance:
       propertyPath: subPos
       value: 
       objectReference: {fileID: 1256009907}
+    - target: {fileID: 690304120794209248, guid: 847c1cadb1a82be47a0c4578277d173b,
+        type: 3}
+      propertyPath: vfx
+      value: 
+      objectReference: {fileID: 742261}
+    - target: {fileID: 690304120794209248, guid: 847c1cadb1a82be47a0c4578277d173b,
+        type: 3}
+      propertyPath: stun.Path
+      value: event:/SFX/Player/stun
+      objectReference: {fileID: 0}
+    - target: {fileID: 690304120794209248, guid: 847c1cadb1a82be47a0c4578277d173b,
+        type: 3}
+      propertyPath: nostun.Path
+      value: event:/SFX/Player/noStun
+      objectReference: {fileID: 0}
+    - target: {fileID: 690304120794209248, guid: 847c1cadb1a82be47a0c4578277d173b,
+        type: 3}
+      propertyPath: stun.Guid.Data1
+      value: -13726271
+      objectReference: {fileID: 0}
+    - target: {fileID: 690304120794209248, guid: 847c1cadb1a82be47a0c4578277d173b,
+        type: 3}
+      propertyPath: stun.Guid.Data2
+      value: 1183059927
+      objectReference: {fileID: 0}
+    - target: {fileID: 690304120794209248, guid: 847c1cadb1a82be47a0c4578277d173b,
+        type: 3}
+      propertyPath: stun.Guid.Data3
+      value: 306193340
+      objectReference: {fileID: 0}
+    - target: {fileID: 690304120794209248, guid: 847c1cadb1a82be47a0c4578277d173b,
+        type: 3}
+      propertyPath: stun.Guid.Data4
+      value: -2040009041
+      objectReference: {fileID: 0}
+    - target: {fileID: 690304120794209248, guid: 847c1cadb1a82be47a0c4578277d173b,
+        type: 3}
+      propertyPath: nostun.Guid.Data1
+      value: -1645923378
+      objectReference: {fileID: 0}
+    - target: {fileID: 690304120794209248, guid: 847c1cadb1a82be47a0c4578277d173b,
+        type: 3}
+      propertyPath: nostun.Guid.Data2
+      value: 1226828205
+      objectReference: {fileID: 0}
+    - target: {fileID: 690304120794209248, guid: 847c1cadb1a82be47a0c4578277d173b,
+        type: 3}
+      propertyPath: nostun.Guid.Data3
+      value: -2045533002
+      objectReference: {fileID: 0}
+    - target: {fileID: 690304120794209248, guid: 847c1cadb1a82be47a0c4578277d173b,
+        type: 3}
+      propertyPath: nostun.Guid.Data4
+      value: -1446207573
+      objectReference: {fileID: 0}
     - target: {fileID: 3569526298095887024, guid: 847c1cadb1a82be47a0c4578277d173b,
         type: 3}
       propertyPath: m_Name
