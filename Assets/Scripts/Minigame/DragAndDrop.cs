@@ -7,6 +7,7 @@ public class DragAndDrop : MonoBehaviour, IDragHandler
     private float dampingSpeed;
     private RectTransform draggingObjectRectTransform;
     private Vector3 velocity = Vector3.zero;
+    private bool draggable = true;
     private MiniGameManager _miniGameManager;
     [SerializeField] private EventReference scrapPick;
 
@@ -39,7 +40,6 @@ public class DragAndDrop : MonoBehaviour, IDragHandler
                 
                 if (MiniGameManager.instance.seaweedleft <= 0)
                 {
-                    print("parts:"+MiniGameManager.Parts);
                     AudioManager.instance.PlayOneShot(scrapPick, this.transform.position);
                     StatickSceneControler.CleaningMiniGameDown();
                     MiniGameManager.Parts ++;

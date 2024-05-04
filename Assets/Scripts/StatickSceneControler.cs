@@ -17,8 +17,6 @@ public static class StatickSceneControler
     {
         SceneManager.LoadScene("Cleaning3", LoadSceneMode.Additive);
     }
-
-    
     public static void CleaningMiniGameDown()
     {
         SceneManager.UnloadSceneAsync("CleaningMiniGame");

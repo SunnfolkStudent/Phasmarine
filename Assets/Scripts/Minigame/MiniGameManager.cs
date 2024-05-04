@@ -1,5 +1,5 @@
-using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MiniGameManager : MonoBehaviour
 {
@@ -20,43 +20,10 @@ public class MiniGameManager : MonoBehaviour
             instance = this;
         }
     }
-
-    public void CleaningMiniGameUp()
-    {
-        SceneManager.LoadScene("CleaningMiniGame", LoadSceneMode.Additive);
-        
-    }
-
-    public void CleaningMiniGameDown()
-    {
-        SceneManager.UnloadSceneAsync("CleaningMiniGame");
-    }
-    
-    public void CleaningMiniGameDown2()
-    {
-        SceneManager.UnloadSceneAsync("Cleaning2");
-    }
-    public void CleaningMiniGameDown3()
-    {
-        SceneManager.UnloadSceneAsync("Cleaning3");
-    }
-
     
     public void PuzzleMiniGameUp()
     {
         SceneManager.LoadScene("PuzzleMiniGame", LoadSceneMode.Additive);
-        
-    }
-
-    public void PuzzleMiniGameDown()
-    {
-        SceneManager.UnloadSceneAsync("PuzzleMiniGame");
-    }
-    
-    public void SpinMiniGameUp()
-    {
-        SceneManager.LoadScene("SpinMiniGame", LoadSceneMode.Additive);
-        
     }
 
     public void SpinMiniGameDown()
