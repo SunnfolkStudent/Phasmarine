@@ -185,7 +185,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TileListe:
   - {fileID: 1086935999}
-  - {fileID: 1313740086}
   - {fileID: 2111878661}
   - {fileID: 1956788060}
   - {fileID: 362074414}
@@ -581,7 +580,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TileListe:
   - {fileID: 1086935999}
-  - {fileID: 1313740086}
   - {fileID: 2111878661}
   - {fileID: 1956788060}
   - {fileID: 362074414}
@@ -888,7 +886,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TileListe:
   - {fileID: 1086935999}
-  - {fileID: 1313740086}
   - {fileID: 2111878661}
   - {fileID: 1956788060}
   - {fileID: 362074414}
@@ -1178,7 +1175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Occupied: 0
-  TileID: 14
+  TileID: 0
   IsCorrect: 0
 --- !u!114 &362074417
 MonoBehaviour:
@@ -1375,7 +1372,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TileListe:
   - {fileID: 1086935999}
-  - {fileID: 1313740086}
   - {fileID: 2111878661}
   - {fileID: 1956788060}
   - {fileID: 362074414}
@@ -1954,7 +1950,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TileListe:
   - {fileID: 1086935999}
-  - {fileID: 1313740086}
   - {fileID: 2111878661}
   - {fileID: 1956788060}
   - {fileID: 362074414}
@@ -2155,7 +2150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Occupied: 0
-  TileID: 24
+  TileID: 0
   IsCorrect: 0
 --- !u!114 &1067400769
 MonoBehaviour:
@@ -2261,7 +2256,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TileListe:
   - {fileID: 1086935999}
-  - {fileID: 1313740086}
   - {fileID: 2111878661}
   - {fileID: 1956788060}
   - {fileID: 362074414}
@@ -2371,7 +2365,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Occupied: 0
-  TileID: 24
+  TileID: 0
   IsCorrect: 0
 --- !u!114 &1086936002
 MonoBehaviour:
@@ -2568,7 +2562,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TileListe:
   - {fileID: 1086935999}
-  - {fileID: 1313740086}
   - {fileID: 2111878661}
   - {fileID: 1956788060}
   - {fileID: 362074414}
@@ -2678,7 +2671,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Occupied: 0
-  TileID: 24
+  TileID: 0
   IsCorrect: 0
 --- !u!114 &1125412189
 MonoBehaviour:
@@ -2894,7 +2887,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Occupied: 0
-  TileID: 3
+  TileID: 0
   IsCorrect: 0
 --- !u!114 &1313740089
 MonoBehaviour:
@@ -3632,7 +3625,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TileListe:
   - {fileID: 1086935999}
-  - {fileID: 1313740086}
   - {fileID: 2111878661}
   - {fileID: 1956788060}
   - {fileID: 362074414}
@@ -3715,7 +3707,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.2509804, g: 0.2509804, b: 0.2509804, a: 1}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3897,7 +3889,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TileListe:
   - {fileID: 1086935999}
-  - {fileID: 1313740086}
   - {fileID: 2111878661}
   - {fileID: 1956788060}
   - {fileID: 362074414}
@@ -4022,7 +4013,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TileListe:
   - {fileID: 1086935999}
-  - {fileID: 1313740086}
   - {fileID: 2111878661}
   - {fileID: 1956788060}
   - {fileID: 362074414}
@@ -4147,7 +4137,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TileListe:
   - {fileID: 1086935999}
-  - {fileID: 1313740086}
   - {fileID: 2111878661}
   - {fileID: 1956788060}
   - {fileID: 362074414}
@@ -4272,7 +4261,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TileListe:
   - {fileID: 1086935999}
-  - {fileID: 1313740086}
   - {fileID: 2111878661}
   - {fileID: 1956788060}
   - {fileID: 362074414}
@@ -4814,7 +4802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Occupied: 0
-  TileID: 24
+  TileID: 0
   IsCorrect: 0
 --- !u!114 &1956788063
 MonoBehaviour:
@@ -4865,7 +4853,6 @@ GameObject:
   - component: {fileID: 2015985616}
   - component: {fileID: 2015985620}
   - component: {fileID: 2015985619}
-  - component: {fileID: 2015985618}
   - component: {fileID: 2015985617}
   m_Layer: 0
   m_Name: 3
@@ -4906,41 +4893,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   seaweedleft: 7
---- !u!114 &2015985618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2015985615}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52d1fd7490e7fbc42b8b56da8659f575, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TileListe:
-  - {fileID: 1086935999}
-  - {fileID: 1313740086}
-  - {fileID: 2111878661}
-  - {fileID: 1956788060}
-  - {fileID: 362074414}
-  - {fileID: 1631450758}
-  - {fileID: 1370168345}
-  - {fileID: 766969770}
-  - {fileID: 907955390}
-  - {fileID: 1096267499}
-  - {fileID: 153080883}
-  - {fileID: 140323161}
-  - {fileID: 186322779}
-  - {fileID: 1799180254}
-  - {fileID: 745225325}
-  - {fileID: 1782813141}
-  - {fileID: 173888377}
-  - {fileID: 1055862745}
-  - {fileID: 1067400766}
-  - {fileID: 1125412186}
-  CurrentTile: {fileID: 0}
-  nearestPos: {x: 0, y: 0, z: 0}
 --- !u!114 &2015985619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4954,7 +4906,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.21960784, g: 0.21960784, b: 0.21960784, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5045,7 +4997,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TileListe:
   - {fileID: 1086935999}
-  - {fileID: 1313740086}
   - {fileID: 2111878661}
   - {fileID: 1956788060}
   - {fileID: 362074414}
