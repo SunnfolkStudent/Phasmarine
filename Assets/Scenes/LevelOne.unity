@@ -4610,43 +4610,6 @@ Transform:
   - {fileID: 495987821}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
---- !u!1 &774544196 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 205704266844152712, guid: 8685597bcb53f454f95839d969de6f47,
-    type: 3}
-  m_PrefabInstance: {fileID: 1910061136}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &774544201
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 774544196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: Player
-  EventReference:
-    Guid:
-      Data1: -264622210
-      Data2: 1074041560
-      Data3: -1093090426
-      Data4: 674322755
-    Path: event:/SFX/World/SonarPing
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  AllowNonRigidbodyDoppler: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 30
 --- !u!1001 &774843796
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11821,20 +11784,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8977650930608391071, guid: 8685597bcb53f454f95839d969de6f47,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 78e5ef0d8dd75994c9cc0fceb1d0bac9,
-        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 205704266844152712, guid: 8685597bcb53f454f95839d969de6f47,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 774544201}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8685597bcb53f454f95839d969de6f47, type: 3}
 --- !u!1 &1924265199 stripped
 GameObject:

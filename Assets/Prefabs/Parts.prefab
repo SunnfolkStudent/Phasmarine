@@ -89,6 +89,7 @@ GameObject:
   - component: {fileID: 1810149889842861401}
   - component: {fileID: 147961468039222048}
   - component: {fileID: 5893165724387873572}
+  - component: {fileID: 2677288919825609787}
   m_Layer: 6
   m_Name: Parts
   m_TagString: Untagged
@@ -163,6 +164,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _prompt: Search
 --- !u!114 &5893165724387873572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205704266844152712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -264622210
+      Data2: 1074041560
+      Data3: -1093090426
+      Data4: 674322755
+    Path: event:/SFX/World/SonarPing
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 30
+--- !u!114 &2677288919825609787
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -336,7 +368,7 @@ SpriteRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4076306798244005945}
   m_Enabled: 1
-  m_CastShadows: 0
+  m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -371,7 +403,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e460dddb4286fa84cbcb1c4cb2c346ba, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78e5ef0d8dd75994c9cc0fceb1d0bac9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -394,6 +426,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab96d41a44e09a04287744c29d85f76f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: -1
 --- !u!1 &6309568648074494294
 GameObject:
   m_ObjectHideFlags: 0
