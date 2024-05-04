@@ -18,6 +18,8 @@ public class AudioManager : MonoBehaviour
    
    private EventInstance levelsEventInstance;
    
+   private EventInstance playerDiedEventInstance;
+   
    public static AudioManager instance { get; private set; }
 
    private void Awake()
@@ -49,6 +51,7 @@ public class AudioManager : MonoBehaviour
          InitializemainMenu(FMODEvents.instance.mainMenu);
          InitializeAmbience(FMODEvents.instance.ambience);
          
+         
       }
       
       //tutorial plays ambience and tutorial theme
@@ -71,8 +74,16 @@ public class AudioManager : MonoBehaviour
          InitializeLevels(FMODEvents.instance.levels);
          InitializeAmbience(FMODEvents.instance.ambience);
       }
+      
+      //deat plays death
+      if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("Death"))
+      {
+         InitializeplayerDied(FMODEvents.instance.playerDied);
+      }
    }
 
+   
+   
    private void InitializeAmbience(EventReference ambienceEventReference)
    {
       ambienceEventInstance = CreateInstance(ambienceEventReference);
@@ -100,6 +111,12 @@ public class AudioManager : MonoBehaviour
    {
       levelsEventInstance = CreateInstance(levelsEventReference);
       levelsEventInstance.start();
+   }
+   
+   private void InitializeplayerDied(EventReference playerDiedEventReference)
+   {
+      playerDiedEventInstance = CreateInstance(playerDiedEventReference);
+      playerDiedEventInstance.start();
    }
 
    public EventInstance CreateInstance(EventReference eventReference)
