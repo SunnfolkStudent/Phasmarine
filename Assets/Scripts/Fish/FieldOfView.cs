@@ -47,17 +47,6 @@ public class FieldOfView : MonoBehaviour
             
             if (Vector3.Angle(new Vector3(fishMovement._agent.velocity.x, 0, fishMovement._agent.velocity.z), directionToTarget) < angle / 2)
             {
-                
-                /*var distanceToTarget = Vector3.Distance(transform.position, target.position);
-
-                if (!Physics.Raycast(transform.position, directionToTarget, distanceToTarget))
-                {
-                    canSeePlayer = true;
-                }
-                else
-                {
-                    canSeePlayer = false;
-                }*/
                 canSeePlayer = true;
             }
             else
