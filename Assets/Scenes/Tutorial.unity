@@ -1786,18 +1786,11 @@ MonoBehaviour:
     Path: 
   <tutorial>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  <level1>k__BackingField:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1549529085
+      Data2: 1336667695
+      Data3: 1135541951
+      Data4: -1302501537
+    Path: event:/Music/Tutorial
   <ambience>k__BackingField:
     Guid:
       Data1: 420809172

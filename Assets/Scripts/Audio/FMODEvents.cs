@@ -3,11 +3,12 @@ using FMODUnity;
 
 public class FMODEvents : MonoBehaviour
 {
-    [field: Header("Music")]
+    [field: Header("MainMenu")]
+    [field: SerializeField] public EventReference mainMenu{ get; private set; }
     
-    [field: SerializeField] public EventReference mainMenu { get; private set; }
-    [field: SerializeField] public EventReference tutorial { get; private set; }
-    [field: SerializeField] public EventReference level1 { get; private set; }
+    [field: Header("Tutorial")]
+    
+    [field: SerializeField] public EventReference tutorial{ get; private set; }
    
     [field: Header("Ambience")]
     [field: SerializeField] public EventReference ambience { get; private set; }
