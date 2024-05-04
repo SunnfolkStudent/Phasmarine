@@ -1795,18 +1795,18 @@ MonoBehaviour:
     Path: event:/SFX/Minigame/laugh
   <huh>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 185481719
+      Data2: 1247422660
+      Data3: 653734822
+      Data4: 1730086327
+    Path: event:/SFX/Minigame/huh
   <click>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1524888607
+      Data2: 1138174802
+      Data3: 332282793
+      Data4: 1881248639
+    Path: event:/UI/click
   <minigameMusic>k__BackingField:
     Guid:
       Data1: -14007840
@@ -4265,11 +4265,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   click:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1524888607
+      Data2: 1138174802
+      Data3: 332282793
+      Data4: 1881248639
+    Path: event:/UI/click
 --- !u!1001 &725716230
 PrefabInstance:
   m_ObjectHideFlags: 0
