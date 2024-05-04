@@ -7,7 +7,7 @@ public class MiniGameManager : MonoBehaviour
     
     public static int Parts= 0;
     
-    public int seaweedleft = 13;
+    [HideInInspector]public int seaweedleft = 13;
 
     private void Awake()
     {

@@ -353,14 +353,14 @@ MonoBehaviour:
       Data2: 1226949296
       Data3: 934635965
       Data4: -260513566
-    Path: event:/SFX/Minigame/klokke riktig
+    Path: event:/SFX/Minigame/klokkeRiktig
   klokkeFeil:
     Guid:
       Data1: -1071959649
       Data2: 1090570764
       Data3: -883118692
       Data4: 1293987305
-    Path: event:/SFX/Minigame/klokke feil
+    Path: event:/SFX/Minigame/klokkeFeil
   scrapPick:
     Guid:
       Data1: 116142578

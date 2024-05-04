@@ -1,3 +1,5 @@
+using System;
+using Player;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -7,47 +9,45 @@ public class GraveScript : MonoBehaviour, IInteracteble
     public int TotalGraves = 10;
     public int TotalParts = 3;
     public int GravesChecked = 0;
-    public int parts = 0;
-    public float MonsterFaster = 1;
     private MiniGameManager _miniGameManager;
+
+    [SerializeField] private GameObject parent;
+
+    public static bool StartTresure = false;
 
     [SerializeField] private string _prompt;
     public string InteractionPrompt => _prompt;
+
     public bool Interact(Interactor interactor)
     {
         StatickSceneControler.SpinMiniGameUp();
         //Hente ut poengene fra spinminigame til å påvirke sjansene dine i treasurefunksjonen
         GravesChecked += 1;
-        Treasure();
-        Destroy(gameObject);
+        Destroy(parent);
         return true;
     }
 
+    private void Update()
+    {
+        if (!StartTresure == true)return;
+        Treasure();
+    }
 
     private void Treasure()
     {
-        int chance;
-        chance = Random.Range(GravesChecked * 5, 100);
-        if (chance > 80 || (TotalGraves - GravesChecked) <= (TotalParts - parts))
+        StartTresure = false;
+        var chance = Random.Range(GravesChecked * 5, 100);
+        if (chance > 80 || (TotalGraves - GravesChecked) <= (TotalParts - MiniGameManager.Parts))
         {
             //Gi beskjed til spilleren om at de fant en del av ubåten
             Debug.Log("Fant ubåtdel");
-            MonsterFaster += 1;
-            parts += 1;
-
+            MiniGameManager.Parts += 1;
         }
-
         else if (chance > 50)
         {
             Debug.Log("Skummel greie");
-            MonsterFaster += 3;
+            BatteryController.BatteryLevel -= 50;
         }
-
-        else if (chance > 30)
-        {
-            //Legge inn andre objects
-        }
-
         else
         {
             Debug.Log("Ingenting skjedde");

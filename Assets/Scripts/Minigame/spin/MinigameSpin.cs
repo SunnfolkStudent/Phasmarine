@@ -100,16 +100,14 @@ namespace Minigame.spin
             if (score >= 3)
             {
                 global::AudioManager.instance.PlayOneShot(scrapPick, this.transform.position);
-                MiniGameManager.Parts += 1;
                 minigameMusicEventInstance.stop(STOP_MODE.IMMEDIATE);
+                GraveScript.StartTresure = true;
                 _miniGameManager.SpinMiniGameDown();
             }
 
             if (spotpos > 360)
             {
                 spotpos -= 360;
-                
-           
             } 
             spotTransform.eulerAngles = new Vector3(0, 0, spotpos);
             if (irange == false)
