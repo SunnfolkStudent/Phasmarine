@@ -669,6 +669,8 @@ MonoBehaviour:
 
     Luka Gauperaa
 
+    Carmel
+
 '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 82dd69c964daa7547a0ae8a1a22dc06e, type: 2}
@@ -2124,7 +2126,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Programers
+  m_text: Programmers
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 82dd69c964daa7547a0ae8a1a22dc06e, type: 2}
   m_sharedMaterial: {fileID: -3260823265859782379, guid: 82dd69c964daa7547a0ae8a1a22dc06e,
