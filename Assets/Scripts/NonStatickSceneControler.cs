@@ -44,6 +44,7 @@ public class NonStatickSceneControler : MonoBehaviour
     public IEnumerator ICreedits()
     {
         yield return new WaitForSeconds(1.5f);
+        StatickSceneControler.EndingUp();
     }
     public IEnumerator ITryAgain()
     {

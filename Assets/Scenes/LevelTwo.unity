@@ -2430,6 +2430,13 @@ MonoBehaviour:
       Data3: 653734822
       Data4: 1730086327
     Path: event:/SFX/Minigame/huh
+  <click>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   <minigameMusic>k__BackingField:
     Guid:
       Data1: -14007840
@@ -5074,6 +5081,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58376dee643eeef49836bd8132a317d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  click:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1001 &651326852
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5476,6 +5490,11 @@ PrefabInstance:
         type: 3}
       propertyPath: maxParts
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2805801639994004813, guid: cd85db65ab417e440a437b6b7a64d097,
+        type: 3}
+      propertyPath: m_ResetSeedOnPlay
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3478585530306608671, guid: cd85db65ab417e440a437b6b7a64d097,
         type: 3}
@@ -11556,6 +11575,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 418814872}
   m_PrefabAsset: {fileID: 0}
+--- !u!2083052967 &1514322491 stripped
+VisualEffect:
+  m_CorrespondingSourceObject: {fileID: 2805801639994004813, guid: cd85db65ab417e440a437b6b7a64d097,
+    type: 3}
+  m_PrefabInstance: {fileID: 685557304}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1517339339 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2292821344605886878, guid: 6fbc37892edc83b4fa17ed6aba369264,
@@ -13218,6 +13243,8 @@ PlayableDirector:
     value: {fileID: 731327212}
   - key: {fileID: 423552718551537104, guid: 8a4684641f206934aaa2ac745c08669d, type: 2}
     value: {fileID: 1246292460}
+  - key: {fileID: -8589351834456930755, guid: 8a4684641f206934aaa2ac745c08669d, type: 2}
+    value: {fileID: 1514322491}
   m_ExposedReferences:
     m_References:
     - 45ab47e4f1852604687762ed4635d7e3: {fileID: 772148991}
@@ -16418,6 +16445,11 @@ PrefabInstance:
       propertyPath: subPos
       value: 
       objectReference: {fileID: 1084657700}
+    - target: {fileID: 763303508118914950, guid: 847c1cadb1a82be47a0c4578277d173b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3569526298095887024, guid: 847c1cadb1a82be47a0c4578277d173b,
         type: 3}
       propertyPath: m_Name

@@ -1794,20 +1794,6 @@ MonoBehaviour:
       Data3: 1108120754
       Data4: 1434556327
     Path: event:/SFX/Player/footstepsSand
-  <breathing>k__BackingField:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  <hurt>k__BackingField:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
   <oxygenRefill>k__BackingField:
     Guid:
       Data1: 223745848
@@ -1864,6 +1850,27 @@ MonoBehaviour:
       Data3: 934635965
       Data4: -260513566
     Path: event:/SFX/Minigame/klokkeRiktig
+  <laugh>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  <huh>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  <click>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   <minigameMusic>k__BackingField:
     Guid:
       Data1: -14007840
@@ -3581,6 +3588,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58376dee643eeef49836bd8132a317d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  click:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1001 &694175432
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10900,6 +10914,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2799710602240025259, guid: cd85db65ab417e440a437b6b7a64d097,
+        type: 3}
+      propertyPath: maxParts
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3478585530306608671, guid: cd85db65ab417e440a437b6b7a64d097,
         type: 3}
       propertyPath: m_LocalPosition.x
