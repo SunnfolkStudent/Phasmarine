@@ -28,7 +28,7 @@ public class PuzzleManager : MonoBehaviour
                 {
                     counter++;
                     Debug.Log("the counter is " + counter);
-                    if (counter >= 20)
+                    if (counter >= 19)
                     {
                         Debug.Log("All right");
                         var timelineController = GameObject.Find("FadeOutControler").GetComponent<TimelineStarter>();

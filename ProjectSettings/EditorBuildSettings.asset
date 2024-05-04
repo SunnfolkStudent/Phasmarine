@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Death.unity
     guid: 6b6b036dd03b9e4408ddbf238ecabd62
   - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: a951fb2635ba01349937a71ce9388562
+  - enabled: 1
     path: Assets/Scenes/Minigames/PuzzleMiniGame.unity
     guid: cfe576ccb72b50d48b58c0ed80b860c0
   - enabled: 1

@@ -14,6 +14,7 @@ public class TimelineStarter : MonoBehaviour, ITimelineController
 
     public void StartTimeline()
     {
+        print(StatickSceneControler.level);
         timeline.Play();
         if (StatickSceneControler.level == 3)
         {
