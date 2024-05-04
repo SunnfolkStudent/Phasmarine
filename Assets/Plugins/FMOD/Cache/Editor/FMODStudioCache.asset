@@ -74,6 +74,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 85856
   Exists: 1
+--- !u!114 &-7845988719155826974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Minigame/laugh
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Minigame/laugh
+  Guid:
+    Data1: -166406336
+    Data2: 1171387620
+    Data3: -2125752443
+    Data4: 121437562
+  Banks:
+  - {fileID: 2119255602621895156}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
 --- !u!114 &-7510557814560919239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -228,7 +255,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 8477
+  Length: 7177
 --- !u!114 &-3023979643605344087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -379,7 +406,7 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638504476278008877
+  lastModified: 638504543740031530
   FileSizes:
   - Name: Desktop
     Value: 3002
@@ -454,12 +481,14 @@ MonoBehaviour:
   - {fileID: -7510557814560919239}
   - {fileID: -3910291952120648753}
   - {fileID: 7071750018990175132}
+  - {fileID: -7845988719155826974}
+  - {fileID: 3871461520217200701}
   EditorParameters: []
   MasterBanks:
   - {fileID: -751045604753495431}
   StringsBanks:
   - {fileID: 8029348193096736356}
-  cacheTime: 638504490457987645
+  cacheTime: 638504558362135761
   cacheVersion: 131617
 --- !u!114 &312018126560552024
 MonoBehaviour:
@@ -550,10 +579,10 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638504490457987645
+  lastModified: 638504558362135761
   FileSizes:
   - Name: Desktop
-    Value: 428640
+    Value: 553280
   Exists: 1
 --- !u!114 &2135108346094263819
 MonoBehaviour:
@@ -608,7 +637,34 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 9200
+  Length: 9912
+--- !u!114 &3871461520217200701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Minigame/huh
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Minigame/huh
+  Guid:
+    Data1: 185481719
+    Data2: 1247422660
+    Data3: 653734822
+    Data4: 1730086327
+  Banks:
+  - {fileID: 2119255602621895156}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &4790895597532450124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -690,7 +746,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 5680
+  Length: 4980
 --- !u!114 &7774847640081839547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -726,10 +782,10 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638504476278038999
+  lastModified: 638504543740062530
   FileSizes:
   - Name: Desktop
-    Value: 2408
+    Value: 2490
   Exists: 1
 --- !u!114 &8475855534439021769
 MonoBehaviour:
