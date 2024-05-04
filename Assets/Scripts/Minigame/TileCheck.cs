@@ -11,13 +11,12 @@ public class TileCheck : MonoBehaviour
     public void Check(int id)
     {
         Occupied = true;
-        Debug.Log("Checked");
-        Debug.Log(TileID);
-        Debug.Log(id);
+        //Debug.Log("Checked");
+        Debug.Log(TileID + " " + id);
         if (TileID == id)
         {
             IsCorrect = true;
-            print("Correct");
+            //print("Correct");
         }
     }
 }

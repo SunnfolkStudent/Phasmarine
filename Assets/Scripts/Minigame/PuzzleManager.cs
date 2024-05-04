@@ -20,35 +20,36 @@ public class PuzzleManager : MonoBehaviour
     {
         if (isChecking == false)
         {
+            counter = 0;
             isChecking = true;
             foreach (var obj in TileListe)
             {
                 if (obj.GetComponent<TileCheck>().IsCorrect)
                 {
                     counter++;
-                    Debug.Log("the counter is");
-                    Debug.Log(counter);
+                    Debug.Log("the counter is " + counter);
+                    if (counter >= 19)
+                    {
+                        Debug.Log("All right");
+                        var timelineController = GameObject.Find("FadeOutControler").GetComponent<TimelineStarter>();
+                        if (timelineController != null)
+                        {
+                            timelineController.StartTimeline();
+                        }
+                        else
+                        {
+                            print("timlinecontroler is null");
+                        }
+                    }
                 }
                 else
                 {
-                    counter = 0;
-                    break;
+                    //counter = 0;
+                    //break;
                 }
             }
 //Counter blir 20 men kjører ikke kan være fordi det er 21 ting som sjekkes?
-            if (counter >= 20)
-            {
-                Debug.Log("All right");
-                var timelineController = GameObject.Find("FadeOutControler").GetComponent<TimelineStarter>();
-                if (timelineController != null)
-                {
-                    timelineController.StartTimeline();
-                }
-                else
-                {
-                    print("timlinecontroler is null");
-                }
-            }
+           
 
             isChecking = false;
         }

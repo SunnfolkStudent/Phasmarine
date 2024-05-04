@@ -85,8 +85,7 @@ public class PuzzleScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
         {
             float difference = Vector3.Distance(draggingObjectRectTransform.position, obj.transform.position);
             if ( difference < smallestdistance)
-            {
-                Debug.Log("found closer tile");
+            { 
                 smallestdistance = difference;
                 CurrentTile = obj;
                 nearestPos = obj.transform.position;
