@@ -202,6 +202,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-5531943182188815672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/UI.bank
+  Name: UI
+  StudioPath: bank:/UI
+  lastModified: 638504566838856080
+  FileSizes:
+  - Name: Desktop
+    Value: 7424
+  Exists: 1
 --- !u!114 &-4794738622214474713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -406,7 +426,7 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638504543740031530
+  lastModified: 638504566838152772
   FileSizes:
   - Name: Desktop
     Value: 3002
@@ -459,6 +479,7 @@ MonoBehaviour:
   - {fileID: -6987433724914424392}
   - {fileID: 8622635371974617510}
   - {fileID: 2119255602621895156}
+  - {fileID: -5531943182188815672}
   EditorEvents:
   - {fileID: -2932473533099799200}
   - {fileID: 6268676560687054106}
@@ -483,12 +504,13 @@ MonoBehaviour:
   - {fileID: 7071750018990175132}
   - {fileID: -7845988719155826974}
   - {fileID: 3871461520217200701}
+  - {fileID: 5449659906476621182}
   EditorParameters: []
   MasterBanks:
   - {fileID: -751045604753495431}
   StringsBanks:
   - {fileID: 8029348193096736356}
-  cacheTime: 638504558362135761
+  cacheTime: 638504566838856080
   cacheVersion: 131617
 --- !u!114 &312018126560552024
 MonoBehaviour:
@@ -693,6 +715,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4266
+--- !u!114 &5449659906476621182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/click
+  m_EditorClassIdentifier: 
+  Path: event:/UI/click
+  Guid:
+    Data1: -1524888607
+    Data2: 1138174802
+    Data3: 332282793
+    Data4: 1881248639
+  Banks:
+  - {fileID: -5531943182188815672}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &6268676560687054106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -782,10 +831,10 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638504543740062530
+  lastModified: 638504566838172858
   FileSizes:
   - Name: Desktop
-    Value: 2490
+    Value: 2562
   Exists: 1
 --- !u!114 &8475855534439021769
 MonoBehaviour:
