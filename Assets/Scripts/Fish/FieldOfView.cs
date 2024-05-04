@@ -37,17 +37,18 @@ public class FieldOfView : MonoBehaviour
     {
         Collider[] rangeCheks = Physics.OverlapSphere(transform.position, radius, targetMask);
         
+        print("inRange");
         if (rangeCheks.Length != 0)
         {
             print(rangeCheks[0]);
             Transform target = rangeCheks[0].transform;
-            Vector3 directionToTarget = target.position - transform.position.normalized;
+            Vector3 directionToTarget = (target.position - transform.position).normalized;
             
             
-
             if (Vector3.Angle(new Vector3(fishMovement._agent.velocity.x, 0, fishMovement._agent.velocity.z), directionToTarget) < angle / 2)
             {
-                float distanceToTarget = Vector3.Distance(transform.position, target.position);
+                
+                /*var distanceToTarget = Vector3.Distance(transform.position, target.position);
 
                 if (!Physics.Raycast(transform.position, directionToTarget, distanceToTarget))
                 {
@@ -56,7 +57,8 @@ public class FieldOfView : MonoBehaviour
                 else
                 {
                     canSeePlayer = false;
-                }
+                }*/
+                canSeePlayer = true;
             }
             else
             {

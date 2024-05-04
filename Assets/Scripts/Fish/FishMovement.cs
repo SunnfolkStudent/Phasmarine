@@ -183,8 +183,6 @@ public class FishMovement : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        
-        print("enterd Triger");
         if (other.CompareTag("Player"))
         {
             //wantToAttack = true;
