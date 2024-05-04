@@ -69,11 +69,38 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Death.bank
   Name: Death
   StudioPath: bank:/Death
-  lastModified: 638502035244954180
+  lastModified: 638503423695647052
   FileSizes:
   - Name: Desktop
     Value: 86528
   Exists: 1
+--- !u!114 &-7510557814560919239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Levels
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Levels
+  Guid:
+    Data1: 173164281
+    Data2: 1207761011
+    Data3: 463231873
+    Data4: 1781359467
+  Banks:
+  - {fileID: 8622635371974617510}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 150000
 --- !u!114 &-6987433724914424392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89,7 +116,7 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/MinigameMusic.bank
   Name: MinigameMusic
   StudioPath: bank:/MinigameMusic
-  lastModified: 638501994752137804
+  lastModified: 638503423696424684
   FileSizes:
   - Name: Desktop
     Value: 60928
@@ -283,6 +310,33 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-1938868334794591414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Tutorial
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Tutorial
+  Guid:
+    Data1: 1549529085
+    Data2: 1336667695
+    Data3: 1135541951
+    Data4: -1302501537
+  Banks:
+  - {fileID: 8622635371974617510}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 111000
 --- !u!114 &-1283904401002492854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,10 +379,10 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638503309944922948
+  lastModified: 638504374099102995
   FileSizes:
   - Name: Desktop
-    Value: 2564
+    Value: 3002
   Exists: 1
 --- !u!114 &-99041157686916608
 MonoBehaviour:
@@ -396,13 +450,43 @@ MonoBehaviour:
   - {fileID: -6526758464227741176}
   - {fileID: -6405817923303524119}
   - {fileID: -8669385798982272974}
+  - {fileID: 312018126560552024}
+  - {fileID: -1938868334794591414}
+  - {fileID: -7510557814560919239}
   EditorParameters: []
   MasterBanks:
   - {fileID: -751045604753495431}
   StringsBanks:
   - {fileID: 8029348193096736356}
-  cacheTime: 638503404892776689
+  cacheTime: 638504374148456602
   cacheVersion: 131617
+--- !u!114 &312018126560552024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Main Menu
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Main Menu
+  Guid:
+    Data1: -1451072020
+    Data2: 1116215177
+    Data3: -586031227
+    Data4: 1421531448
+  Banks:
+  - {fileID: 8622635371974617510}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 105624
 --- !u!114 &1528340926279956762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -445,7 +529,7 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Eerie.bank
   Name: Eerie
   StudioPath: bank:/Eerie
-  lastModified: 638503404892776689
+  lastModified: 638503423696035567
   FileSizes:
   - Name: Desktop
     Value: 1620160
@@ -465,10 +549,10 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638503309949146540
+  lastModified: 638503423697025880
   FileSizes:
   - Name: Desktop
-    Value: 247264
+    Value: 247360
   Exists: 1
 --- !u!114 &2135108346094263819
 MonoBehaviour:
@@ -594,7 +678,7 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 638497367571993637
+  lastModified: 638503423695287658
   FileSizes:
   - Name: Desktop
     Value: 845088
@@ -614,10 +698,10 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638503309944948226
+  lastModified: 638504374099140536
   FileSizes:
   - Name: Desktop
-    Value: 2106
+    Value: 2362
   Exists: 1
 --- !u!114 &8475855534439021769
 MonoBehaviour:
@@ -661,8 +745,8 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638489595639426987
+  lastModified: 638504374148456602
   FileSizes:
   - Name: Desktop
-    Value: 494
+    Value: 5035232
   Exists: 1

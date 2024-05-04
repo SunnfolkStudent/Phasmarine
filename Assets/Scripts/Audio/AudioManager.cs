@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using FMOD.Studio;
 using FMODUnity;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
@@ -10,8 +11,12 @@ public class AudioManager : MonoBehaviour
    private EventInstance ambienceEventInstance;
    
    private EventInstance eerieEventInstance;
+
+   private EventInstance mainMenuEventInstance;
    
-   private EventInstance playerDiedEventInstance;
+   private EventInstance tutorialEventInstance;
+   
+   private EventInstance levelsEventInstance;
    
    public static AudioManager instance { get; private set; }
 
@@ -29,9 +34,31 @@ public class AudioManager : MonoBehaviour
 
    private void Start()
    {
-      InitializeAmbience(FMODEvents.instance.ambience);
-      InitializeEerie(FMODEvents.instance.eerie);
-      InitializeplayerDied(FMODEvents.instance.playerDied);
+      if (SceneManager.GetActiveScene() != SceneManager.GetSceneByName("MainMenu"))
+      {
+         if (SceneManager.GetActiveScene() != SceneManager.GetSceneByName("Tutorial"))
+         {
+            InitializeEerie(FMODEvents.instance.eerie);
+         }
+      }
+      
+      if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("MainMenu"))
+      {
+         InitializemainMenu(FMODEvents.instance.mainMenu);
+         InitializeAmbience(FMODEvents.instance.ambience);
+         
+      }
+      
+      if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("Tutorial"))
+      {
+         InitializeTutorial(FMODEvents.instance.tutorial);
+         InitializeAmbience(FMODEvents.instance.ambience);
+      }
+      
+      if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("Level1"))
+      {
+         InitializeAmbience(FMODEvents.instance.ambience);
+      }
    }
 
    private void InitializeAmbience(EventReference ambienceEventReference)
@@ -45,13 +72,17 @@ public class AudioManager : MonoBehaviour
       eerieEventInstance = CreateInstance(eerieEventReference);
       eerieEventInstance.start();
    }
-
-   private void InitializeplayerDied(EventReference playerDiedEventReference)
+   private void InitializemainMenu(EventReference mainMenuEventReference)
    {
-      playerDiedEventInstance = CreateInstance(playerDiedEventReference);
-      playerDiedEventInstance.start();
+      mainMenuEventInstance = CreateInstance(mainMenuEventReference);
+      mainMenuEventInstance.start();
    }
-
+   
+   private void InitializeTutorial(EventReference tutorialEventReference)
+   {
+      tutorialEventInstance = CreateInstance(tutorialEventReference);
+      tutorialEventInstance.start();
+   }
    public EventInstance CreateInstance(EventReference eventReference)
    {
       EventInstance eventInstance = RuntimeManager.CreateInstance(eventReference);
