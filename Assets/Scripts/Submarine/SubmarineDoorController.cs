@@ -4,7 +4,7 @@ public class SubmarineDoorController : MonoBehaviour, IInteracteble
 {
     [SerializeField] private string _prompt;
     [SerializeField] private int maxParts = 3;
-    
+    private int doorCounter = 0;
 
     public string InteractionPrompt => _prompt;
 
@@ -24,9 +24,11 @@ public class SubmarineDoorController : MonoBehaviour, IInteracteble
     {
         if (MiniGameManager.Parts == maxParts)
         {
-            StatickSceneControler.PuzzleMiniGameUp();
-            //Gå til neste level??
-            //Destroy(gameObject);
+            if (doorCounter== 0)
+            {StatickSceneControler.PuzzleMiniGameUp();}
+            if (doorCounter== 1)
+            {StatickSceneControler.PuzzleMiniGameUp();}
+            doorCounter++;
             return true;
         }
         return false;

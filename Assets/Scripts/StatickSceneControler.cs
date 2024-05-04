@@ -29,6 +29,12 @@ public static class StatickSceneControler
         SceneManager.LoadScene("PuzzleMiniGame", LoadSceneMode.Additive);
         
     }
+    
+    public static void PuzzleMiniGameUp2()
+    {
+        SceneManager.LoadScene("Puzzle2", LoadSceneMode.Additive);
+        
+    }
 
     public static void PuzzleMiniGameDown()
     {
