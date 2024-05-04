@@ -36,8 +36,6 @@ public class FieldOfView : MonoBehaviour
     private void FieldOfViewCheck()
     {
         Collider[] rangeCheks = Physics.OverlapSphere(transform.position, radius, targetMask);
-        
-        print("inRange");
         if (rangeCheks.Length != 0)
         {
             print(rangeCheks[0]);
