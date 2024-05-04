@@ -6706,13 +6706,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130226418}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0.68537366, w: 0.7281916}
+  m_LocalPosition: {x: -4.171, y: 0.782, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1457015267}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 86.53}
 --- !u!73398921 &1130226420
 VFXRenderer:
   serializedVersion: 1
@@ -6767,7 +6767,7 @@ VisualEffect:
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
   m_StartSeed: 0
-  m_ResetSeedOnPlay: 1
+  m_ResetSeedOnPlay: 0
   m_AllowInstancing: 1
   m_ResourceVersion: 1
   m_PropertySheet:
@@ -7588,7 +7588,7 @@ Camera:
   far clip plane: 1000
   field of view: 60.000004
   orthographic: 0
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -9744,6 +9744,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4467252748779405504, guid: cd85db65ab417e440a437b6b7a64d097,
         type: 3}
+      propertyPath: m_SceneBindings.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467252748779405504, guid: cd85db65ab417e440a437b6b7a64d097,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[7].key
+      value: 
+      objectReference: {fileID: 8706663493365796408, guid: 3c76614f80d6ff64086ce73ed29c8f1a,
+        type: 2}
+    - target: {fileID: 4467252748779405504, guid: cd85db65ab417e440a437b6b7a64d097,
+        type: 3}
       propertyPath: m_SceneBindings.Array.data[1].value
       value: 
       objectReference: {fileID: 1246292460}
@@ -9767,6 +9778,11 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.data[6].value
       value: 
       objectReference: {fileID: 892842772}
+    - target: {fileID: 4467252748779405504, guid: cd85db65ab417e440a437b6b7a64d097,
+        type: 3}
+      propertyPath: m_SceneBindings.Array.data[7].value
+      value: 
+      objectReference: {fileID: 1130226421}
     - target: {fileID: 4467252748779405504, guid: cd85db65ab417e440a437b6b7a64d097,
         type: 3}
       propertyPath: m_ExposedReferences.m_References.Array.size
@@ -13277,6 +13293,11 @@ PrefabInstance:
         type: 3}
       propertyPath: nostun.Guid.Data4
       value: -1446207573
+      objectReference: {fileID: 0}
+    - target: {fileID: 763303508118914950, guid: 847c1cadb1a82be47a0c4578277d173b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3569526298095887024, guid: 847c1cadb1a82be47a0c4578277d173b,
         type: 3}
