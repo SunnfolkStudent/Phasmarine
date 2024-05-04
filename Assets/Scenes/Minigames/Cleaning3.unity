@@ -170,6 +170,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &29205788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,6 +266,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &257915174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -348,6 +362,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &325647715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -437,6 +458,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &447178271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -526,6 +554,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &452351781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -615,6 +650,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &631993766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -704,6 +746,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &740326252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -793,6 +842,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &778665335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -882,6 +938,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &985907316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -932,7 +995,6 @@ GameObject:
   - component: {fileID: 1233119708}
   - component: {fileID: 1233119707}
   - component: {fileID: 1233119706}
-  - component: {fileID: 1233119705}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -940,19 +1002,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1233119705
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1233119704}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c4d12078af7c584c9798c44c01f1d63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  seaweedleft: 7
 --- !u!114 &1233119706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1189,6 +1238,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &1683955337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1278,6 +1334,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &1855234881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1367,6 +1430,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &1904382119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1456,6 +1526,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &2140215164
 MonoBehaviour:
   m_ObjectHideFlags: 0

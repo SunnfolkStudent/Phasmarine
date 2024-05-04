@@ -170,6 +170,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &129105701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,6 +266,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &130196443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -348,6 +362,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &354826733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -437,6 +458,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &495494914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -526,6 +554,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &524112570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -615,6 +650,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &914423450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -704,6 +746,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &1112740181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -793,6 +842,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &1191968160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -882,6 +938,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &1205517296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -971,6 +1034,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &1210005345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1060,6 +1130,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &1515488938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1251,6 +1328,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &1993263024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1340,6 +1424,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dampingSpeed: 0.01
+  scrapPick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &2031459067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1390,7 +1481,6 @@ GameObject:
   - component: {fileID: 2044831971}
   - component: {fileID: 2044831970}
   - component: {fileID: 2044831969}
-  - component: {fileID: 2044831968}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1398,19 +1488,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2044831968
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2044831967}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c4d12078af7c584c9798c44c01f1d63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  seaweedleft: 7
 --- !u!114 &2044831969
 MonoBehaviour:
   m_ObjectHideFlags: 0
