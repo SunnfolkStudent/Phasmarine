@@ -1489,6 +1489,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fish (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5607588148762735783, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
+        type: 3}
+      propertyPath: circleRadius
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607588148762735783, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
+        type: 3}
+      propertyPath: swichSircleRadiusOn
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6575249146503021633, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2242,6 +2252,20 @@ MonoBehaviour:
       Data3: -2045533002
       Data4: -1446207573
     Path: event:/SFX/Player/noStun
+  <subLand>k__BackingField:
+    Guid:
+      Data1: 1937820844
+      Data2: 1283180264
+      Data3: -1488286312
+      Data4: 1173413636
+    Path: event:/SFX/Submarine/subLand
+  <thumper>k__BackingField:
+    Guid:
+      Data1: -2144735722
+      Data2: 1089175548
+      Data3: 1891036843
+      Data4: -1964555236
+    Path: event:/SFX/Submarine/thumper
   <klokkeFeil>k__BackingField:
     Guid:
       Data1: -1071959649
@@ -5066,6 +5090,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fish (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5607588148762735783, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
+        type: 3}
+      propertyPath: circleRadius
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607588148762735783, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
+        type: 3}
+      propertyPath: swichSircleRadiusOn
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6575249146503021633, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6671,6 +6705,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fish (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607588148762735783, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
+        type: 3}
+      propertyPath: circleRadius
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607588148762735783, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
+        type: 3}
+      propertyPath: swichSircleRadiusOn
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6575249146503021633, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
         type: 3}
@@ -9622,8 +9666,49 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9966311996885320, guid: d8dc34cce084ee54baf9f74e03a6d33b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1283614379}
   m_SourcePrefab: {fileID: 100100000, guid: d8dc34cce084ee54baf9f74e03a6d33b, type: 3}
+--- !u!1 &1283614378 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9966311996885320, guid: d8dc34cce084ee54baf9f74e03a6d33b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1283614377}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1283614379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283614378}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: -1
+  OverrideMaxDistance: -1
 --- !u!1001 &1289286631
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10959,6 +11044,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fish (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607588148762735783, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
+        type: 3}
+      propertyPath: circleRadius
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607588148762735783, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
+        type: 3}
+      propertyPath: swichSircleRadiusOn
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6575249146503021633, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
         type: 3}
@@ -15475,6 +15570,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fish
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607588148762735783, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
+        type: 3}
+      propertyPath: circleRadius
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607588148762735783, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
+        type: 3}
+      propertyPath: swichSircleRadiusOn
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6575249146503021633, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
         type: 3}
