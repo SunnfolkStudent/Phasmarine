@@ -21,8 +21,6 @@ public class FMODEvents : MonoBehaviour
     [field: Header("Player SFX")]
     [field: SerializeField] public EventReference footstepsMetal { get; private set; }
     [field: SerializeField] public EventReference footstepsSand { get; private set; }
-    [field: SerializeField] public EventReference breathing { get; private set; }
-    [field: SerializeField] public EventReference hurt { get; private set; }
     [field: SerializeField] public EventReference oxygenRefill { get; private set; }
     [field: SerializeField] public EventReference scrapPick { get; private set; }
     [field: SerializeField] public EventReference stun { get; private set; }
@@ -35,6 +33,9 @@ public class FMODEvents : MonoBehaviour
     [field: Header("Minigame")]
     [field: SerializeField] public EventReference klokkeFeil { get; private set; }
     [field: SerializeField] public EventReference klokkeRiktig { get; private set; }
+    [field: SerializeField] public EventReference laugh { get; private set; }
+    [field: SerializeField] public EventReference huh { get; private set; }
+    
     
     [field: Header("MinigameMusic")]
     [field: SerializeField] public EventReference minigameMusic { get; private set; }

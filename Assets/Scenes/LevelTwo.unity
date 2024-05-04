@@ -1130,6 +1130,81 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grav (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Path
+      value: event:/SFX/Minigame/huh
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Path
+      value: event:/SFX/Minigame/laugh
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data1
+      value: 185481719
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data2
+      value: 1247422660
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data3
+      value: 653734822
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data4
+      value: 1730086327
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Path
+      value: event:/SFX/Player/scrapPick
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data1
+      value: -166406336
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data2
+      value: 1171387620
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data3
+      value: -2125752443
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data4
+      value: 121437562
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data1
+      value: 116142578
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data2
+      value: 1247444327
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data3
+      value: 612574907
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data4
+      value: -497568927
+      objectReference: {fileID: 0}
     - target: {fileID: 9110499452704148057, guid: 4f9b0ac0505c067458de02767bd3634c,
         type: 3}
       propertyPath: m_Camera
@@ -1986,6 +2061,81 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grav
       objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Path
+      value: event:/SFX/Minigame/huh
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Path
+      value: event:/SFX/Minigame/laugh
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data1
+      value: 185481719
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data2
+      value: 1247422660
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data3
+      value: 653734822
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data4
+      value: 1730086327
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Path
+      value: event:/SFX/Player/scrapPick
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data1
+      value: -166406336
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data2
+      value: 1171387620
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data3
+      value: -2125752443
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data4
+      value: 121437562
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data1
+      value: 116142578
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data2
+      value: 1247444327
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data3
+      value: 612574907
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data4
+      value: -497568927
+      objectReference: {fileID: 0}
     - target: {fileID: 9110499452704148057, guid: 4f9b0ac0505c067458de02767bd3634c,
         type: 3}
       propertyPath: m_Camera
@@ -2210,20 +2360,6 @@ MonoBehaviour:
       Data3: 1108120754
       Data4: 1434556327
     Path: event:/SFX/Player/footstepsSand
-  <breathing>k__BackingField:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  <hurt>k__BackingField:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
   <oxygenRefill>k__BackingField:
     Guid:
       Data1: 223745848
@@ -2280,6 +2416,20 @@ MonoBehaviour:
       Data3: 934635965
       Data4: -260513566
     Path: event:/SFX/Minigame/klokkeRiktig
+  <laugh>k__BackingField:
+    Guid:
+      Data1: -166406336
+      Data2: 1171387620
+      Data3: -2125752443
+      Data4: 121437562
+    Path: event:/SFX/Minigame/laugh
+  <huh>k__BackingField:
+    Guid:
+      Data1: 185481719
+      Data2: 1247422660
+      Data3: 653734822
+      Data4: 1730086327
+    Path: event:/SFX/Minigame/huh
   <minigameMusic>k__BackingField:
     Guid:
       Data1: -14007840
@@ -3704,6 +3854,81 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grav (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Path
+      value: event:/SFX/Minigame/huh
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Path
+      value: event:/SFX/Minigame/laugh
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data1
+      value: 185481719
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data2
+      value: 1247422660
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data3
+      value: 653734822
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data4
+      value: 1730086327
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Path
+      value: event:/SFX/Player/scrapPick
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data1
+      value: -166406336
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data2
+      value: 1171387620
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data3
+      value: -2125752443
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data4
+      value: 121437562
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data1
+      value: 116142578
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data2
+      value: 1247444327
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data3
+      value: 612574907
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data4
+      value: -497568927
       objectReference: {fileID: 0}
     - target: {fileID: 9110499452704148057, guid: 4f9b0ac0505c067458de02767bd3634c,
         type: 3}
@@ -6203,6 +6428,81 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grav (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Path
+      value: event:/SFX/Minigame/huh
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Path
+      value: event:/SFX/Minigame/laugh
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data1
+      value: 185481719
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data2
+      value: 1247422660
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data3
+      value: 653734822
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data4
+      value: 1730086327
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Path
+      value: event:/SFX/Player/scrapPick
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data1
+      value: -166406336
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data2
+      value: 1171387620
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data3
+      value: -2125752443
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data4
+      value: 121437562
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data1
+      value: 116142578
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data2
+      value: 1247444327
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data3
+      value: 612574907
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data4
+      value: -497568927
+      objectReference: {fileID: 0}
     - target: {fileID: 9110499452704148057, guid: 4f9b0ac0505c067458de02767bd3634c,
         type: 3}
       propertyPath: m_Camera
@@ -8601,6 +8901,81 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grav (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Path
+      value: event:/SFX/Minigame/huh
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Path
+      value: event:/SFX/Minigame/laugh
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data1
+      value: 185481719
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data2
+      value: 1247422660
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data3
+      value: 653734822
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data4
+      value: 1730086327
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Path
+      value: event:/SFX/Player/scrapPick
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data1
+      value: -166406336
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data2
+      value: 1171387620
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data3
+      value: -2125752443
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data4
+      value: 121437562
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data1
+      value: 116142578
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data2
+      value: 1247444327
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data3
+      value: 612574907
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data4
+      value: -497568927
+      objectReference: {fileID: 0}
     - target: {fileID: 9110499452704148057, guid: 4f9b0ac0505c067458de02767bd3634c,
         type: 3}
       propertyPath: m_Camera
@@ -8925,6 +9300,81 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grav (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Path
+      value: event:/SFX/Minigame/huh
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Path
+      value: event:/SFX/Minigame/laugh
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data1
+      value: 185481719
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data2
+      value: 1247422660
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data3
+      value: 653734822
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data4
+      value: 1730086327
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Path
+      value: event:/SFX/Player/scrapPick
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data1
+      value: -166406336
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data2
+      value: 1171387620
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data3
+      value: -2125752443
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data4
+      value: 121437562
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data1
+      value: 116142578
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data2
+      value: 1247444327
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data3
+      value: 612574907
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data4
+      value: -497568927
       objectReference: {fileID: 0}
     - target: {fileID: 9110499452704148057, guid: 4f9b0ac0505c067458de02767bd3634c,
         type: 3}
@@ -10635,6 +11085,81 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grav (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Path
+      value: event:/SFX/Minigame/huh
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Path
+      value: event:/SFX/Minigame/laugh
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data1
+      value: 185481719
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data2
+      value: 1247422660
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data3
+      value: 653734822
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data4
+      value: 1730086327
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Path
+      value: event:/SFX/Player/scrapPick
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data1
+      value: -166406336
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data2
+      value: 1171387620
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data3
+      value: -2125752443
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data4
+      value: 121437562
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data1
+      value: 116142578
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data2
+      value: 1247444327
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data3
+      value: 612574907
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data4
+      value: -497568927
+      objectReference: {fileID: 0}
     - target: {fileID: 9110499452704148057, guid: 4f9b0ac0505c067458de02767bd3634c,
         type: 3}
       propertyPath: m_Camera
@@ -11181,6 +11706,81 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grav (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Path
+      value: event:/SFX/Minigame/huh
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Path
+      value: event:/SFX/Minigame/laugh
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data1
+      value: 185481719
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data2
+      value: 1247422660
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data3
+      value: 653734822
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data4
+      value: 1730086327
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Path
+      value: event:/SFX/Player/scrapPick
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data1
+      value: -166406336
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data2
+      value: 1171387620
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data3
+      value: -2125752443
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data4
+      value: 121437562
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data1
+      value: 116142578
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data2
+      value: 1247444327
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data3
+      value: 612574907
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data4
+      value: -497568927
       objectReference: {fileID: 0}
     - target: {fileID: 9110499452704148057, guid: 4f9b0ac0505c067458de02767bd3634c,
         type: 3}
@@ -11741,6 +12341,81 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grav (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Path
+      value: event:/SFX/Minigame/huh
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Path
+      value: event:/SFX/Minigame/laugh
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data1
+      value: 185481719
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data2
+      value: 1247422660
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data3
+      value: 653734822
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data4
+      value: 1730086327
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Path
+      value: event:/SFX/Player/scrapPick
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data1
+      value: -166406336
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data2
+      value: 1171387620
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data3
+      value: -2125752443
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data4
+      value: 121437562
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data1
+      value: 116142578
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data2
+      value: 1247444327
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data3
+      value: 612574907
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data4
+      value: -497568927
       objectReference: {fileID: 0}
     - target: {fileID: 9110499452704148057, guid: 4f9b0ac0505c067458de02767bd3634c,
         type: 3}
@@ -12759,6 +13434,81 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grav (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Path
+      value: event:/SFX/Minigame/huh
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Path
+      value: event:/SFX/Minigame/laugh
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data1
+      value: 185481719
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data2
+      value: 1247422660
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data3
+      value: 653734822
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data4
+      value: 1730086327
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Path
+      value: event:/SFX/Player/scrapPick
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data1
+      value: -166406336
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data2
+      value: 1171387620
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data3
+      value: -2125752443
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data4
+      value: 121437562
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data1
+      value: 116142578
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data2
+      value: 1247444327
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data3
+      value: 612574907
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data4
+      value: -497568927
       objectReference: {fileID: 0}
     - target: {fileID: 9110499452704148057, guid: 4f9b0ac0505c067458de02767bd3634c,
         type: 3}
@@ -15800,6 +16550,81 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grave
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Path
+      value: event:/SFX/Minigame/huh
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Path
+      value: event:/SFX/Minigame/laugh
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data1
+      value: 185481719
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data2
+      value: 1247422660
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data3
+      value: 653734822
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: huh.Guid.Data4
+      value: 1730086327
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Path
+      value: event:/SFX/Player/scrapPick
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data1
+      value: -166406336
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data2
+      value: 1171387620
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data3
+      value: -2125752443
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: laugh.Guid.Data4
+      value: 121437562
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data1
+      value: 116142578
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data2
+      value: 1247444327
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data3
+      value: 612574907
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668356981430124883, guid: 4f9b0ac0505c067458de02767bd3634c,
+        type: 3}
+      propertyPath: scrapPick.Guid.Data4
+      value: -497568927
       objectReference: {fileID: 0}
     - target: {fileID: 9110499452704148057, guid: 4f9b0ac0505c067458de02767bd3634c,
         type: 3}

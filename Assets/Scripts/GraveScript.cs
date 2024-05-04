@@ -2,6 +2,7 @@ using System;
 using Player;
 using UnityEngine;
 using Random = UnityEngine.Random;
+using FMODUnity;
 
 //Bruke en timer som basescript for oksygensystemet
 public class GraveScript : MonoBehaviour, IInteracteble
@@ -10,6 +11,11 @@ public class GraveScript : MonoBehaviour, IInteracteble
     public int TotalParts = 3;
     public int GravesChecked = 0;
     private MiniGameManager _miniGameManager;
+
+    [SerializeField] private GameObject parent;
+    [SerializeField] private EventReference laugh;
+    [SerializeField] private EventReference huh;
+    [SerializeField] private EventReference scrapPick;
 
     public static bool StartTresure = false;
 
@@ -39,16 +45,20 @@ public class GraveScript : MonoBehaviour, IInteracteble
         {
             //Gi beskjed til spilleren om at de fant en del av ubåten
             Debug.Log("Fant ubåtdel");
+            global::AudioManager.instance.PlayOneShot(scrapPick, this.transform.position);
             MiniGameManager.Parts += 1;
         }
         else if (chance > 50)
         {
             Debug.Log("Skummel greie");
+            global::AudioManager.instance.PlayOneShot(laugh, this.transform.position);
             BatteryController.BatteryLevel -= 50;
+            
         }
         else
         {
             Debug.Log("Ingenting skjedde");
+            global::AudioManager.instance.PlayOneShot(huh, this.transform.position);
         }
     }
 
