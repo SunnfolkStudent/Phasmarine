@@ -194,7 +194,6 @@ MonoBehaviour:
   - {fileID: 1096267499}
   - {fileID: 153080883}
   - {fileID: 140323161}
-  - {fileID: 186322779}
   - {fileID: 1799180254}
   - {fileID: 745225325}
   - {fileID: 1782813141}
@@ -588,7 +587,6 @@ MonoBehaviour:
   - {fileID: 1096267499}
   - {fileID: 153080883}
   - {fileID: 140323161}
-  - {fileID: 186322779}
   - {fileID: 1799180254}
   - {fileID: 745225325}
   - {fileID: 1782813141}
@@ -893,7 +891,6 @@ MonoBehaviour:
   - {fileID: 1096267499}
   - {fileID: 153080883}
   - {fileID: 140323161}
-  - {fileID: 186322779}
   - {fileID: 1799180254}
   - {fileID: 745225325}
   - {fileID: 1782813141}
@@ -992,7 +989,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Occupied: 0
-  TileID: 3
+  TileID: 0
   IsCorrect: 0
 --- !u!114 &186322782
 MonoBehaviour:
@@ -1339,7 +1336,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.2, y: -30.8}
+  m_AnchoredPosition: {x: -0.15, y: -16.05}
   m_SizeDelta: {x: 15.5, y: 15.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &598608097
@@ -1379,7 +1376,6 @@ MonoBehaviour:
   - {fileID: 547443783}
   - {fileID: 153080883}
   - {fileID: 140323161}
-  - {fileID: 186322779}
   - {fileID: 1799180254}
   - {fileID: 745225325}
   - {fileID: 1782813141}
@@ -1402,7 +1398,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.21960784, g: 0.21960784, b: 0.21960784, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1916,7 +1912,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16, y: -31}
+  m_AnchoredPosition: {x: 0.7, y: -33.5}
   m_SizeDelta: {x: 15.5, y: 15.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &927919772
@@ -1955,7 +1951,6 @@ MonoBehaviour:
   - {fileID: 1096267499}
   - {fileID: 153080883}
   - {fileID: 140323161}
-  - {fileID: 186322779}
   - {fileID: 1799180254}
   - {fileID: 745225325}
   - {fileID: 1782813141}
@@ -2038,7 +2033,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.4, y: -31.9}
+  m_AnchoredPosition: {x: -0.2, y: -31.9}
   m_SizeDelta: {x: 150, y: 149.02344}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1055862747
@@ -2260,7 +2255,6 @@ MonoBehaviour:
   - {fileID: 1096267499}
   - {fileID: 153080883}
   - {fileID: 140323161}
-  - {fileID: 186322779}
   - {fileID: 1799180254}
   - {fileID: 745225325}
   - {fileID: 1782813141}
@@ -2434,7 +2428,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16.2, y: -0.1}
+  m_AnchoredPosition: {x: -16.5, y: -0.1}
   m_SizeDelta: {x: 150, y: 149.02344}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1096267501
@@ -2565,7 +2559,6 @@ MonoBehaviour:
   - {fileID: 1096267499}
   - {fileID: 153080883}
   - {fileID: 140323161}
-  - {fileID: 186322779}
   - {fileID: 1799180254}
   - {fileID: 745225325}
   - {fileID: 1782813141}
@@ -2648,7 +2641,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 31, y: -30.93}
+  m_AnchoredPosition: {x: 31.3, y: -31.9}
   m_SizeDelta: {x: 150, y: 149.02344}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1125412188
@@ -2770,7 +2763,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TileListe:
   - {fileID: 1086935999}
-  - {fileID: 1313740086}
   - {fileID: 2111878661}
   - {fileID: 1956788060}
   - {fileID: 362074414}
@@ -2780,7 +2772,6 @@ MonoBehaviour:
   - {fileID: 1096267499}
   - {fileID: 153080883}
   - {fileID: 140323161}
-  - {fileID: 186322779}
   - {fileID: 1799180254}
   - {fileID: 745225325}
   - {fileID: 1782813141}
@@ -3225,7 +3216,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TileListe:
   - {fileID: 1086935999}
-  - {fileID: 1313740086}
   - {fileID: 2111878661}
   - {fileID: 1956788060}
   - {fileID: 362074414}
@@ -3235,7 +3225,6 @@ MonoBehaviour:
   - {fileID: 1096267499}
   - {fileID: 153080883}
   - {fileID: 140323161}
-  - {fileID: 186322779}
   - {fileID: 1799180254}
   - {fileID: 745225325}
   - {fileID: 1782813141}
@@ -3625,7 +3614,6 @@ MonoBehaviour:
   - {fileID: 1096267499}
   - {fileID: 153080883}
   - {fileID: 140323161}
-  - {fileID: 186322779}
   - {fileID: 1799180254}
   - {fileID: 745225325}
   - {fileID: 1782813141}
@@ -3888,7 +3876,6 @@ MonoBehaviour:
   - {fileID: 1096267499}
   - {fileID: 153080883}
   - {fileID: 140323161}
-  - {fileID: 186322779}
   - {fileID: 1799180254}
   - {fileID: 745225325}
   - {fileID: 1782813141}
@@ -4011,7 +3998,6 @@ MonoBehaviour:
   - {fileID: 1096267499}
   - {fileID: 153080883}
   - {fileID: 140323161}
-  - {fileID: 186322779}
   - {fileID: 1799180254}
   - {fileID: 745225325}
   - {fileID: 1782813141}
@@ -4095,7 +4081,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.3, y: -16.5}
+  m_AnchoredPosition: {x: 16.7, y: -34}
   m_SizeDelta: {x: 15.5, y: 15.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1695342704
@@ -4134,7 +4120,6 @@ MonoBehaviour:
   - {fileID: 1096267499}
   - {fileID: 153080883}
   - {fileID: 140323161}
-  - {fileID: 186322779}
   - {fileID: 1799180254}
   - {fileID: 745225325}
   - {fileID: 1782813141}
@@ -4218,7 +4203,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 15.7, y: -31}
+  m_AnchoredPosition: {x: -17.6, y: -32}
   m_SizeDelta: {x: 15.5, y: 15.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1767899653
@@ -4257,7 +4242,6 @@ MonoBehaviour:
   - {fileID: 1096267499}
   - {fileID: 153080883}
   - {fileID: 140323161}
-  - {fileID: 186322779}
   - {fileID: 1799180254}
   - {fileID: 745225325}
   - {fileID: 1782813141}
@@ -4523,7 +4507,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16.1, y: -0.1}
+  m_AnchoredPosition: {x: -15.9, y: 0.3}
   m_SizeDelta: {x: 15.5, y: 15.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1803483616
@@ -4553,7 +4537,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TileListe:
   - {fileID: 1086935999}
-  - {fileID: 1313740086}
   - {fileID: 2111878661}
   - {fileID: 1956788060}
   - {fileID: 362074414}
@@ -4563,7 +4546,6 @@ MonoBehaviour:
   - {fileID: 1096267499}
   - {fileID: 153080883}
   - {fileID: 140323161}
-  - {fileID: 186322779}
   - {fileID: 1799180254}
   - {fileID: 745225325}
   - {fileID: 1782813141}
@@ -4955,7 +4937,6 @@ MonoBehaviour:
   - {fileID: 1096267499}
   - {fileID: 153080883}
   - {fileID: 140323161}
-  - {fileID: 186322779}
   - {fileID: 1799180254}
   - {fileID: 745225325}
   - {fileID: 1782813141}
@@ -5069,7 +5050,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TileListe:
   - {fileID: 1086935999}
-  - {fileID: 1313740086}
   - {fileID: 2111878661}
   - {fileID: 1956788060}
   - {fileID: 362074414}
@@ -5079,7 +5059,6 @@ MonoBehaviour:
   - {fileID: 1096267499}
   - {fileID: 153080883}
   - {fileID: 140323161}
-  - {fileID: 186322779}
   - {fileID: 1799180254}
   - {fileID: 745225325}
   - {fileID: 1782813141}
@@ -5375,7 +5354,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TileListe:
   - {fileID: 1086935999}
-  - {fileID: 1313740086}
   - {fileID: 2111878661}
   - {fileID: 1956788060}
   - {fileID: 362074414}
@@ -5385,7 +5363,6 @@ MonoBehaviour:
   - {fileID: 1096267499}
   - {fileID: 153080883}
   - {fileID: 140323161}
-  - {fileID: 186322779}
   - {fileID: 1799180254}
   - {fileID: 745225325}
   - {fileID: 1782813141}
