@@ -14,7 +14,7 @@ public class DragAndDrop : MonoBehaviour, IDragHandler
     private MiniGameManager _miniGameManager;
     [SerializeField] private EventReference scrapPick;
 
-    private Vector2 minmaxX = new Vector2(-300, 450);
+    private Vector2 minmaxX = new Vector2(-500, 450);
     private Vector2 minmaxY = new Vector2(-500, 650);
     
     void Start()
