@@ -27,6 +27,10 @@ public class FMODEvents : MonoBehaviour
     [field: SerializeField] public EventReference scrapPick { get; private set; }
     [field: SerializeField] public EventReference stun { get; private set; }
     [field: SerializeField] public EventReference nostun { get; private set; }
+    [field: SerializeField] public EventReference subLand { get; private set; }
+    
+    [field: Header("thumper")]
+    [field: SerializeField] public EventReference thumper { get; private set; }
     
     [field: Header("Minigame")]
     [field: SerializeField] public EventReference klokkeFeil { get; private set; }

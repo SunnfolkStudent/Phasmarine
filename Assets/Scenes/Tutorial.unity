@@ -279,7 +279,6 @@ GameObject:
   m_Component:
   - component: {fileID: 32049638}
   - component: {fileID: 32049637}
-  - component: {fileID: 32049639}
   m_Layer: 0
   m_Name: DestroydSubmarine
   m_TagString: Untagged
@@ -327,37 +326,6 @@ Transform:
   - {fileID: 1313899387}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &32049639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 32049636}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: Player
-  EventReference:
-    Guid:
-      Data1: -264622210
-      Data2: 1074041560
-      Data3: -1093090426
-      Data4: 674322755
-    Path: event:/SFX/World/SonarPing
-  Event: 
-  PlayEvent: 1
-  StopEvent: 3
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  AllowNonRigidbodyDoppler: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 50
 --- !u!1001 &46665938
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1868,6 +1836,20 @@ MonoBehaviour:
       Data3: -2045533002
       Data4: -1446207573
     Path: event:/SFX/Player/noStun
+  <subLand>k__BackingField:
+    Guid:
+      Data1: 1937820844
+      Data2: 1283180264
+      Data3: -1488286312
+      Data4: 1173413636
+    Path: event:/SFX/Submarine/subLand
+  <thumper>k__BackingField:
+    Guid:
+      Data1: -2144735722
+      Data2: 1089175548
+      Data3: 1891036843
+      Data4: -1964555236
+    Path: event:/SFX/Submarine/thumper
   <klokkeFeil>k__BackingField:
     Guid:
       Data1: 0
@@ -6150,6 +6132,7 @@ GameObject:
   - component: {fileID: 1313899390}
   - component: {fileID: 1313899389}
   - component: {fileID: 1313899388}
+  - component: {fileID: 1313899391}
   m_Layer: 6
   m_Name: Door
   m_TagString: Untagged
@@ -6185,7 +6168,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea9bae43e640840419c1cee224288e99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _prompt: 
+  _prompt: Scrap Picked
+  scrapPick:
+    Guid:
+      Data1: 116142578
+      Data2: 1247444327
+      Data3: 612574907
+      Data4: -497568927
+    Path: event:/SFX/Player/scrapPick
 --- !u!114 &1313899389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6222,6 +6212,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1313899391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313899386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -264622210
+      Data2: 1074041560
+      Data3: -1093090426
+      Data4: 674322755
+    Path: event:/SFX/World/SonarPing
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 100
 --- !u!1001 &1316554045
 PrefabInstance:
   m_ObjectHideFlags: 0

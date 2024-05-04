@@ -20,6 +20,13 @@ public class AudioManager : MonoBehaviour
    
    private EventInstance playerDiedEventInstance;
    
+   private EventInstance thumperEventInstance;
+    
+   private EventInstance subLandEventInstance;
+   
+   private EventInstance footstepsMetalEventInstance;
+    
+   
    public static AudioManager instance { get; private set; }
 
    private void Awake()
@@ -59,20 +66,29 @@ public class AudioManager : MonoBehaviour
       {
          InitializeTutorial(FMODEvents.instance.tutorial);
          InitializeAmbience(FMODEvents.instance.ambience);
+         Initializethumper(FMODEvents.instance.thumper);
+         InitializesubLand(FMODEvents.instance.subLand);
+         InitializefootstepsMetal(FMODEvents.instance.footstepsMetal);
       }
       
       //levelone plays ambience and levels themes
       if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("LevelOne"))
       {
+         Initializethumper(FMODEvents.instance.thumper);
          InitializeLevels(FMODEvents.instance.levels);
          InitializeAmbience(FMODEvents.instance.ambience);
+         InitializesubLand(FMODEvents.instance.subLand);
+         InitializefootstepsMetal(FMODEvents.instance.footstepsMetal);
       }
       
       //leveltwo plays ambience and levels themes
       if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("LevelTwo"))
       {
+         Initializethumper(FMODEvents.instance.thumper);
          InitializeLevels(FMODEvents.instance.levels);
          InitializeAmbience(FMODEvents.instance.ambience);
+         InitializesubLand(FMODEvents.instance.subLand);
+         InitializefootstepsMetal(FMODEvents.instance.footstepsMetal);
       }
       
       //deat plays death
@@ -117,6 +133,24 @@ public class AudioManager : MonoBehaviour
    {
       playerDiedEventInstance = CreateInstance(playerDiedEventReference);
       playerDiedEventInstance.start();
+   }
+   
+   private void Initializethumper(EventReference thumperEventReference)
+   {
+      thumperEventInstance = CreateInstance(thumperEventReference);
+      thumperEventInstance.start();
+   }
+   
+   private void InitializesubLand(EventReference subLandEventReference)
+   {
+      subLandEventInstance = CreateInstance(subLandEventReference);
+      subLandEventInstance.start();
+   }
+   
+   private void InitializefootstepsMetal(EventReference footstepsMetalEventReference)
+   {
+      footstepsMetalEventInstance = CreateInstance(footstepsMetalEventReference);
+      footstepsMetalEventInstance.start();
    }
 
    public EventInstance CreateInstance(EventReference eventReference)

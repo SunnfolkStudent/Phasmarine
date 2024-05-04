@@ -69,10 +69,10 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Death.bank
   Name: Death
   StudioPath: bank:/Death
-  lastModified: 638503423695647052
+  lastModified: 638504449068753428
   FileSizes:
   - Name: Desktop
-    Value: 86528
+    Value: 85856
   Exists: 1
 --- !u!114 &-7510557814560919239
 MonoBehaviour:
@@ -100,7 +100,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 150000
+  Length: 170000
 --- !u!114 &-6987433724914424392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -202,6 +202,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-3910291952120648753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Submarine/thumper
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Submarine/thumper
+  Guid:
+    Data1: -2144735722
+    Data2: 1089175548
+    Data3: 1891036843
+    Data4: -1964555236
+  Banks:
+  - {fileID: 2119255602621895156}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8477
 --- !u!114 &-3023979643605344087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -249,33 +276,6 @@ MonoBehaviour:
     Data4: 1502305317
   Banks:
   - {fileID: 7774847640081839547}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-2879491257140046542
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Death/deathsong
-  m_EditorClassIdentifier: 
-  Path: event:/Death/deathsong
-  Guid:
-    Data1: -1399150538
-    Data2: 1243332059
-    Data3: 1324892607
-    Data4: 890348497
-  Banks:
-  - {fileID: -8132920897888910894}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -379,7 +379,7 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638504374099102995
+  lastModified: 638504476278008877
   FileSizes:
   - Name: Desktop
     Value: 3002
@@ -435,7 +435,6 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: -2932473533099799200}
   - {fileID: 6268676560687054106}
-  - {fileID: -2879491257140046542}
   - {fileID: 8475855534439021769}
   - {fileID: -1283904401002492854}
   - {fileID: -2644866314340404734}
@@ -453,12 +452,14 @@ MonoBehaviour:
   - {fileID: 312018126560552024}
   - {fileID: -1938868334794591414}
   - {fileID: -7510557814560919239}
+  - {fileID: -3910291952120648753}
+  - {fileID: 7071750018990175132}
   EditorParameters: []
   MasterBanks:
   - {fileID: -751045604753495431}
   StringsBanks:
   - {fileID: 8029348193096736356}
-  cacheTime: 638504407039688997
+  cacheTime: 638504490457987645
   cacheVersion: 131617
 --- !u!114 &312018126560552024
 MonoBehaviour:
@@ -529,7 +530,7 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Eerie.bank
   Name: Eerie
   StudioPath: bank:/Eerie
-  lastModified: 638503423696035567
+  lastModified: 638504449069545607
   FileSizes:
   - Name: Desktop
     Value: 1620160
@@ -549,10 +550,10 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638503423697025880
+  lastModified: 638504490457987645
   FileSizes:
   - Name: Desktop
-    Value: 247360
+    Value: 428640
   Exists: 1
 --- !u!114 &2135108346094263819
 MonoBehaviour:
@@ -607,7 +608,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 650
+  Length: 9200
 --- !u!114 &4790895597532450124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -663,6 +664,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 100597
+--- !u!114 &7071750018990175132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Submarine/subLand
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Submarine/subLand
+  Guid:
+    Data1: 1937820844
+    Data2: 1283180264
+    Data3: -1488286312
+    Data4: 1173413636
+  Banks:
+  - {fileID: 2119255602621895156}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5680
 --- !u!114 &7774847640081839547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -698,10 +726,10 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638504374099140536
+  lastModified: 638504476278038999
   FileSizes:
   - Name: Desktop
-    Value: 2362
+    Value: 2408
   Exists: 1
 --- !u!114 &8475855534439021769
 MonoBehaviour:
@@ -745,7 +773,7 @@ MonoBehaviour:
   Path: ../../../Users/mario/Music/Game Projects/Adorablis/Final Game Project/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638504407039688997
+  lastModified: 638504449070490463
   FileSizes:
   - Name: Desktop
     Value: 5035232
