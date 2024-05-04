@@ -2163,18 +2163,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <mainMenu>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1451072020
+      Data2: 1116215177
+      Data3: -586031227
+      Data4: 1421531448
+    Path: event:/Music/Main Menu
   <tutorial>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1549529085
+      Data2: 1336667695
+      Data3: 1135541951
+      Data4: -1302501537
+    Path: event:/Music/Tutorial
   <levels>k__BackingField:
     Guid:
       Data1: 173164281
@@ -5247,6 +5247,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2799710602240025259, guid: cd85db65ab417e440a437b6b7a64d097,
+        type: 3}
+      propertyPath: maxParts
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3478585530306608671, guid: cd85db65ab417e440a437b6b7a64d097,
         type: 3}
       propertyPath: m_LocalPosition.x

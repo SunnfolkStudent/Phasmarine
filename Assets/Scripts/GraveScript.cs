@@ -11,8 +11,6 @@ public class GraveScript : MonoBehaviour, IInteracteble
     public int GravesChecked = 0;
     private MiniGameManager _miniGameManager;
 
-    [SerializeField] private GameObject parent;
-
     public static bool StartTresure = false;
 
     [SerializeField] private string _prompt;
@@ -23,7 +21,7 @@ public class GraveScript : MonoBehaviour, IInteracteble
         StatickSceneControler.SpinMiniGameUp();
         //Hente ut poengene fra spinminigame til å påvirke sjansene dine i treasurefunksjonen
         GravesChecked += 1;
-        Destroy(parent);
+        Destroy(transform.parent.gameObject);
         return true;
     }
 

@@ -83,6 +83,11 @@ public static class StatickSceneControler
     {
         SceneManager.LoadScene("Ending");
     }
+    public static void PuzzleMiniGameDown3()
+    {
+        SceneManager.UnloadSceneAsync("Puzzle3");
+    }
+    
 
     public static void nextLevel()
     {
