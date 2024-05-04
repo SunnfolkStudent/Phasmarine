@@ -23,6 +23,14 @@ public static class StatickSceneControler
     {
         SceneManager.UnloadSceneAsync("CleaningMiniGame");
     }
+    public static void CleaningMiniGameDown2()
+    {
+        SceneManager.UnloadSceneAsync("Cleaning2");
+    }
+    public static void CleaningMiniGameDown3()
+    {
+        SceneManager.UnloadSceneAsync("Cleaning3");
+    }
     
     public static void PuzzleMiniGameUp()
     {

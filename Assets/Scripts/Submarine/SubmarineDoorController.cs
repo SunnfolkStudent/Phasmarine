@@ -21,7 +21,7 @@ public class SubmarineDoorController : MonoBehaviour, IInteracteble
 
     public bool Interact(Interactor interactor)
     {
-        if (MiniGameManager.Parts == maxParts)
+        if (MiniGameManager.Parts >= maxParts)
         {
             if (StatickSceneControler.level== 1)
             {StatickSceneControler.PuzzleMiniGameUp();}

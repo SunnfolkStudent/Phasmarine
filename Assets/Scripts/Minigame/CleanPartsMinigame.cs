@@ -40,7 +40,7 @@ public class CleanPartsMinigame : MonoBehaviour, IPointerDownHandler, IBeginDrag
             seaweed -= 1;
             if (seaweed == 0)
             {
-                _miniGameManager.CleaningMiniGameDown();
+                StatickSceneControler.CleaningMiniGameDown();
             }
         }
         //else

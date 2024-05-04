@@ -23,7 +23,6 @@ public class FieldOfView : MonoBehaviour
 
     private IEnumerator FOVRoutine()
     {
-        float delay =  0.2f;
         WaitForSeconds wait = new WaitForSeconds(0.2f);
 
         while (true)
@@ -38,7 +37,6 @@ public class FieldOfView : MonoBehaviour
         Collider[] rangeCheks = Physics.OverlapSphere(transform.position, radius, targetMask);
         if (rangeCheks.Length != 0)
         {
-            print(rangeCheks[0]);
             Transform target = rangeCheks[0].transform;
             Vector3 directionToTarget = (target.position - transform.position).normalized;
             

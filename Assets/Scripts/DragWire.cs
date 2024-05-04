@@ -1,14 +1,12 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine;using UnityEngine.EventSystems;
+using UnityEngine.EventSystems;
 
 public class DragWire : MonoBehaviour, IDragHandler, IEndDragHandler
 {
     private float dampingSpeed;
     private RectTransform draggingObjectRectTransform;
     private Vector3 velocity = Vector3.zero;
-    private bool draggable = true;
     private MiniGameManager _miniGameManager;
 
     public List<GameObject> TileListe = new List<GameObject>();

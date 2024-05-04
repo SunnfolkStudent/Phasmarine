@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;using UnityEngine.EventSystems;
 using FMODUnity;
 
@@ -10,7 +7,6 @@ public class DragAndDrop : MonoBehaviour, IDragHandler
     private float dampingSpeed;
     private RectTransform draggingObjectRectTransform;
     private Vector3 velocity = Vector3.zero;
-    private bool draggable = true;
     private MiniGameManager _miniGameManager;
     [SerializeField] private EventReference scrapPick;
 
@@ -40,25 +36,30 @@ public class DragAndDrop : MonoBehaviour, IDragHandler
                 hasbeencounted = true;
                 MiniGameManager.instance.seaweedleft -= 1;
                 Debug.Log(MiniGameManager.instance.seaweedleft);
-                draggable = false;
                 
                 if (MiniGameManager.instance.seaweedleft <= 0)
                 {
+                    print("parts:"+MiniGameManager.Parts);
                     AudioManager.instance.PlayOneShot(scrapPick, this.transform.position);
-                    Debug.Log("Seaweed collider");
                     if (MiniGameManager.Parts == 0)
                     {
-                        _miniGameManager.CleaningMiniGameDown();
+                        print("levelToUnlode 1");
+                        StatickSceneControler.CleaningMiniGameDown();
+                        MiniGameManager.Parts ++;
                     }
                     if (MiniGameManager.Parts == 1)
                     {
-                        _miniGameManager.CleaningMiniGameDown2();
+                        print("levelToUnlode 2");
+                        StatickSceneControler.CleaningMiniGameDown2();
+                        MiniGameManager.Parts ++;
                     }
                     if (MiniGameManager.Parts == 2)
                     {
-                        _miniGameManager.CleaningMiniGameDown3();
+                        print("levelToUnlode 3");
+                        StatickSceneControler.CleaningMiniGameDown3();
+                        MiniGameManager.Parts ++;
                     }
-                    MiniGameManager.Parts += 1;
+                    
                 }
                 
             }

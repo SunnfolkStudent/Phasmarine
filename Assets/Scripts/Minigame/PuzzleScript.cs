@@ -45,8 +45,6 @@ public class PuzzleScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
         draggingObjectRectTransform = transform as RectTransform;
     }
 
-    private bool hasbeencounted = false;
-
     public void OnBeginDrag(PointerEventData eventData)
     {
         float smallestdistance = 1000;
