@@ -5,7 +5,8 @@ using UnityEngine;
 public class OrderInlayerControler : MonoBehaviour
 {
     private SpriteRenderer _spriteRenderer;
-
+    [SerializeField] private int offset;
+    
     private void Start()
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
@@ -13,6 +14,6 @@ public class OrderInlayerControler : MonoBehaviour
 
     private void Update()
     {
-        _spriteRenderer.sortingOrder = -(int)transform.position.z;
+        _spriteRenderer.sortingOrder = -(int)transform.position.z + offset;
     }
 }
