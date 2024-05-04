@@ -1,12 +1,13 @@
-using System;
 using System.Collections;
 using Player;
 using UnityEngine;
 using FMODUnity;
+using UnityEngine.VFX;
 
 public class LightControler : MonoBehaviour
 {
     private Light light;
+    [SerializeField] private VisualEffect vfx;
     
     [SerializeField] private float stunCost;
     [SerializeField] private EventReference stun;
@@ -33,17 +34,12 @@ public class LightControler : MonoBehaviour
         canStun = false;
         scared = true;
         AudioManager.instance.PlayOneShot(stun, this.transform.position);
+        vfx.Play();
         BatteryController.BatteryLevel -= stunCost;
         StartCoroutine(IStopStun());
 
         if (!Input.GetKeyDown(KeyCode.F) && (canStun = false)) AudioManager.instance.PlayOneShot(nostun, this.transform.position);
     }
-
-    
-        
-    
-        
-    
 
     private IEnumerator IStopStun()
     {

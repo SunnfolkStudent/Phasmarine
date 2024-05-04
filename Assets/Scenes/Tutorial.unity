@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 742261}
   - component: {fileID: 742260}
   m_Layer: 7
-  m_Name: Visual Effect
+  m_Name: Stun Effect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -147,12 +147,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 742258}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.277, y: -0.151, z: -0.201}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.224, y: -0.15100002, z: -0.316}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 238827152}
+  m_Father: {fileID: 1277954223}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!73398921 &742260
 VFXRenderer:
@@ -205,8 +205,8 @@ VisualEffect:
   m_GameObject: {fileID: 742258}
   m_Enabled: 1
   m_Asset: {fileID: 8926484042661614526, guid: b24ea3e4c747665408a1d47f3081b82a, type: 3}
-  m_InitialEventName: OnPlay
-  m_InitialEventNameOverriden: 0
+  m_InitialEventName: OnStun
+  m_InitialEventNameOverriden: 1
   m_StartSeed: 0
   m_ResetSeedOnPlay: 1
   m_AllowInstancing: 1
@@ -5955,6 +5955,38 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1277752231}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1277954222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1277954223}
+  m_Layer: 7
+  m_Name: Stun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1277954223
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277954222}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 742259}
+  m_Father: {fileID: 238827152}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1283566560
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11472,7 +11504,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7113428959534068296, guid: 847c1cadb1a82be47a0c4578277d173b,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 742259}
+      addedObject: {fileID: 1277954223}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 847c1cadb1a82be47a0c4578277d173b, type: 3}
 --- !u!1001 &8611086172934727341
