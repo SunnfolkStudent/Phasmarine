@@ -62,7 +62,7 @@ namespace Player
 
                 if (colorAdjustments.postExposure.value <= -10)
                 {
-                   print("PlayerDied"); 
+                   StatickSceneControler.DeathUp();
                 }
                 
             }

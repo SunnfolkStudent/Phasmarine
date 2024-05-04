@@ -373,6 +373,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: NonStatickSceneControler, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &555012786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1090,7 +1102,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1821879873}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1117,6 +1129,13 @@ MonoBehaviour:
       Data4: 1421531448
     Path: event:/Music/Main Menu
   <tutorial>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  <levels>k__BackingField:
     Guid:
       Data1: 0
       Data2: 0
@@ -1151,20 +1170,6 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
-  <breathing>k__BackingField:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  <hurt>k__BackingField:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
   <oxygenRefill>k__BackingField:
     Guid:
       Data1: 0
@@ -1193,6 +1198,20 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
+  <subLand>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  <thumper>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   <klokkeFeil>k__BackingField:
     Guid:
       Data1: 0
@@ -1207,6 +1226,27 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
+  <laugh>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  <huh>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  <click>k__BackingField:
+    Guid:
+      Data1: -1524888607
+      Data2: 1138174802
+      Data3: 332282793
+      Data4: 1881248639
+    Path: event:/UI/click
   <minigameMusic>k__BackingField:
     Guid:
       Data1: 0

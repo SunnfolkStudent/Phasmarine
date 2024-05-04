@@ -1683,18 +1683,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <mainMenu>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1451072020
+      Data2: 1116215177
+      Data3: -586031227
+      Data4: 1421531448
+    Path: event:/Music/Main Menu
   <tutorial>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1549529085
+      Data2: 1336667695
+      Data3: 1135541951
+      Data4: -1302501537
+    Path: event:/Music/Tutorial
   <levels>k__BackingField:
     Guid:
       Data1: 173164281
@@ -4866,11 +4866,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fish
       objectReference: {fileID: 0}
-    - target: {fileID: 5607588148762735783, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
-        type: 3}
-      propertyPath: swichSircleRadiusOn
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6575249146503021633, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4924,11 +4919,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3832154864297059850, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1492415304}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f1b96fb0c5670640bb6bf51ff219a05, type: 3}
 --- !u!1 &809914718 stripped
 GameObject:
@@ -9834,43 +9825,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1491086737}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1492415300 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3832154864297059850, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
-    type: 3}
-  m_PrefabInstance: {fileID: 807000123}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1492415304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1492415300}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -269566501
-      Data2: 1107969999
-      Data3: -1116481113
-      Data4: -1562296811
-    Path: event:/SFX/World/FishPing
-  Event: 
-  PlayEvent: 1
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  AllowNonRigidbodyDoppler: 0
-  Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1547020419
 PrefabInstance:
   m_ObjectHideFlags: 0

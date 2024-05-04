@@ -154,9 +154,9 @@ MonoBehaviour:
   circleRadius: 10
   circleSpeed: 0.3
   fov: {fileID: 3019680313209517498}
-  attackSpeed: 5
+  attackSpeed: 4
   scaredDuration: 5
-  swichSircleRadiusOn: 1
+  swichSircleRadiusOn: 0
   weaveTimer: 0
   weaveDistance: 2
   weaveSpeed: 2
@@ -195,6 +195,7 @@ GameObject:
   - component: {fileID: 9116774925441375558}
   - component: {fileID: 3536624345113787204}
   - component: {fileID: 8503671084376055136}
+  - component: {fileID: 1552477681316741742}
   m_Layer: 0
   m_Name: HitBox
   m_TagString: Untagged
@@ -250,6 +251,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80de4ce3d5b4f49449ee8ee1032ed3fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1552477681316741742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3832154864297059850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -269566501
+      Data2: 1107969999
+      Data3: -1116481113
+      Data4: -1562296811
+    Path: event:/SFX/World/FishPing
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &7200639782137089821
 GameObject:
   m_ObjectHideFlags: 0
@@ -372,3 +404,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab96d41a44e09a04287744c29d85f76f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: 0

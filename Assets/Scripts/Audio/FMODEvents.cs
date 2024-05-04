@@ -36,6 +36,8 @@ public class FMODEvents : MonoBehaviour
     [field: SerializeField] public EventReference laugh { get; private set; }
     [field: SerializeField] public EventReference huh { get; private set; }
     
+    [field: Header("UI")]
+    [field: SerializeField] public EventReference click { get; private set; }
     
     [field: Header("MinigameMusic")]
     [field: SerializeField] public EventReference minigameMusic { get; private set; }

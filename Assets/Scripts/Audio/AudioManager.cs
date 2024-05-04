@@ -3,6 +3,7 @@ using UnityEngine;
 using FMOD.Studio;
 using FMODUnity;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 public class AudioManager : MonoBehaviour
 {
@@ -25,6 +26,8 @@ public class AudioManager : MonoBehaviour
    private EventInstance subLandEventInstance;
    
    private EventInstance footstepsMetalEventInstance;
+   
+   [SerializeField] private EventReference click;
     
    
    public static AudioManager instance { get; private set; }
@@ -179,6 +182,11 @@ public class AudioManager : MonoBehaviour
    private void OnDestroy()
    {
       CleanUp();
+   }
+
+   public void Buttonsound()
+   {
+      global::AudioManager.instance.PlayOneShot(click, this.transform.position);
    }
    
 }

@@ -1747,11 +1747,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <mainMenu>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1451072020
+      Data2: 1116215177
+      Data3: -586031227
+      Data4: 1421531448
+    Path: event:/Music/Main Menu
   <tutorial>k__BackingField:
     Guid:
       Data1: 1549529085
@@ -1761,11 +1761,11 @@ MonoBehaviour:
     Path: event:/Music/Tutorial
   <levels>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 173164281
+      Data2: 1207761011
+      Data3: 463231873
+      Data4: 1781359467
+    Path: event:/Music/Levels
   <ambience>k__BackingField:
     Guid:
       Data1: 420809172
@@ -1852,25 +1852,25 @@ MonoBehaviour:
     Path: event:/SFX/Submarine/thumper
   <klokkeFeil>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1071959649
+      Data2: 1090570764
+      Data3: -883118692
+      Data4: 1293987305
+    Path: event:/SFX/Minigame/klokkeFeil
   <klokkeRiktig>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1182495617
+      Data2: 1226949296
+      Data3: 934635965
+      Data4: -260513566
+    Path: event:/SFX/Minigame/klokkeRiktig
   <minigameMusic>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -14007840
+      Data2: 1197042020
+      Data3: -2071133807
+      Data4: 1491251826
+    Path: event:/MinigameMusic/minigameMusic
   <eerie>k__BackingField:
     Guid:
       Data1: -84892422
