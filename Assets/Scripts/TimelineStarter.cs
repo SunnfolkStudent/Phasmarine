@@ -19,7 +19,7 @@ public class TimelineStarter : MonoBehaviour, ITimelineController
         if (StatickSceneControler.level == 3)
         {
             StartCoroutine(IGoToEndingScene());
-            StatickSceneControler.PuzzleMiniGameDown3();
+            StatickSceneControler.PuzzleMiniGameDown();
         }
         else
         {

@@ -16,6 +16,21 @@ public class PuzzleManager : MonoBehaviour
     }
 
     private bool isChecking = false;
+
+    private IEnumerator Waitseconds()
+    {
+        yield return new WaitForSeconds((4));
+        Debug.Log("All right");
+        var timelineController = GameObject.Find("FadeOutControler").GetComponent<TimelineStarter>();
+        if (timelineController != null)
+        {
+            timelineController.StartTimeline();
+        }
+        else
+        {
+            print("timlinecontroler is null");
+        }
+    }
     public void Checkifworks()
     {
         if (isChecking == false)
@@ -30,16 +45,7 @@ public class PuzzleManager : MonoBehaviour
                     Debug.Log("the counter is " + counter);
                     if (counter >= 11)
                     {
-                        Debug.Log("All right");
-                        var timelineController = GameObject.Find("FadeOutControler").GetComponent<TimelineStarter>();
-                        if (timelineController != null)
-                        {
-                            timelineController.StartTimeline();
-                        }
-                        else
-                        {
-                            print("timlinecontroler is null");
-                        }
+                        StartCoroutine(Waitseconds());
                     }
                 }
                 else

@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Occupied: 0
-  TileID: 14
+  TileID: 0
   IsCorrect: 0
 --- !u!114 &41471751
 MonoBehaviour:
@@ -639,18 +639,15 @@ MonoBehaviour:
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
-  - {fileID: 551227982}
   - {fileID: 1358563168}
   - {fileID: 339665413}
   - {fileID: 1182383053}
   - {fileID: 1633822319}
-  - {fileID: 41471749}
   - {fileID: 1761041475}
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
   - {fileID: 444748925}
-  - {fileID: 820208024}
   - {fileID: 508301696}
   - {fileID: 578682513}
   CurrentTile: {fileID: 0}
@@ -853,18 +850,15 @@ MonoBehaviour:
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
-  - {fileID: 551227982}
   - {fileID: 1358563168}
   - {fileID: 339665413}
   - {fileID: 1182383053}
   - {fileID: 1633822319}
-  - {fileID: 41471749}
   - {fileID: 1761041475}
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
   - {fileID: 444748925}
-  - {fileID: 820208024}
   - {fileID: 508301696}
   - {fileID: 578682513}
   CurrentTile: {fileID: 0}
@@ -1067,18 +1061,15 @@ MonoBehaviour:
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
-  - {fileID: 551227982}
   - {fileID: 1358563168}
   - {fileID: 339665413}
   - {fileID: 1182383053}
   - {fileID: 1633822319}
-  - {fileID: 41471749}
   - {fileID: 1761041475}
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
   - {fileID: 444748925}
-  - {fileID: 820208024}
   - {fileID: 508301696}
   - {fileID: 578682513}
   CurrentTile: {fileID: 0}
@@ -1461,18 +1452,15 @@ MonoBehaviour:
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
-  - {fileID: 551227982}
   - {fileID: 1358563168}
   - {fileID: 339665413}
   - {fileID: 1182383053}
   - {fileID: 1633822319}
-  - {fileID: 41471749}
   - {fileID: 1761041475}
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
   - {fileID: 444748925}
-  - {fileID: 820208024}
   - {fileID: 508301696}
   - {fileID: 578682513}
   CurrentTile: {fileID: 0}
@@ -1638,7 +1626,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Occupied: 0
-  TileID: 6
+  TileID: 0
   IsCorrect: 0
 --- !u!114 &551227984
 MonoBehaviour:
@@ -1824,7 +1812,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -17.1, y: 2.4}
+  m_AnchoredPosition: {x: -15.9, y: 0.7}
   m_SizeDelta: {x: 15.5, y: 15.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &578007436
@@ -1857,18 +1845,15 @@ MonoBehaviour:
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
-  - {fileID: 551227982}
   - {fileID: 1358563168}
   - {fileID: 339665413}
   - {fileID: 1182383053}
   - {fileID: 1633822319}
-  - {fileID: 41471749}
   - {fileID: 1761041475}
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
   - {fileID: 444748925}
-  - {fileID: 820208024}
   - {fileID: 508301696}
   - {fileID: 578682513}
   CurrentTile: {fileID: 0}
@@ -2342,18 +2327,15 @@ MonoBehaviour:
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
-  - {fileID: 551227982}
   - {fileID: 1358563168}
   - {fileID: 339665413}
   - {fileID: 1182383053}
   - {fileID: 1633822319}
-  - {fileID: 41471749}
   - {fileID: 1761041475}
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
   - {fileID: 444748925}
-  - {fileID: 820208024}
   - {fileID: 508301696}
   - {fileID: 578682513}
   CurrentTile: {fileID: 0}
@@ -2465,18 +2447,15 @@ MonoBehaviour:
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
-  - {fileID: 551227982}
   - {fileID: 1358563168}
   - {fileID: 339665413}
   - {fileID: 1182383053}
   - {fileID: 1633822319}
-  - {fileID: 41471749}
   - {fileID: 1761041475}
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
   - {fileID: 444748925}
-  - {fileID: 820208024}
   - {fileID: 508301696}
   - {fileID: 578682513}
   CurrentTile: {fileID: 0}
@@ -2731,7 +2710,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Occupied: 0
-  TileID: 9
+  TileID: 0
   IsCorrect: 0
 --- !u!114 &820208026
 MonoBehaviour:
@@ -2859,18 +2838,15 @@ MonoBehaviour:
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
-  - {fileID: 551227982}
   - {fileID: 1358563168}
   - {fileID: 339665413}
   - {fileID: 1182383053}
   - {fileID: 1633822319}
-  - {fileID: 41471749}
   - {fileID: 1761041475}
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
   - {fileID: 444748925}
-  - {fileID: 820208024}
   - {fileID: 508301696}
   - {fileID: 578682513}
   CurrentTile: {fileID: 0}
@@ -2982,18 +2958,15 @@ MonoBehaviour:
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
-  - {fileID: 551227982}
   - {fileID: 1358563168}
   - {fileID: 339665413}
   - {fileID: 1182383053}
   - {fileID: 1633822319}
-  - {fileID: 41471749}
   - {fileID: 1761041475}
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
   - {fileID: 444748925}
-  - {fileID: 820208024}
   - {fileID: 508301696}
   - {fileID: 578682513}
   CurrentTile: {fileID: 0}
@@ -3105,18 +3078,15 @@ MonoBehaviour:
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
-  - {fileID: 551227982}
   - {fileID: 1358563168}
   - {fileID: 339665413}
   - {fileID: 1182383053}
   - {fileID: 1633822319}
-  - {fileID: 41471749}
   - {fileID: 1761041475}
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
   - {fileID: 444748925}
-  - {fileID: 820208024}
   - {fileID: 508301696}
   - {fileID: 578682513}
   CurrentTile: {fileID: 0}
@@ -3443,7 +3413,6 @@ GameObject:
   - component: {fileID: 1305988520}
   - component: {fileID: 1305988524}
   - component: {fileID: 1305988523}
-  - component: {fileID: 1305988522}
   - component: {fileID: 1305988521}
   m_Layer: 0
   m_Name: 9
@@ -3484,39 +3453,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   seaweedleft: 7
---- !u!114 &1305988522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1305988519}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52d1fd7490e7fbc42b8b56da8659f575, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TileListe:
-  - {fileID: 541009873}
-  - {fileID: 1224428698}
-  - {fileID: 1211798522}
-  - {fileID: 737636939}
-  - {fileID: 551227982}
-  - {fileID: 1358563168}
-  - {fileID: 339665413}
-  - {fileID: 1182383053}
-  - {fileID: 1633822319}
-  - {fileID: 41471749}
-  - {fileID: 1761041475}
-  - {fileID: 177583395}
-  - {fileID: 704148403}
-  - {fileID: 1464248522}
-  - {fileID: 444748925}
-  - {fileID: 820208024}
-  - {fileID: 508301696}
-  - {fileID: 578682513}
-  CurrentTile: {fileID: 0}
-  nearestPos: {x: 0, y: 0, z: 0}
 --- !u!114 &1305988523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3530,7 +3466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3566,7 +3502,6 @@ GameObject:
   - component: {fileID: 1356815389}
   - component: {fileID: 1356815393}
   - component: {fileID: 1356815392}
-  - component: {fileID: 1356815391}
   - component: {fileID: 1356815390}
   m_Layer: 0
   m_Name: 14
@@ -3607,39 +3542,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   seaweedleft: 7
---- !u!114 &1356815391
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1356815388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52d1fd7490e7fbc42b8b56da8659f575, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TileListe:
-  - {fileID: 541009873}
-  - {fileID: 1224428698}
-  - {fileID: 1211798522}
-  - {fileID: 737636939}
-  - {fileID: 551227982}
-  - {fileID: 1358563168}
-  - {fileID: 339665413}
-  - {fileID: 1182383053}
-  - {fileID: 1633822319}
-  - {fileID: 41471749}
-  - {fileID: 1761041475}
-  - {fileID: 177583395}
-  - {fileID: 704148403}
-  - {fileID: 1464248522}
-  - {fileID: 444748925}
-  - {fileID: 820208024}
-  - {fileID: 508301696}
-  - {fileID: 578682513}
-  CurrentTile: {fileID: 0}
-  nearestPos: {x: 0, y: 0, z: 0}
 --- !u!114 &1356815392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3653,7 +3555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3805,7 +3707,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 31.2, y: 1.8}
+  m_AnchoredPosition: {x: 31.2, y: -0.1}
   m_SizeDelta: {x: 15.5, y: 15.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1409547435
@@ -3838,18 +3740,15 @@ MonoBehaviour:
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
-  - {fileID: 551227982}
   - {fileID: 1358563168}
   - {fileID: 339665413}
   - {fileID: 1182383053}
   - {fileID: 1633822319}
-  - {fileID: 41471749}
   - {fileID: 1761041475}
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
   - {fileID: 444748925}
-  - {fileID: 820208024}
   - {fileID: 508301696}
   - {fileID: 578682513}
   CurrentTile: {fileID: 0}
@@ -4370,18 +4269,15 @@ MonoBehaviour:
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
-  - {fileID: 551227982}
   - {fileID: 1358563168}
   - {fileID: 339665413}
   - {fileID: 1182383053}
   - {fileID: 1633822319}
-  - {fileID: 41471749}
   - {fileID: 1761041475}
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
   - {fileID: 444748925}
-  - {fileID: 820208024}
   - {fileID: 508301696}
   - {fileID: 578682513}
 --- !u!114 &1630808127
@@ -4523,7 +4419,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -15.8, y: 0.05}
+  m_AnchoredPosition: {x: -15.8, y: 0.2}
   m_SizeDelta: {x: 150, y: 149.02344}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1666796140
@@ -4537,7 +4433,6 @@ GameObject:
   - component: {fileID: 1666796141}
   - component: {fileID: 1666796145}
   - component: {fileID: 1666796144}
-  - component: {fileID: 1666796143}
   - component: {fileID: 1666796142}
   m_Layer: 0
   m_Name: 6
@@ -4578,39 +4473,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   seaweedleft: 7
---- !u!114 &1666796143
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1666796140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52d1fd7490e7fbc42b8b56da8659f575, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TileListe:
-  - {fileID: 541009873}
-  - {fileID: 1224428698}
-  - {fileID: 1211798522}
-  - {fileID: 737636939}
-  - {fileID: 551227982}
-  - {fileID: 1358563168}
-  - {fileID: 339665413}
-  - {fileID: 1182383053}
-  - {fileID: 1633822319}
-  - {fileID: 41471749}
-  - {fileID: 1761041475}
-  - {fileID: 177583395}
-  - {fileID: 704148403}
-  - {fileID: 1464248522}
-  - {fileID: 444748925}
-  - {fileID: 820208024}
-  - {fileID: 508301696}
-  - {fileID: 578682513}
-  CurrentTile: {fileID: 0}
-  nearestPos: {x: 0, y: 0, z: 0}
 --- !u!114 &1666796144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4624,7 +4486,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9547169, g: 0.9108442, b: 0.39449623, a: 1}
+  m_Color: {r: 0.4862745, g: 0.4627451, b: 0.19215687, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4718,18 +4580,15 @@ MonoBehaviour:
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
-  - {fileID: 551227982}
   - {fileID: 1358563168}
   - {fileID: 339665413}
   - {fileID: 1182383053}
   - {fileID: 1633822319}
-  - {fileID: 41471749}
   - {fileID: 1761041475}
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
   - {fileID: 444748925}
-  - {fileID: 820208024}
   - {fileID: 508301696}
   - {fileID: 578682513}
   CurrentTile: {fileID: 0}
@@ -4860,7 +4719,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 31.6, y: -0.1}
+  m_AnchoredPosition: {x: 31.6, y: 0.7}
   m_SizeDelta: {x: 150, y: 149.02344}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1808007098
@@ -5021,18 +4880,15 @@ MonoBehaviour:
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
-  - {fileID: 551227982}
   - {fileID: 1358563168}
   - {fileID: 339665413}
   - {fileID: 1182383053}
   - {fileID: 1633822319}
-  - {fileID: 41471749}
   - {fileID: 1761041475}
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
   - {fileID: 444748925}
-  - {fileID: 820208024}
   - {fileID: 508301696}
   - {fileID: 578682513}
   CurrentTile: {fileID: 0}
@@ -5144,18 +5000,15 @@ MonoBehaviour:
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
-  - {fileID: 551227982}
   - {fileID: 1358563168}
   - {fileID: 339665413}
   - {fileID: 1182383053}
   - {fileID: 1633822319}
-  - {fileID: 41471749}
   - {fileID: 1761041475}
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
   - {fileID: 444748925}
-  - {fileID: 820208024}
   - {fileID: 508301696}
   - {fileID: 578682513}
   CurrentTile: {fileID: 0}
