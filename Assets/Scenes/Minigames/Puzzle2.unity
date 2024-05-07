@@ -581,7 +581,6 @@ GameObject:
   - component: {fileID: 254756795}
   - component: {fileID: 254756799}
   - component: {fileID: 254756798}
-  - component: {fileID: 254756797}
   - component: {fileID: 254756796}
   m_Layer: 0
   m_Name: 2
@@ -622,36 +621,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   seaweedleft: 7
---- !u!114 &254756797
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 254756794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52d1fd7490e7fbc42b8b56da8659f575, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TileListe:
-  - {fileID: 541009873}
-  - {fileID: 1224428698}
-  - {fileID: 1211798522}
-  - {fileID: 737636939}
-  - {fileID: 1358563168}
-  - {fileID: 339665413}
-  - {fileID: 1182383053}
-  - {fileID: 1633822319}
-  - {fileID: 1761041475}
-  - {fileID: 177583395}
-  - {fileID: 704148403}
-  - {fileID: 1464248522}
-  - {fileID: 444748925}
-  - {fileID: 508301696}
-  - {fileID: 578682513}
-  CurrentTile: {fileID: 0}
-  nearestPos: {x: 0, y: 0, z: 0}
 --- !u!114 &254756798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -665,7 +634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.95686275, g: 0.9137255, b: 0.39607844, a: 1}
+  m_Color: {r: 0.4862745, g: 0.4627451, b: 0.19215687, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -846,7 +815,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TileListe:
-  - {fileID: 541009873}
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
@@ -1057,7 +1025,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TileListe:
-  - {fileID: 541009873}
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
@@ -1448,7 +1415,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TileListe:
-  - {fileID: 541009873}
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
@@ -1535,8 +1501,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Occupied: 0
-  TileID: 2
-  IsCorrect: 0
+  TileID: 0
+  IsCorrect: 1
 --- !u!114 &541009875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1841,7 +1807,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TileListe:
-  - {fileID: 541009873}
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
@@ -2323,7 +2288,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TileListe:
-  - {fileID: 541009873}
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
@@ -2443,7 +2407,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TileListe:
-  - {fileID: 541009873}
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
@@ -2834,7 +2797,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TileListe:
-  - {fileID: 541009873}
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
@@ -2954,7 +2916,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TileListe:
-  - {fileID: 541009873}
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
@@ -3074,7 +3035,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TileListe:
-  - {fileID: 541009873}
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
@@ -3736,7 +3696,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TileListe:
-  - {fileID: 541009873}
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
@@ -4265,7 +4224,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TileListe:
-  - {fileID: 541009873}
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
@@ -4576,7 +4534,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TileListe:
-  - {fileID: 541009873}
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
@@ -4876,7 +4833,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TileListe:
-  - {fileID: 541009873}
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
@@ -4996,7 +4952,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TileListe:
-  - {fileID: 541009873}
   - {fileID: 1224428698}
   - {fileID: 1211798522}
   - {fileID: 737636939}
