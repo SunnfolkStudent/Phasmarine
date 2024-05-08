@@ -761,7 +761,6 @@ GameObject:
   - component: {fileID: 336558692}
   - component: {fileID: 336558696}
   - component: {fileID: 336558695}
-  - component: {fileID: 336558694}
   - component: {fileID: 336558693}
   m_Layer: 0
   m_Name: 21
@@ -786,7 +785,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -31.4, y: -31}
+  m_AnchoredPosition: {x: -31.4, y: -31.07}
   m_SizeDelta: {x: 15.5, y: 15.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &336558693
@@ -802,35 +801,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   seaweedleft: 7
---- !u!114 &336558694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 336558691}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52d1fd7490e7fbc42b8b56da8659f575, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TileListe:
-  - {fileID: 1224428698}
-  - {fileID: 1211798522}
-  - {fileID: 737636939}
-  - {fileID: 1358563168}
-  - {fileID: 339665413}
-  - {fileID: 1182383053}
-  - {fileID: 1633822319}
-  - {fileID: 1761041475}
-  - {fileID: 177583395}
-  - {fileID: 704148403}
-  - {fileID: 1464248522}
-  - {fileID: 444748925}
-  - {fileID: 508301696}
-  - {fileID: 578682513}
-  CurrentTile: {fileID: 0}
-  nearestPos: {x: 0, y: 0, z: 0}
 --- !u!114 &336558695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -844,7 +814,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.95686275, g: 0.9137255, b: 0.39607844, a: 1}
+  m_Color: {r: 0.4862745, g: 0.4627451, b: 0.19215687, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1111,7 +1081,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Occupied: 0
-  TileID: 21
+  TileID: 0
   IsCorrect: 0
 --- !u!114 &444748927
 MonoBehaviour:
@@ -1426,7 +1396,6 @@ MonoBehaviour:
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
-  - {fileID: 444748925}
   - {fileID: 508301696}
   - {fileID: 578682513}
   CurrentTile: {fileID: 0}
@@ -1818,9 +1787,9 @@ MonoBehaviour:
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
-  - {fileID: 444748925}
   - {fileID: 508301696}
   - {fileID: 578682513}
+  - {fileID: 820208024}
   CurrentTile: {fileID: 0}
   nearestPos: {x: 0, y: 0, z: 0}
 --- !u!114 &578007438
@@ -2299,7 +2268,6 @@ MonoBehaviour:
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
-  - {fileID: 444748925}
   - {fileID: 508301696}
   - {fileID: 578682513}
   CurrentTile: {fileID: 0}
@@ -2418,7 +2386,6 @@ MonoBehaviour:
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
-  - {fileID: 444748925}
   - {fileID: 508301696}
   - {fileID: 578682513}
   CurrentTile: {fileID: 0}
@@ -2808,7 +2775,6 @@ MonoBehaviour:
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
-  - {fileID: 444748925}
   - {fileID: 508301696}
   - {fileID: 578682513}
   CurrentTile: {fileID: 0}
@@ -2927,7 +2893,6 @@ MonoBehaviour:
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
-  - {fileID: 444748925}
   - {fileID: 508301696}
   - {fileID: 578682513}
   CurrentTile: {fileID: 0}
@@ -3046,7 +3011,6 @@ MonoBehaviour:
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
-  - {fileID: 444748925}
   - {fileID: 508301696}
   - {fileID: 578682513}
   CurrentTile: {fileID: 0}
@@ -3707,7 +3671,6 @@ MonoBehaviour:
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
-  - {fileID: 444748925}
   - {fileID: 508301696}
   - {fileID: 578682513}
   CurrentTile: {fileID: 0}
@@ -4235,7 +4198,6 @@ MonoBehaviour:
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
-  - {fileID: 444748925}
   - {fileID: 508301696}
   - {fileID: 578682513}
 --- !u!114 &1630808127
@@ -4545,7 +4507,6 @@ MonoBehaviour:
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
-  - {fileID: 444748925}
   - {fileID: 508301696}
   - {fileID: 578682513}
   CurrentTile: {fileID: 0}
@@ -4844,7 +4805,6 @@ MonoBehaviour:
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
-  - {fileID: 444748925}
   - {fileID: 508301696}
   - {fileID: 578682513}
   CurrentTile: {fileID: 0}
@@ -4963,7 +4923,6 @@ MonoBehaviour:
   - {fileID: 177583395}
   - {fileID: 704148403}
   - {fileID: 1464248522}
-  - {fileID: 444748925}
   - {fileID: 508301696}
   - {fileID: 578682513}
   CurrentTile: {fileID: 0}
