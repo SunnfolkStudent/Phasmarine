@@ -54,7 +54,7 @@ public static class StatickSceneControler
 
     public static void PuzzleMiniGameDown()
     {
-        SceneManager.UnloadSceneAsync("PuzzleMiniGame");
+        SceneManager.UnloadSceneAsync("Puzzle3");
         Movement.canMove = true;
     }
     
