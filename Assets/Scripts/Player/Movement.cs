@@ -19,7 +19,7 @@ namespace Player
 
         private Vector3 lastMoveDir;
 
-        public static bool canMove;
+        public static bool canMove = true;
         
         //audio
         private EventInstance footstepsSand;

@@ -16,9 +16,16 @@ public class CleanPartsMinigame : MonoBehaviour, IPointerDownHandler, IBeginDrag
         _rectTransform = GetComponent<RectTransform>();
         //parent is the part and child is the seaweed thus localposition
     }
-    
+
     void Update()
-    {mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);}
+    {
+        mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            StatickSceneControler.CleaningMiniGameDown();
+        }
+    }
     
     public void OnPointerDown(PointerEventData eventData)
     {
@@ -59,6 +66,7 @@ public class CleanPartsMinigame : MonoBehaviour, IPointerDownHandler, IBeginDrag
             //Move the GameObject when you drag it
             _rectTransform.position = mousePosition + offset;;
         }
+
 
     //ontriggerstay2D(når den drar fra collideren rundt triggere minigamedown
 }

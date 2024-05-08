@@ -46,6 +46,7 @@ namespace Minigame.spin
 
         private void Update()
         {
+            
             // finne range
             rangev1 = new Vector2(spotpos - klrange, spotpos);
             rangev2 = new Vector2(spotpos, spotpos + klrange);
@@ -92,6 +93,7 @@ namespace Minigame.spin
             {
                 minigameMusicEventInstance.stop(STOP_MODE.ALLOWFADEOUT);
                 GraveScript.StartTresure = true;
+                Interactor.canInteract = true;
                 StatickSceneControler.SpinMiniGameDown();
             }
 
@@ -113,6 +115,13 @@ namespace Minigame.spin
             }
             // rotere spriten
             pilTransform.eulerAngles = new Vector3(0, 0, pilpos);
+            
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                Interactor.canInteract = true;
+                minigameMusicEventInstance.stop(STOP_MODE.ALLOWFADEOUT);
+                StatickSceneControler.SpinMiniGameDown();
+            }
         }
 
     }
