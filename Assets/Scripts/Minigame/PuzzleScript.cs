@@ -59,6 +59,7 @@ public class PuzzleScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
         }
         lastPos = CurrentTile;
         CurrentTile.GetComponent<TileCheck>().Occupied = false;
+        CurrentTile.GetComponent<TileCheck>().IsCorrect = false;
     }
     public void OnDrag(PointerEventData eventData)
     {
