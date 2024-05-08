@@ -43,7 +43,7 @@ public class PuzzleManager : MonoBehaviour
                 {
                     counter++;
                     Debug.Log("the counter is " + counter);
-                    if (counter >= 11)
+                    if (counter >= 12)
                     {
                         StartCoroutine(Waitseconds());
                     }
