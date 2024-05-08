@@ -11,8 +11,7 @@ public class GraveScript : MonoBehaviour, IInteracteble
     public int TotalParts = 3;
     public int GravesChecked = 0;
     private MiniGameManager _miniGameManager;
-
-    [SerializeField] private GameObject parent;
+    
     [SerializeField] private EventReference laugh;
     [SerializeField] private EventReference huh;
     [SerializeField] private EventReference scrapPick;

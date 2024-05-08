@@ -16353,6 +16353,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fish
       objectReference: {fileID: 0}
+    - target: {fileID: 3019680313209517498, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
+        type: 3}
+      propertyPath: playerRef
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5607588148762735783, guid: 7f1b96fb0c5670640bb6bf51ff219a05,
         type: 3}
       propertyPath: circleRadius

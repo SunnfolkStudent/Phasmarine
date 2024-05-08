@@ -1,4 +1,3 @@
-using System.Dynamic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 using FMODUnity;
@@ -41,14 +40,8 @@ namespace Minigame.spin
         //audio
         private void Start()
         {
-            InitializeMinigameMusic(FMODEvents.instance.minigameMusic);
+            AudioManager.instance.minigameMusicEventInstance.start();
             _miniGameManager = GetComponent<MiniGameManager>();
-        }
-
-        private void InitializeMinigameMusic(EventReference minigameMusicEventReference)
-        {
-            minigameMusicEventInstance = RuntimeManager.CreateInstance(minigameMusicEventReference);
-            minigameMusicEventInstance.start();
         }
 
         private void Update()
@@ -99,7 +92,7 @@ namespace Minigame.spin
             {
                 minigameMusicEventInstance.stop(STOP_MODE.ALLOWFADEOUT);
                 GraveScript.StartTresure = true;
-                _miniGameManager.SpinMiniGameDown();
+                StatickSceneControler.SpinMiniGameDown();
             }
 
             if (spotpos > 360)
@@ -113,7 +106,7 @@ namespace Minigame.spin
             }
         
             // bevege pilpos med speed, så sette spritens rotasjon til pilpos
-            pilpos -= speed;
+            pilpos -= speed * Time.deltaTime;
             if (pilpos < 0)
             {
                 pilpos += 360;

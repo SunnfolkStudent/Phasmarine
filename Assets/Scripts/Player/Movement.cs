@@ -17,7 +17,9 @@ namespace Player
         [Header("Animator")]
         [SerializeField]private Animator anim;
 
-        private Vector3 lastMoveDir; 
+        private Vector3 lastMoveDir;
+
+        public static bool canMove;
         
         //audio
         private EventInstance footstepsSand;
@@ -67,6 +69,7 @@ namespace Player
                 }
             }
 
+            if (!canMove) return;
             float x = Input.GetAxis("Horizontal");
             float y = Input.GetAxis("Vertical");
             Vector3 moveDir = new Vector3(x, 0, y);
