@@ -342,7 +342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4335b0e9f1fb89f47bbc99ea183a8fec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 200
   klrange: 20
   irange: 0
   pilpos: 0
@@ -361,13 +361,6 @@ MonoBehaviour:
       Data3: -883118692
       Data4: 1293987305
     Path: event:/SFX/Minigame/klokkeFeil
-  scrapPick:
-    Guid:
-      Data1: 116142578
-      Data2: 1247444327
-      Data3: 612574907
-      Data4: -497568927
-    Path: event:/SFX/Player/scrapPick
   pilTransform: {fileID: 312907823}
   spotTransform: {fileID: 1584658239}
 --- !u!4 &625924826

@@ -11,13 +11,13 @@ public class GraveScript : MonoBehaviour, IInteracteble
     public int TotalParts = 3;
     public int GravesChecked = 0;
     private MiniGameManager _miniGameManager;
-
-    [SerializeField] private GameObject parent;
+    
     [SerializeField] private EventReference laugh;
     [SerializeField] private EventReference huh;
     [SerializeField] private EventReference scrapPick;
-
+    
     public static bool StartTresure = false;
+    private bool hasBeenInteracted = false;
 
     [SerializeField] private string _prompt;
     public string InteractionPrompt => _prompt;
@@ -26,14 +26,13 @@ public class GraveScript : MonoBehaviour, IInteracteble
     {
         StatickSceneControler.SpinMiniGameUp();
         //Hente ut poengene fra spinminigame til å påvirke sjansene dine i treasurefunksjonen
-        GravesChecked += 1;
-        Destroy(transform.parent.gameObject);
+        hasBeenInteracted = true;
         return true;
     }
 
     private void Update()
     {
-        if (!StartTresure == true)return;
+        if (!StartTresure || !hasBeenInteracted) return;
         Treasure();
     }
 
@@ -60,8 +59,9 @@ public class GraveScript : MonoBehaviour, IInteracteble
             Debug.Log("Ingenting skjedde");
             global::AudioManager.instance.PlayOneShot(huh, this.transform.position);
         }
+        GravesChecked += 1;
+        Destroy(transform.parent.gameObject);
     }
-
-
+    
 }
 

@@ -1,3 +1,4 @@
+using Player;
 using UnityEngine.SceneManagement;
 
 public static class StatickSceneControler
@@ -6,6 +7,7 @@ public static class StatickSceneControler
     public static void CleaningMiniGameUp()
     {
         SceneManager.LoadScene("CleaningMiniGame", LoadSceneMode.Additive);
+        Movement.canMove = false;
     }
     
     public static void CleaningMiniGameUp2()
@@ -20,6 +22,7 @@ public static class StatickSceneControler
     public static void CleaningMiniGameDown()
     {
         SceneManager.UnloadSceneAsync("CleaningMiniGame");
+        Movement.canMove = true;
     }
     public static void CleaningMiniGameDown2()
     {
@@ -33,32 +36,38 @@ public static class StatickSceneControler
     public static void PuzzleMiniGameUp()
     {
         SceneManager.LoadScene("PuzzleMiniGame", LoadSceneMode.Additive);
+        Movement.canMove = false;
     }
     
     public static void PuzzleMiniGameUp2()
     {
         SceneManager.LoadScene("Puzzle2", LoadSceneMode.Additive);
+        Movement.canMove = false;
     }
     
     public static void PuzzleMiniGameUp3()
     {
         SceneManager.LoadScene("Puzzle3", LoadSceneMode.Additive);
+        Movement.canMove = false;
     }
 
 
     public static void PuzzleMiniGameDown()
     {
         SceneManager.UnloadSceneAsync("PuzzleMiniGame");
+        Movement.canMove = true;
     }
     
     public static void SpinMiniGameUp()
     {
         SceneManager.LoadScene("SpinMiniGame", LoadSceneMode.Additive);
+        Movement.canMove = false;
     }
 
     public static void SpinMiniGameDown()
     {
         SceneManager.UnloadSceneAsync("SpinMiniGame");
+        Movement.canMove = true;
     }
 
     public static void StartGame()

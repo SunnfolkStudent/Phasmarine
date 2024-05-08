@@ -14,8 +14,11 @@ public class Interactor : MonoBehaviour
 
     private IInteracteble interactable;
 
+    public static bool canInteract = true;
     private void Update()
     {
+        if(!canInteract) return;
+        
         _numbFound = Physics.OverlapSphereNonAlloc(_interactPoint.position, _interactRadius, _colliders, interactableMask);
 
         if (_numbFound > 0)
@@ -37,6 +40,7 @@ public class Interactor : MonoBehaviour
                  if (interactable != null && Input.GetKeyDown(KeyCode.E))
                  {
                      interactable.Interact(this);
+                     canInteract = false;
                  }
                  
              }

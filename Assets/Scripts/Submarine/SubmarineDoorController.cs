@@ -35,7 +35,7 @@ public class SubmarineDoorController : MonoBehaviour, IInteracteble
             }
             if (StatickSceneControler.level == 3)
             {
-                StatickSceneControler.PuzzleMiniGameUp();
+                StatickSceneControler.PuzzleMiniGameUp3();
                 print("trying to opne puzzel 3");
             }
             return true;

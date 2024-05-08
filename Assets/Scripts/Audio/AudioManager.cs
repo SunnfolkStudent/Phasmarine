@@ -3,7 +3,6 @@ using UnityEngine;
 using FMOD.Studio;
 using FMODUnity;
 using UnityEngine.SceneManagement;
-using UnityEngine.UIElements;
 
 public class AudioManager : MonoBehaviour
 {
@@ -26,6 +25,8 @@ public class AudioManager : MonoBehaviour
    private EventInstance subLandEventInstance;
    
    private EventInstance footstepsMetalEventInstance;
+
+   public EventInstance minigameMusicEventInstance;
    
    [SerializeField] private EventReference click;
     
@@ -99,6 +100,8 @@ public class AudioManager : MonoBehaviour
       {
          InitializeplayerDied(FMODEvents.instance.playerDied);
       }
+
+      InitializeMinigameMusic(FMODEvents.instance.minigameMusic);
    }
 
    
@@ -154,6 +157,11 @@ public class AudioManager : MonoBehaviour
    {
       footstepsMetalEventInstance = CreateInstance(footstepsMetalEventReference);
       footstepsMetalEventInstance.start();
+   }
+   
+   public void InitializeMinigameMusic(EventReference minigameMusicEventReference)
+   {
+      minigameMusicEventInstance = RuntimeManager.CreateInstance(minigameMusicEventReference);
    }
 
    public EventInstance CreateInstance(EventReference eventReference)
