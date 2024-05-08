@@ -5,19 +5,12 @@ using UnityEngine.VFX;
 
 public class LightControler : MonoBehaviour
 {
-    private Light light;
     [SerializeField] private VisualEffect vfx;
     
     [SerializeField] private float stunCost;
     
     public static bool scared;
     private bool canStun = true;
-
-
-    private void Start()
-    {
-        light = GetComponent<Light>();
-    }
 
     private void Update()
     {

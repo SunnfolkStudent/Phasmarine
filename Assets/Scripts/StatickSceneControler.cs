@@ -111,8 +111,8 @@ public static class StatickSceneControler
             case 2:
                 SceneManager.LoadScene("Leveltwo");
                 Interactor.canInteract = true;
-                level = 3;
                 Movement.canMove = true;
+                level = 3;
                 break;
         }
     }
