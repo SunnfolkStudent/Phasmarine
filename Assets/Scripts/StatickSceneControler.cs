@@ -89,17 +89,16 @@ public static class StatickSceneControler
 
     public static void nextLevel()
     {
+        MiniGameManager.Parts = 0;
         switch (level)
         {
             case 1:
                 SceneManager.LoadScene("LevelOne");
-                level = 2;
-                MiniGameManager.Parts = 0;
+                level = 2;  
                 break;
             case 2:
                 SceneManager.LoadScene("Leveltwo");
                 level = 3;
-                MiniGameManager.Parts = 0;
                 break;
             case 3:
                 SceneManager.LoadScene("MainMenu");
@@ -110,6 +109,7 @@ public static class StatickSceneControler
 
     public static void TryAgain()
     {
+        MiniGameManager.Parts = 0;
         switch (level)
         {
             case 1:

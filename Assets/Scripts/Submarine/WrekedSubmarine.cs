@@ -18,7 +18,7 @@ public class WrekedSubmarine : MonoBehaviour, IInteracteble
         AudioManager.instance.PlayOneShot(scrapPick, this.transform.position);
         print("colectedPart");
         MiniGameManager.Parts += 1;
-        Destroy(this);
+        Destroy(gameObject);
         return false;
     }
 }
