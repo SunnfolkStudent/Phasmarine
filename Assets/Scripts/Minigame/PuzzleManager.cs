@@ -19,7 +19,7 @@ public class PuzzleManager : MonoBehaviour
 
     private IEnumerator Waitseconds()
     {
-        yield return new WaitForSeconds((4));
+        yield return new WaitForSeconds((0.2f));
         Debug.Log("All right");
         var timelineController = GameObject.Find("FadeOutControler").GetComponent<TimelineStarter>();
         if (timelineController != null)
