@@ -47,6 +47,7 @@ public class CleanPartsMinigame : MonoBehaviour, IPointerDownHandler, IBeginDrag
             seaweed -= 1;
             if (seaweed == 0)
             {
+                SeaweedTrigger.destroySewed = true;
                 StatickSceneControler.CleaningMiniGameDown();
             }
         }

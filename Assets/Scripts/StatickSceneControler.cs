@@ -73,6 +73,7 @@ public static class StatickSceneControler
     public static void StartGame()
     {
         SceneManager.LoadScene("Tutorial");
+        Movement.canMove = true;
         level = 1;
     }
 
@@ -103,15 +104,13 @@ public static class StatickSceneControler
         {
             case 1:
                 SceneManager.LoadScene("LevelOne");
+                Movement.canMove = true;
                 level = 2;  
                 break;
             case 2:
                 SceneManager.LoadScene("Leveltwo");
                 level = 3;
-                break;
-            case 3:
-                SceneManager.LoadScene("MainMenu");
-                level = 0;
+                Movement.canMove = true;
                 break;
         }
     }

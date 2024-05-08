@@ -4,25 +4,21 @@ public class SeaweedTrigger : MonoBehaviour, IInteracteble
 {
     [SerializeField] private string _prompt;
     public string InteractionPrompt => _prompt;
+    
+    public static bool destroySewed = false;
+    private bool hasBeenInteracted = false;
     public bool Interact(Interactor interactor)
     {
-        StatickSceneControler.CleaningMiniGameUp();
-        Destroy(gameObject);
-        return true;
-        /*if (MiniGameManager.Parts == 0)
-        {
-            StatickSceneControler.CleaningMiniGameUp();
-        }
-        else if (MiniGameManager.Parts == 1)
-        {
-            StatickSceneControler.CleaningMiniGameUp2();
-        }
-        else if (MiniGameManager.Parts == 2)
-        {
-            StatickSceneControler.CleaningMiniGameUp3();
-            
-        }*/
+        hasBeenInteracted = true;
         
+        StatickSceneControler.CleaningMiniGameUp();
+        return true;
     }
-    
+
+    private void Update()
+    {
+        if (!destroySewed || !hasBeenInteracted) return;
+        hasBeenInteracted = false;
+        Destroy(gameObject);
+    }
 }
