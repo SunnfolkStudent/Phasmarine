@@ -13,12 +13,9 @@ public class Interactor : MonoBehaviour
     private readonly Collider[] _colliders = new Collider[3];
 
     private IInteracteble interactable;
-
-    public static bool canInteract = true;
+    
     private void Update()
     {
-        if(!canInteract) return;
-        
         _numbFound = Physics.OverlapSphereNonAlloc(_interactPoint.position, _interactRadius, _colliders, interactableMask);
 
         if (_numbFound > 0)
@@ -36,11 +33,9 @@ public class Interactor : MonoBehaviour
                         promptUI.SetUp(interactable.InteractionPrompt);
                     } 
                  }
-                 
                  if (interactable != null && Input.GetKeyDown(KeyCode.E))
                  {
                      interactable.Interact(this);
-                     canInteract = false;
                  }
                  
              }

@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Runtime.InteropServices.ComTypes;
 using UnityEngine;
 using FMODUnity;
 
@@ -10,15 +12,15 @@ public class WrekedSubmarine : MonoBehaviour, IInteracteble
 
     private void Start()
     {
-        _prompt = "Salwage";
+        _prompt = "Salvage";
     }
 
     public bool Interact(Interactor interactor)
     {
         AudioManager.instance.PlayOneShot(scrapPick, this.transform.position);
-        print("colectedPart");
-        MiniGameManager.Parts += 1;
+        MiniGameManager.Parts++;
         Destroy(gameObject);
-        return false;
+        return true;
     }
+
 }

@@ -105,12 +105,10 @@ public static class StatickSceneControler
             case 1:
                 SceneManager.LoadScene("LevelOne");
                 Movement.canMove = true;
-                Interactor.canInteract = true;
                 level = 2;  
                 break;
             case 2:
                 SceneManager.LoadScene("Leveltwo");
-                Interactor.canInteract = true;
                 Movement.canMove = true;
                 level = 3;
                 break;

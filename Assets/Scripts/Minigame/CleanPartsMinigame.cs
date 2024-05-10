@@ -21,10 +21,6 @@ public class CleanPartsMinigame : MonoBehaviour, IPointerDownHandler, IBeginDrag
     {
         mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            StatickSceneControler.CleaningMiniGameDown();
-        }
     }
     
     public void OnPointerDown(PointerEventData eventData)
@@ -47,7 +43,6 @@ public class CleanPartsMinigame : MonoBehaviour, IPointerDownHandler, IBeginDrag
             seaweed -= 1;
             if (seaweed == 0)
             {
-                SeaweedTrigger.destroySewed = true;
                 StatickSceneControler.CleaningMiniGameDown();
             }
         }
