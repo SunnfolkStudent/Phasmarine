@@ -11,11 +11,11 @@ public class SubmarineDoorController : MonoBehaviour, IInteracteble
     {
         if (MiniGameManager.Parts < maxParts)
         {
-            _prompt = "You need " + (maxParts - MiniGameManager.Parts) + " parts to continue";
+            _prompt = "You need " + (maxParts - MiniGameManager.Parts) + " part(s) to continue";
         }
         else
         {
-            _prompt = "You can Continue";
+            _prompt = "You can continue";
         }
     }
 
